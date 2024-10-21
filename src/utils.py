@@ -1,7 +1,15 @@
 import hashlib
 import os
 import time
+import json
 
+def get_option(path='./option.json') -> dict:
+    try:
+        with open(path, 'r') as f:
+            option = json.load(f)
+    except:
+        option = None
+    return option
 
 def get_now_ftime(format="%Y%m%d_%H%M%S"):
     return time.strftime(format, time.localtime())
