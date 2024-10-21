@@ -3,12 +3,12 @@ import numpy as np
 from openvino.runtime import Core
 
 class FaceRecognition:
-    def __init__(self, dtct_model_path: str, reid_model_path: str, device: str = "CPU"):
+    def __init__(self, face_dtct_model_path: str, face_reid_model_path: str, device: str = "CPU"):
         self.core = Core()
-        self.detection_model = self.load_model(dtct_model_path, device)
-        self.reid_model = self.load_model(reid_model_path, device)
-        self.detection_input_shape = self.detection_model.inputs[0].shape
-        self.reid_input_shape = self.reid_model.inputs[0].shape
+        self.face_dtct_model = self.load_model(face_dtct_model_path, device)
+        self.face_reid_model = self.load_model(face_reid_model_path, device)
+        self.detection_input_shape = self.face_dtct_model.inputs[0].shape
+        self.reid_input_shape = self.face_reid_model.inputs[0].shape
 
     def load_model(self, model_path: str, device: str):
         model = self.core.read_model(f"{model_path}.xml", f"{model_path}.bin")
@@ -26,7 +26,7 @@ class FaceRecognition:
         return image
 
     def extract_face(self, image, detection_threshold=0.5):
-        detections = self.detection_model.infer_new_request({0: image})[self.detection_model.outputs[0]]
+        detections = self.face_dtct_model.infer_new_request({0: image})[self.face_dtct_model.outputs[0]]
         
         for detection in detections[0][0]:
             confidence = detection[2]
@@ -61,8 +61,8 @@ class FaceRecognition:
         if base_face is None or input_face is None:
             return "Could not detect one or both faces."
 
-        base_face_embedding = self.reid_model.infer_new_request({0: base_face})[self.reid_model.outputs[0]]
-        input_face_embedding = self.reid_model.infer_new_request({0: input_face})[self.reid_model.outputs[0]]
+        base_face_embedding = self.face_reid_model.infer_new_request({0: base_face})[self.face_reid_model.outputs[0]]
+        input_face_embedding = self.face_reid_model.infer_new_request({0: input_face})[self.face_reid_model.outputs[0]]
 
         similarity = self.calculate_similarity(base_face_embedding.flatten(), input_face_embedding.flatten())
         return similarity
