@@ -27,6 +27,8 @@ class PersonDetection:
         image = self.preprocess_image(image_path)
         detections = self.human_dtct_model.infer_new_request({0: image})[self.human_dtct_model.outputs[0]]
         
+        print(detections)
+        
         results = []
         for detection in detections[0][0]:
             confidence = detection[2]

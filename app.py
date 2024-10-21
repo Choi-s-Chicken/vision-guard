@@ -1,4 +1,6 @@
 import os
+
+import cv2
 import src.utils as utils
 from src.face_reco import FaceRecognition
 from src.human_dtct import PersonDetection
@@ -17,6 +19,33 @@ class Main:
         self.FACE_REID_PATH = f"{self.FACE_REID_INFO['model_path']}/{self.FACE_REID_INFO['model_type']}/{self.FACE_REID_INFO['model_name']}"
         self.PERSON_DTCT_INFO = self.OPTION['person_detection']
         self.PERSON_DTCT_PATH = f"{self.PERSON_DTCT_INFO['model_path']}/{self.PERSON_DTCT_INFO['model_type']}/{self.PERSON_DTCT_INFO['model_name']}"
-        
+
+
 if __name__ == '__main__':
     main = Main()
+    
+    cap = cv2.VideoCapture(0)
+
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+        
+        cv2.imwrite("frame.jpg", frame)
+        
+        face_result = main.FaceRecognition.is_face('frame.jpg')
+        if face_result[0] == False:
+            cv2.rectangle(frame, (face_result[1][0], face_result[1][1]), (face_result[1][2], face_result[1][3]), (0, 255, 0), 2)
+            
+        person_result = main.PersonDetection.detect_people('frame.jpg')
+        
+        # 결과 출력
+        cv2.imshow("Person Detection", frame)
+        cv2.putText(frame, person_result1)
+
+        # ESC 키를 누르면 종료
+        if cv2.waitKey(1) & 0xFF == 27:
+            break
+
+    cap.release()
+    cv2.destroyAllWindows()

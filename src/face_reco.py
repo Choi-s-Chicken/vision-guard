@@ -41,7 +41,7 @@ class FaceRecognition:
                     continue
                 
                 face = cv2.resize(face.transpose(1, 2, 0), (self.reid_input_shape[3], self.reid_input_shape[2]))
-                return face.transpose(2, 0, 1).reshape(1, 3, self.reid_input_shape[2], self.reid_input_shape[3])
+                return face.transpose(2, 0, 1).reshape(1, 3, self.reid_input_shape[2], self.reid_input_shape[3]), (xmin, ymin, xmax, ymax)
         
         return None
 
@@ -61,8 +61,8 @@ class FaceRecognition:
         if base_face is None or input_face is None:
             return "Could not detect one or both faces."
 
-        base_face_embedding = self.face_reid_model.infer_new_request({0: base_face})[self.face_reid_model.outputs[0]]
-        input_face_embedding = self.face_reid_model.infer_new_request({0: input_face})[self.face_reid_model.outputs[0]]
+        base_face_embedding = self.face_reid_model.infer_new_request({0: base_face[0]})[self.face_reid_model.outputs[0]]
+        input_face_embedding = self.face_reid_model.infer_new_request({0: input_face[0]})[self.face_reid_model.outputs[0]]
 
         similarity = self.calculate_similarity(base_face_embedding.flatten(), input_face_embedding.flatten())
         return similarity
@@ -70,5 +70,7 @@ class FaceRecognition:
     def is_face(self, image_path, detection_threshold=0.5):
         image = self.preprocess_image(image_path)
         face = self.extract_face(image, detection_threshold)
-        return face is not None
+        if face == None:
+            return False, None
+        return True, face[1]
 
