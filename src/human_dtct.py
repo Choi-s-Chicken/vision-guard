@@ -1,55 +1,38 @@
 import cv2
 import numpy as np
 from openvino.runtime import Core
+from src.sort.sort import Sort
 
-class PersonDetection:
-    def __init__(self, human_dtct_model_path: str, device: str = "CPU"):
-        self.core = Core()
-        self.human_dtct_model = self.load_model(human_dtct_model_path, device)
-        self.input_shape = self.human_dtct_model.inputs[0].shape
-
-    def load_model(self, model_path: str, device: str):
-        model = self.core.read_model(f"{model_path}.xml", f"{model_path}.bin")
-        compiled_model = self.core.compile_model(model, device)
-        return compiled_model
-
-    def preprocess_image(self, image_path):
-        image = cv2.imread(image_path)
-        if image is None:
-            raise ValueError(f"Unable to load image: {image_path}")
+class PersonDetector:
+    def __init__(self, model_path, device="CPU"):
+        self.ie = Core()
+        self.model = self.ie.read_model(model=model_path)
+        self.compiled_model = self.ie.compile_model(model=self.model, device_name=device)
+        self.infer_request = self.compiled_model.create_infer_request()
         
-        image = cv2.resize(image, (self.input_shape[3], self.input_shape[2]))
-        image = image.transpose(2, 0, 1)  # HWC to CHW
-        image = image.reshape(1, *image.shape)
-        return image
+        self.tracker = Sort()
 
-    def detect_people(self, image_path, detection_threshold=0.5):
-        image = self.preprocess_image(image_path)
-        detections = self.human_dtct_model.infer_new_request({0: image})[self.human_dtct_model.outputs[0]]
+    def detect_and_track(self, frame):
+        input_tensor = np.expand_dims(frame, 0)
+        result = self.infer_request.infer({0: input_tensor})
         
-        print(detections)
-        
-        results = []
+        detections = result['detection_output']
+        boxes = []
         for detection in detections[0][0]:
             confidence = detection[2]
-            if confidence > detection_threshold:
-                bbox = {
-                    'xmin': int(detection[3] * image.shape[3]),
-                    'ymin': int(detection[4] * image.shape[2]),
-                    'xmax': int(detection[5] * image.shape[3]),
-                    'ymax': int(detection[6] * image.shape[2]),
-                }
-                person_id = int(detection[1])  # Replace with your logic for assigning IDs
-                results.append({
-                    'bbox': bbox,
-                    'confidence': confidence,
-                    'person_id': person_id
-                })
+            if confidence > 0.5:  # 신뢰도 필터링
+                x_min, y_min, x_max, y_max = detection[3:7]
+                boxes.append([x_min, y_min, x_max, y_max, confidence])
         
-        return results
-
-# 예시 사용법
-# model_path = "path/to/your/person-detection-0303"
-# detector = PersonDetection(model_path)
-# results = detector.detect_people("path/to/your/image.jpg")
-# print(results)
+        tracked_objects = self.tracker.update(np.array(boxes))
+        
+        tracked_results = []
+        for obj in tracked_objects:
+            obj_id = int(obj[4])  # 객체 ID
+            x_min, y_min, x_max, y_max = obj[:4]
+            tracked_results.append({
+                "id": obj_id,
+                "bbox": [x_min, y_min, x_max, y_max]
+            })
+        
+        return tracked_results
