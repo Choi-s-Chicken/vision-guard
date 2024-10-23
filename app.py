@@ -1,12 +1,10 @@
 import os
 import time
+import subprocess
 import requests
 from dotenv import load_dotenv
-
-import cv2
+import threading
 import src.utils as utils
-from src.face_reco import FaceRecognition
-from src.human_dtct import PersonDetection
 
 load_dotenv(verbose=True)
 PROCESS_URL = os.getenv("PROCESS_URL")
@@ -14,45 +12,31 @@ PROCESS_URL = os.getenv("PROCESS_URL")
 class Main:
     def __init__(self):
         self.load_option()
-        self.FaceRecognition = FaceRecognition(self.FACE_DTCT_PATH, self.FACE_REID_PATH)
-        self.PersonDetection = PersonDetection(self.PERSON_DTCT_PATH)
-        
+
     def load_option(self):
         self.OPTION = utils.get_option()
-        self.FACE_DTCT_INFO = self.OPTION['face_detection']
-        self.FACE_DTCT_PATH = f"{self.FACE_DTCT_INFO['model_path']}/{self.FACE_DTCT_INFO['model_type']}/{self.FACE_DTCT_INFO['model_name']}"
-        self.FACE_REID_INFO = self.OPTION['face_reidentification']
-        self.FACE_REID_PATH = f"{self.FACE_REID_INFO['model_path']}/{self.FACE_REID_INFO['model_type']}/{self.FACE_REID_INFO['model_name']}"
-        self.PERSON_DTCT_INFO = self.OPTION['person_detection']
-        self.PERSON_DTCT_PATH = f"{self.PERSON_DTCT_INFO['model_path']}/{self.PERSON_DTCT_INFO['model_type']}/{self.PERSON_DTCT_INFO['model_name']}"
+
+def capture_and_send():
+    # 사진 찍기 (해상도 조정)
+    capture_cmd = ["libcamera-jpeg", "-o", "frame.jpg", "--nopreview", "--width", "640", "--height", "480"]
+    subprocess.run(capture_cmd)
+    
+    # 찍은 사진을 API로 전송
+    print(f"{utils.get_now_ftime()} Requesting . . .")
+    with open("frame.jpg", "rb") as image_file:
+        requests.post(f"{PROCESS_URL}/image", files={"file": image_file})
+    print(f"{utils.get_now_ftime()} Requested.")
 
 if __name__ == '__main__':
     main = Main()
     
-    cap = cv2.VideoCapture(0)
-
-    while cap.isOpened():
-        ret, frame = cap.read()
-        if not ret:
-            break
+    # 첫 번째 더미 사진 찍기 (워밍업)
+    subprocess.run(["libcamera-jpeg", "-o", "/dev/null", "--nopreview"])
+    
+    while True:
+        # 병렬로 사진 찍고 보내기
+        capture_thread = threading.Thread(target=capture_and_send)
+        capture_thread.start()
         
-        cv2.imwrite("frame.jpg", frame)
-        
-        face_result = main.FaceRecognition.is_face('frame.jpg')
-        if face_result[0] == True:
-            cv2.rectangle(frame, (face_result[1][0], face_result[1][1]), (face_result[1][2], face_result[1][3]), (0, 255, 0), 2)
-        
-        # person_result = main.PersonDetection.detect_people('frame.jpg')
-        # for person in person_result:
-        #     cv2.rectangle(frame, (person['bbox']['xmin'], person['bbox']['ymin']), (person['bbox']['xmax'], person['bbox']['ymax']), (255, 0, 0), 2)
-        
-        cv2.imwrite("frame.jpg", frame)
-        print(f"{utils.get_now_ftime()} Requesting . . .")
-        req_rst = requests.post(PROCESS_URL, files={"file": open("frame.jpg", "rb")})
-        print(f"{utils.get_now_ftime()} Requested.")
-        
+        # 일정 시간 대기 (1초)
         time.sleep(1)
-        
-
-    cap.release()
-    cv2.destroyAllWindows()
