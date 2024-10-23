@@ -42,9 +42,9 @@ if __name__ == '__main__':
         if face_result[0] == True:
             cv2.rectangle(frame, (face_result[1][0], face_result[1][1]), (face_result[1][2], face_result[1][3]), (0, 255, 0), 2)
         
-        person_result = main.PersonDetection.detect_people('frame.jpg')
-        for person in person_result:
-            cv2.rectangle(frame, (person['bbox']['xmin'], person['bbox']['ymin']), (person['bbox']['xmax'], person['bbox']['ymax']), (255, 0, 0), 2)
+        # person_result = main.PersonDetection.detect_people('frame.jpg')
+        # for person in person_result:
+        #     cv2.rectangle(frame, (person['bbox']['xmin'], person['bbox']['ymin']), (person['bbox']['xmax'], person['bbox']['ymax']), (255, 0, 0), 2)
         
         cv2.imwrite("frame.jpg", frame)
         print(f"{utils.get_now_ftime()} Requesting . . .")
