@@ -1,9 +1,15 @@
 import os
+import time
+import requests
+from dotenv import load_dotenv
 
 import cv2
 import src.utils as utils
 from src.face_reco import FaceRecognition
 from src.human_dtct import PersonDetection
+
+load_dotenv(verbose=True)
+PROCESS_URL = os.getenv("PROCESS_URL")
 
 class Main:
     def __init__(self):
@@ -19,7 +25,6 @@ class Main:
         self.FACE_REID_PATH = f"{self.FACE_REID_INFO['model_path']}/{self.FACE_REID_INFO['model_type']}/{self.FACE_REID_INFO['model_name']}"
         self.PERSON_DTCT_INFO = self.OPTION['person_detection']
         self.PERSON_DTCT_PATH = f"{self.PERSON_DTCT_INFO['model_path']}/{self.PERSON_DTCT_INFO['model_type']}/{self.PERSON_DTCT_INFO['model_name']}"
-
 
 if __name__ == '__main__':
     main = Main()
@@ -41,10 +46,13 @@ if __name__ == '__main__':
         for person in person_result:
             cv2.rectangle(frame, (person['bbox']['xmin'], person['bbox']['ymin']), (person['bbox']['xmax'], person['bbox']['ymax']), (255, 0, 0), 2)
         
-        cv2.imshow("Detection Test", frame)
-
-        if cv2.waitKey(1) & 0xFF == 27:
-            break
+        cv2.imwrite("frame.jpg", frame)
+        print(f"{utils.get_now_ftime()} Requesting . . .")
+        req_rst = requests.post(PROCESS_URL, files={"file": open("frame.jpg", "rb")})
+        print(f"{utils.get_now_ftime()} Requested.")
+        
+        time.sleep(1)
+        
 
     cap.release()
     cv2.destroyAllWindows()
