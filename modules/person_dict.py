@@ -87,4 +87,4 @@ class HumanDetection:
         
         if face == None:
             return False, None
-        return True, face
+        return True, face[1]
