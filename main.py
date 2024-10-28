@@ -6,7 +6,8 @@ import config
 import socket
 import base64
 import requests
-from flask import Flask, request, jsonify
+import RPi.GPIO as GPIO
+from flask import Flask, request, jsonify, render_template, redirect
 from dotenv import load_dotenv
 import src.utils as utils
 from modules.logging import logger
@@ -19,9 +20,15 @@ WEB_HOST = os.getenv("WEB_HOST")
 WEB_PORT = os.getenv("WEB_PORT")
 HOSTNAME = socket.gethostname()
 
+buzz_pin = 23
+buzz_disable_btn = 24
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(buzz_pin, GPIO.OUT)
+GPIO.setup(buzz_disable_btn, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+
 def _capture_target(_capture_delay):
     detector = HumanDetection(config.DETECTION_MODEL_PATH, config.REID_MODEL_PATH, config.DEVICE)
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture("libcamerasrc ! video/x-raw, width=640, height=480, framerate=30/1 ! videoconvert ! appsink", cv2.CAP_GSTREAMER)
     if not cap.isOpened():
         logger.error("카메라를 열 수 없습니다.")
     else:
@@ -29,6 +36,7 @@ def _capture_target(_capture_delay):
             ret, frame = cap.read()
             if not ret:
                 logger.error("프레임을 가져올 수 없습니다.")
+                time.sleep(_capture_delay)
                 continue
             
             capture_time = utils.get_now_ftime()
@@ -42,6 +50,7 @@ def _capture_target(_capture_delay):
             print(detector.is_face(save_path)[0])
             if detector.is_face(save_path)[0] == True:
                 logger.info(f"{save_name} 얼굴 인식됨")
+                GPIO.output(buzz_pin, GPIO.HIGH)
                 with open(save_path, "rb") as f:
                     image = f.read()
                     image = base64.b64encode(image).decode("utf-8")
@@ -52,17 +61,36 @@ def _capture_target(_capture_delay):
                         "reqHost": HOSTNAME
                     }
                     req_rst = requests.post(f"{PROCESS_URL}/process", data=data)
+            else:
+                GPIO.output(buzz_pin, GPIO.LOW)
                     
             time.sleep(_capture_delay)
             
     cap.release()
 threading.Thread(target=_capture_target, args=(0.1,), daemon=True).start()
 
+def _buzz_thread():
+    GPIO.output(buzz_pin, GPIO.HIGH)
+    logger.info("경보기가 작동했습니다.")
+    config.STATUS = config.STATUS_WARN
+    while True:
+        if GPIO.input(buzz_disable_btn) == GPIO.HIGH:
+            GPIO.output(buzz_pin, GPIO.LOW)
+            logger.info("경보기가 해제되었습니다.")
+            config.STATUS = config.STATUS_NORMAL
+            break
+        time.sleep(0.1)
+
 app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def index():
-    return "잘 작동되고 있습니다."
+    return render_template("index.html")
+
+@app.route("/buzz", methods=["GET"])
+def buzz():
+    threading.Thread(target=_buzz_thread, daemon=True).start()
+    return redirect("/")
 
 @app.route("/last_capture", methods=["GET"])
 def last_capture():
@@ -77,4 +105,4 @@ def last_capture():
         return jsonify({"last_capture": last_capture.split('.')[0] , "image": image})
 
 if __name__ == "__main__":
-    app.run(host=WEB_HOST, port=WEB_PORT)
+    app.run(host=WEB_HOST, port=WEB_PORT, debug=True)

@@ -12,4 +12,7 @@ DETECTION_MODEL_PATH = os.path.join(MODEL_PATH, "face-detection-adas-0001")
 REID_MODEL_PATH = os.path.join(MODEL_PATH, "face-reidentification-retail-0095")
 
 # Status
+STATUS_NORMAL = "normal"
+STATUS_WARN   = "warn"
+STATUS_ERROR  = "error"
 STATUS = "NORMAL"
