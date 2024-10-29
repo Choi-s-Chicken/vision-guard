@@ -34,6 +34,25 @@ GPIO.output(config.PIN_R_LED, GPIO.LOW)
 GPIO.output(config.PIN_Y_LED, GPIO.LOW)
 GPIO.output(config.PIN_G_LED, GPIO.LOW)
 
+# boot animation
+for i in range(0, 3):
+    GPIO.output(config.PIN_R_LED, GPIO.HIGH)
+    GPIO.output(config.PIN_Y_LED, GPIO.HIGH)
+    GPIO.output(config.PIN_G_LED, GPIO.HIGH)
+    time.sleep(0.5)
+    GPIO.output(config.PIN_R_LED, GPIO.LOW)
+    GPIO.output(config.PIN_Y_LED, GPIO.LOW)
+    GPIO.output(config.PIN_G_LED, GPIO.LOW)
+    time.sleep(0.5)
+GPIO.output(config.PIN_R_LED, GPIO.HIGH)
+GPIO.output(config.PIN_Y_LED, GPIO.HIGH)
+GPIO.output(config.PIN_G_LED, GPIO.HIGH)
+time.sleep(3)
+GPIO.output(config.PIN_R_LED, GPIO.LOW)
+GPIO.output(config.PIN_Y_LED, GPIO.LOW)
+GPIO.output(config.PIN_G_LED, GPIO.LOW)
+
+# thread target
 def _capture_target(_capture_delay):
     detector = HumanDetection(config.DETECTION_MODEL_PATH, config.REID_MODEL_PATH, config.DEVICE)
     cap = cv2.VideoCapture("libcamerasrc ! video/x-raw, width=640, height=480, framerate=30/1 ! videoconvert ! appsink", cv2.CAP_GSTREAMER)
@@ -133,6 +152,7 @@ def _buzz_target():
         
         time.sleep(0.1)
 
+# flask app
 app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
