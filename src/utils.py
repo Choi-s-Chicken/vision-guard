@@ -1,29 +1,36 @@
+from datetime import datetime
 import hashlib
 import os
-import time
-import json
+import subprocess
 
-def get_option(path='./option.json') -> dict:
+log_time_format = "%Z %x %X"
+log_format = "%(asctime)s %(levelname)8s %(message)s"
+default_timef = "%Y%m%d%H%M%S"
+
+def get_now_ftime(time_format: str | None = default_timef) -> str:
+    time = datetime.now()
+    f_time = time.strftime(time_format)
+    return f_time
+
+def get_now_iso_time() -> str:
+    time = datetime.now()
+    return time.isoformat()
+
+def convert_now_ftime(_time_str: str, _format = '%Y%m%d%H%M%S') -> datetime:
+    return datetime.strptime(_time_str, _format)
+
+def get_local_ip(_defalut:str = "N/A") -> str:
     try:
-        with open(path, 'r') as f:
-            option = json.load(f)
-    except:
-        option = None
-    return option
+        ip = subprocess.check_output(['hostname', '-I']).decode('utf-8').strip()
+        ip_address = ip if ip else _defalut
+    except Exception:
+        ip_address = _defalut
+    return ip_address
 
-def get_now_ftime(format="%Y%m%d_%H%M%S"):
-    return time.strftime(format, time.localtime())
+def get_client_ip(request) -> str:
+    if request.headers.getlist("X-Forwarded-For"):
+        return request.headers.getlist("X-Forwarded-For")[0]
+    return request.remote_addr
 
-def convert_str_to_time(str_time, format="%Y%m%d_%H%M%S"):
-    return time.strptime(str_time, format)
-
-def gen_rhash(length=64):
-    random_bytes = os.urandom(32)
-    hash_object = hashlib.sha256(random_bytes)
-    random_hash = hash_object.hexdigest()
-    return random_hash[:length]
-
-def get_file_ext(file_name):
-    if '.' not in file_name:
-        return None
-    return file_name.split('.')[-1] 
+def gen_hash(data: str | None = str(os.urandom(16))) -> str:
+    return hashlib.sha256(data.encode('utf-8')).hexdigest()

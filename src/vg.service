@@ -1,0 +1,13 @@
+[Unit]
+Description=Vision Guard Client
+Documentation=https://github.com/Choi-s-Chicken/vision-guard.git
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/bin/python3 /home/vgadmin/vision-guard/main.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

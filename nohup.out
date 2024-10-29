@@ -1,0 +1,6 @@
+/home/vgadmin/vision-guard/main.py:26: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(buzz_pin, GPIO.OUT)
+ * Serving Flask app 'main'
+ * Debug mode: on
+/home/vgadmin/vision-guard/main.py:26: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(buzz_pin, GPIO.OUT)

@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<style>
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(128, 128, 128, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .spinner {
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border-left-color: #09f;
+        animation: spin 1s linear infinite;
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    @keyframes spin {
+        to { transform: rotate(360deg); }
+    }
+</style>
+
+<div id="modal" class="modal-overlay">
+    <div class="modal-content">
+        <div class="spinner"></div><br>
+        <p>{{ detail }}</p>
+        <p id="reboot-title"></p>
+    </div>
+</div>
+
+{% if reboot_status == true %}
+<script>
+    let countdown = 60;
+    const rebootTitle = document.getElementById('reboot-title');
+
+    const interval = setInterval(() => {
+        rebootTitle.textContent = `${countdown}초 뒤 새로고침 됩니다.`;
+        countdown--;
+
+        if (countdown <= 0) {
+            clearInterval(interval);
+            window.location.href = '/';
+        }
+    }, 1000);
+</script>
+{% else %}
+<script>
+    let countdown = 5;
+    const rebootTitle = document.getElementById('reboot-title');
+
+    const interval = setInterval(() => {
+        countdown--;
+        rebootTitle.textContent = `\n${countdown}초 뒤 새로고침 됩니다.`;
+
+        if (countdown <= 0) {
+            clearInterval(interval);
+            window.location.href = '/';
+        }
+    }, 1000);
+</script>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<style>
+</style>
+
+<div>
+    {% if status == status_normal %}
+    <div class="alert alert-primary" role="alert">
+        제품이 잘 작동되고 있습니다.
+    </div>
+    {% elif status == status_warn %}
+    <div class="alert alert-warning" role="alert">
+        경보가 실행 중입니다. <a href="/buzz_off">경보 해제</a>
+    </div>
+    {% elif status == status_error %}
+    <div class="alert alert-danger" role="alert">
+        에러가 발생했습니다. <a href="/log">기록 열람</a>
+    </div>
+    {% elif status == status_criti %}
+    <div class="alert alert-dark" role="alert">
+        심각 상태입니다. 뭐하지
+    </div>
+    {% endif %}
+</div>
+
+<p>모델: {{ prct_model }}</p>
+<p>시리얼: {{ prct_serial }}</p>
+
+<a href="/buzz"><button>경보</button></a>
+<a href="/buzz_off"><button>경보해제</button></a><br>
+
+<button id="reboot-btn">재부팅</button>
+
+<script>
+    const reboot = document.getElementById('reboot-btn');
+
+    reboot.addEventListener('click', () => {
+        if (!confirm('재부팅하시겠습니까?'))
+            return;
+
+        window.location.href = '/reboot';
+    });
+</script>
+
+{% endblock %}
