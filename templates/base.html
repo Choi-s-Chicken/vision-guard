@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <header>
-            <p>현재 시간: <span id="time"></span></p>
+            <p>현재 시간: <span id="time"></span>&nbsp;|&nbsp;<a href="/logout">로그아웃</a></p>
             <h2 id="title" style="cursor: pointer;"><img src="{{ url_for('static', filename='title_icon.png') }}" style="height: 1.3em; vertical-align: middle;">&nbsp;비전가드 관리페이지</h2>
             <hr>
         </header>
@@ -23,29 +23,40 @@
             <br><br>
             {% with messages = get_flashed_messages(with_categories=true) %}
                 {% if messages %}
-                    {% for category, message in messages %}
-                        {% if category == "info" %}
-                            <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                                <div>{{ message }}</div>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        {% elif category == "success" %}
-                            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                <div>{{ message }}</div>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        {% elif category == "warning" %}
-                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                <div>{{ message }}</div>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        {% elif category == "error" %}         
-                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                <div>{{ message }}</div>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
+                    <div style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1050;">
+                        {% for category, message in messages %}
+                            {% if category == "info" %}
+                                <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                    <div>{{ message }}</div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            {% elif category == "success" %}
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <div>{{ message }}</div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            {% elif category == "warning" %}
+                                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                    <div>{{ message }}</div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            {% elif category == "error" %}         
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    <div>{{ message }}</div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    <script>
+                        setTimeout(() => {
+                            const alerts = document.querySelectorAll('.alert');
+                            alerts.forEach(alert => {
+                                alert.classList.remove('show');
+                                alert.classList.add('hide');
+                            });
+                        }, 2000);
+                    </script>
                 {% endif %}
             {% endwith %}
         </footer>

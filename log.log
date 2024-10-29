@@ -1525,3 +1525,333 @@ UnboundLocalError: cannot access local variable 'bol' where it is not associated
 2024-10-29 15:21:35,053 [INFO] 192.168.10.243 - - [29/Oct/2024 15:21:35] "GET / HTTP/1.1" 200 -
 2024-10-29 15:21:35,092 [INFO] 192.168.10.243 - - [29/Oct/2024 15:21:35] "GET /static/title_icon.png HTTP/1.1" 200 -
 2024-10-29 15:21:40,439 [INFO] 경보기가 해제되었습니다.
+2024-10-29 22:53:29,160 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 22:53:29,162 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 22:53:29,165 [INFO]  * Restarting with stat
+2024-10-29 22:53:30,549 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 22:53:33,880 [WARNING]  * Debugger is active!
+2024-10-29 22:53:33,893 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 22:53:33,956 [INFO] 192.168.10.243 - - [29/Oct/2024 22:53:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-29 22:53:33,961 [INFO] 192.168.10.243 - - [29/Oct/2024 22:53:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-29 22:53:34,034 [INFO] 192.168.10.243 - - [29/Oct/2024 22:53:34] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-29 22:53:34,036 [INFO] 192.168.10.243 - - [29/Oct/2024 22:53:34] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-29 22:53:37,032 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 22:53:57,235 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-29 22:53:57,744 [INFO]  * Restarting with stat
+2024-10-29 22:55:44,952 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 22:55:44,953 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 22:55:44,956 [INFO]  * Restarting with stat
+2024-10-29 22:55:46,316 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 22:55:49,545 [WARNING]  * Debugger is active!
+2024-10-29 22:55:49,546 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 22:55:49,560 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:49] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 22:55:49,565 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:49] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 22:55:49,612 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:49] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:55:49,667 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:49] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:55:50,740 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 22:55:52,820 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:52] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:55:52,869 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:52] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:55:53,542 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:53] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:55:53,573 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:55:53,731 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:53] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:55:53,760 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:55:53,903 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:53] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:55:53,936 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:55:54,062 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:54] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:55:54,088 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:54] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:55:54,251 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:54] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:55:54,283 [INFO] 192.168.10.243 - - [29/Oct/2024 22:55:54] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:56:16,352 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:16] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 22:56:16,369 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:16] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:56:16,453 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:16] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:56:18,908 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:18] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:56:18,972 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:18] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:56:19,219 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:19] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:56:19,338 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:19] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:56:20,043 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:20] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:56:20,129 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:20] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:56:25,539 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:25] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 22:56:25,560 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:25] "GET /login HTTP/1.1" 200 -
+2024-10-29 22:56:25,632 [INFO] 192.168.10.185 - - [29/Oct/2024 22:56:25] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 22:57:19,124 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-29 22:57:19,450 [INFO]  * Restarting with stat
+2024-10-29 22:57:24,072 [WARNING]  * Debugger is active!
+2024-10-29 22:57:24,074 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 22:57:25,199 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 22:58:06,371 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-29 22:58:06,788 [INFO]  * Restarting with stat
+2024-10-29 22:59:42,429 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 22:59:42,430 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 22:59:42,432 [INFO]  * Restarting with stat
+2024-10-29 22:59:43,688 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 22:59:46,979 [WARNING]  * Debugger is active!
+2024-10-29 22:59:46,981 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 22:59:47,027 [INFO] 192.168.10.243 - - [29/Oct/2024 22:59:47] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-10-29 22:59:47,132 [INFO] 192.168.10.243 - - [29/Oct/2024 22:59:47] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-29 22:59:47,134 [INFO] 192.168.10.243 - - [29/Oct/2024 22:59:47] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-29 22:59:47,159 [INFO] 192.168.10.243 - - [29/Oct/2024 22:59:47] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-29 22:59:48,113 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 22:59:48,392 [INFO] 192.168.10.243 - - [29/Oct/2024 22:59:48] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-10-29 22:59:48,421 [INFO] 192.168.10.243 - - [29/Oct/2024 22:59:48] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-29 22:59:48,424 [INFO] 192.168.10.243 - - [29/Oct/2024 22:59:48] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-29 23:00:15,223 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-10-29 23:00:15,611 [INFO]  * Restarting with stat
+2024-10-29 23:00:20,644 [WARNING]  * Debugger is active!
+2024-10-29 23:00:20,650 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:00:22,095 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:00:25,735 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-10-29 23:00:26,061 [INFO]  * Restarting with stat
+2024-10-29 23:00:31,141 [WARNING]  * Debugger is active!
+2024-10-29 23:00:31,174 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:00:32,521 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:00:38,263 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-10-29 23:00:38,671 [INFO]  * Restarting with stat
+2024-10-29 23:00:43,243 [WARNING]  * Debugger is active!
+2024-10-29 23:00:43,245 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:00:43,291 [INFO] 192.168.10.243 - - [29/Oct/2024 23:00:43] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:00:43,344 [INFO] 192.168.10.243 - - [29/Oct/2024 23:00:43] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-29 23:00:44,359 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:00:59,508 [INFO] 192.168.10.185 - - [29/Oct/2024 23:00:59] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:00:59,582 [INFO] 192.168.10.185 - - [29/Oct/2024 23:00:59] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:02:22,886 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-29 23:02:23,329 [INFO]  * Restarting with stat
+2024-10-29 23:03:40,034 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 23:03:40,034 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 23:03:40,037 [INFO]  * Restarting with stat
+2024-10-29 23:03:41,392 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:03:44,601 [WARNING]  * Debugger is active!
+2024-10-29 23:03:44,603 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:03:44,647 [INFO] 192.168.10.243 - - [29/Oct/2024 23:03:44] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:03:44,708 [INFO] 192.168.10.243 - - [29/Oct/2024 23:03:44] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-29 23:03:45,909 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:03:47,067 [INFO] 192.168.10.243 - - [29/Oct/2024 23:03:47] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-29 23:03:47,130 [INFO] 192.168.10.243 - - [29/Oct/2024 23:03:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-29 23:03:47,133 [INFO] 192.168.10.243 - - [29/Oct/2024 23:03:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-29 23:04:33,930 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-10-29 23:04:34,345 [INFO]  * Restarting with stat
+2024-10-29 23:05:20,380 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 23:05:20,380 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 23:05:20,383 [INFO]  * Restarting with stat
+2024-10-29 23:05:21,868 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:05:25,123 [WARNING]  * Debugger is active!
+2024-10-29 23:05:25,137 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:05:26,248 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:05:29,561 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:29] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:05:29,629 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:29] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-29 23:05:35,145 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-10-29 23:05:35,181 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:35] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:05:35,239 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:35] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:05:36,544 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:36] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:05:36,581 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:36] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:05:36,816 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:36] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:05:36,850 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:36] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:05:36,992 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:36] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:05:37,023 [INFO] 192.168.10.243 - - [29/Oct/2024 23:05:37] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:07:30,488 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:30] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:07:30,542 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:30] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:07:31,026 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:31] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:07:31,061 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:31] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:07:31,200 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:31] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:07:31,235 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:31] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:07:32,266 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-10-29 23:07:32,290 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:32] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:07:32,325 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:32] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:07:51,455 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:51] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:07:51,512 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:51] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:07:52,410 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:52] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:07:52,832 [INFO] 192.168.10.243 - - [29/Oct/2024 23:07:52] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:08:04,365 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:04] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:08:04,421 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:04] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:08:04,847 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:04] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:08:04,913 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:04] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:08:38,932 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:38] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:08:39,077 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:39] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:08:51,029 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:51] "[32mGET /buzz HTTP/1.1[0m" 302 -
+2024-10-29 23:08:51,033 [INFO] 경보기가 작동했습니다.
+2024-10-29 23:08:51,080 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-29 23:08:51,174 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-29 23:08:51,175 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-29 23:08:51,301 [INFO] 192.168.10.185 - - [29/Oct/2024 23:08:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-29 23:09:05,578 [INFO] 경보기가 해제되었습니다.
+2024-10-29 23:09:13,136 [INFO] 192.168.10.185 - - [29/Oct/2024 23:09:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-29 23:09:13,195 [INFO] 192.168.10.185 - - [29/Oct/2024 23:09:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-29 23:09:13,196 [INFO] 192.168.10.185 - - [29/Oct/2024 23:09:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-29 23:09:56,838 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-10-29 23:09:57,380 [INFO]  * Restarting with stat
+2024-10-29 23:10:01,928 [WARNING]  * Debugger is active!
+2024-10-29 23:10:01,932 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:10:03,660 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:10:05,601 [INFO] 192.168.10.185 - - [29/Oct/2024 23:10:05] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 23:10:05,640 [INFO] 192.168.10.185 - - [29/Oct/2024 23:10:05] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:10:05,745 [INFO] 192.168.10.185 - - [29/Oct/2024 23:10:05] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:10:12,051 [INFO] 192.168.10.185 - - [29/Oct/2024 23:10:12] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:10:12,126 [INFO] 192.168.10.185 - - [29/Oct/2024 23:10:12] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:10:20,609 [INFO] 192.168.10.185 - - [29/Oct/2024 23:10:20] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 23:10:20,627 [INFO] 192.168.10.185 - - [29/Oct/2024 23:10:20] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:10:20,684 [INFO] 192.168.10.185 - - [29/Oct/2024 23:10:20] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:11:02,280 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:02] "[32mGET /buzz HTTP/1.1[0m" 302 -
+2024-10-29 23:11:02,322 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:02] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:11:02,412 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:02] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:11:16,016 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:16] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:11:16,115 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:16] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:11:38,007 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:38] "[33mGET /buz HTTP/1.1[0m" 404 -
+2024-10-29 23:11:38,092 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-29 23:11:42,318 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:42] "[32mGET /buzz HTTP/1.1[0m" 302 -
+2024-10-29 23:11:42,320 [INFO] 경보기가 작동했습니다.
+2024-10-29 23:11:42,370 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-29 23:11:42,433 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-29 23:11:42,438 [INFO] 192.168.10.185 - - [29/Oct/2024 23:11:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-29 23:12:06,893 [INFO] 192.168.10.185 - - [29/Oct/2024 23:12:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-29 23:12:07,818 [INFO] 192.168.10.185 - - [29/Oct/2024 23:12:07] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:12:09,595 [INFO] 192.168.10.185 - - [29/Oct/2024 23:12:09] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:12:10,772 [INFO] 192.168.10.185 - - [29/Oct/2024 23:12:10] "[35m[1mGET /buzz_off HTTP/1.1[0m" 500 -
+2024-10-29 23:12:10,839 [INFO] 192.168.10.185 - - [29/Oct/2024 23:12:10] "GET /buzz_off?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-29 23:12:10,842 [INFO] 192.168.10.185 - - [29/Oct/2024 23:12:10] "GET /buzz_off?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-29 23:12:10,920 [INFO] 192.168.10.185 - - [29/Oct/2024 23:12:10] "GET /buzz_off?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-29 23:12:16,735 [INFO] 경보기가 해제되었습니다.
+2024-10-29 23:12:49,972 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-10-29 23:12:50,328 [INFO]  * Restarting with stat
+2024-10-29 23:14:23,043 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 23:14:23,044 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 23:14:23,047 [INFO]  * Restarting with stat
+2024-10-29 23:14:25,112 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:14:29,696 [WARNING]  * Debugger is active!
+2024-10-29 23:14:29,698 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:14:29,724 [INFO] 192.168.10.185 - - [29/Oct/2024 23:14:29] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 23:14:29,783 [INFO] 192.168.10.185 - - [29/Oct/2024 23:14:29] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:14:29,871 [INFO] 192.168.10.185 - - [29/Oct/2024 23:14:29] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:15:03,672 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:03] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:15:04,713 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:04] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-10-29 23:15:04,775 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:04] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:15:04,781 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:04] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-29 23:15:04,921 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:04] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:15:04,922 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:04] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:15:04,927 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:04] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:15:04,969 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:04] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-29 23:15:05,002 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-29 23:15:05,004 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-29 23:15:05,010 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-29 23:15:05,015 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-29 23:15:05,251 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-10-29 23:15:05,316 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-10-29 23:15:05,317 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-10-29 23:15:05,318 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:15:05,319 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-10-29 23:15:05,324 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-10-29 23:15:05,576 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:05] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-10-29 23:15:31,275 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 23:15:31,279 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 23:15:31,284 [INFO]  * Restarting with stat
+2024-10-29 23:15:33,521 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:15:35,887 [WARNING]  * Debugger is active!
+2024-10-29 23:15:35,889 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:15:36,787 [INFO] 192.168.10.243 - - [29/Oct/2024 23:15:36] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:15:36,856 [INFO] 192.168.10.243 - - [29/Oct/2024 23:15:36] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-29 23:15:37,062 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:15:47,306 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:47] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 23:15:47,330 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:47] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:15:47,820 [INFO] 192.168.10.185 - - [29/Oct/2024 23:15:47] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:16:12,700 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:12] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:16:12,787 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:12] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:16:23,140 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:23] "[32mGET /buzz HTTP/1.1[0m" 302 -
+2024-10-29 23:16:23,144 [INFO] 경보기가 작동했습니다.
+2024-10-29 23:16:23,177 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:23] "GET / HTTP/1.1" 200 -
+2024-10-29 23:16:23,250 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:23] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:16:23,303 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:23] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2024-10-29 23:16:24,054 [INFO] 경보기가 해제되었습니다.
+2024-10-29 23:16:24,056 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:24] "[32mGET /buzz_off HTTP/1.1[0m" 302 -
+2024-10-29 23:16:24,076 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:24] "GET / HTTP/1.1" 200 -
+2024-10-29 23:16:24,156 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:24] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:16:25,199 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:25] "[32mGET /buzz HTTP/1.1[0m" 302 -
+2024-10-29 23:16:25,201 [INFO] 경보기가 작동했습니다.
+2024-10-29 23:16:25,217 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:25] "GET / HTTP/1.1" 200 -
+2024-10-29 23:16:25,295 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:25] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:16:25,597 [INFO] 경보기가 해제되었습니다.
+2024-10-29 23:16:25,598 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:25] "[32mGET /buzz_off HTTP/1.1[0m" 302 -
+2024-10-29 23:16:25,615 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:25] "GET / HTTP/1.1" 200 -
+2024-10-29 23:16:25,690 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:25] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:16:28,275 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-10-29 23:16:28,293 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:28] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:16:28,397 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:28] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:16:28,509 [INFO] 경보기가 해제되었습니다.
+2024-10-29 23:16:28,569 [INFO] 경보기가 해제되었습니다.
+2024-10-29 23:16:39,798 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:39] "[32mGET /buzz HTTP/1.1[0m" 302 -
+2024-10-29 23:16:39,832 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:39] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:16:39,913 [INFO] 192.168.10.185 - - [29/Oct/2024 23:16:39] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:17:59,015 [INFO] 192.168.10.185 - - [29/Oct/2024 23:17:59] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:17:59,086 [INFO] 192.168.10.185 - - [29/Oct/2024 23:17:59] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:18:24,874 [INFO] 192.168.10.185 - - [29/Oct/2024 23:18:24] "GET /reboot HTTP/1.1" 200 -
+2024-10-29 23:18:24,939 [INFO] 192.168.10.185 - - [29/Oct/2024 23:18:24] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:20:47,918 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 23:20:47,925 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 23:20:47,930 [INFO]  * Restarting with stat
+2024-10-29 23:20:50,459 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:20:53,240 [WARNING]  * Debugger is active!
+2024-10-29 23:20:53,242 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:20:53,287 [INFO] 192.168.10.243 - - [29/Oct/2024 23:20:53] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:20:53,337 [INFO] 192.168.10.243 - - [29/Oct/2024 23:20:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:20:54,706 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:21:02,242 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:02] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:21:02,286 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:02] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:21:09,036 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:09] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 23:21:09,078 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:09] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:21:09,124 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:09] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:21:14,107 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:14] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:21:14,167 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:14] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:21:56,395 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:56] "[32mGET /buzz HTTP/1.1[0m" 302 -
+2024-10-29 23:21:56,397 [INFO] 경보기가 작동했습니다.
+2024-10-29 23:21:56,435 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:56] "GET / HTTP/1.1" 200 -
+2024-10-29 23:21:56,476 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:56] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:21:56,718 [INFO] 경보기가 해제되었습니다.
+2024-10-29 23:21:56,719 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:56] "[32mGET /buzz_off HTTP/1.1[0m" 302 -
+2024-10-29 23:21:56,747 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:56] "GET / HTTP/1.1" 200 -
+2024-10-29 23:21:56,782 [INFO] 192.168.10.243 - - [29/Oct/2024 23:21:56] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:21:59,709 [INFO] 경보기가 해제되었습니다.
+2024-10-29 23:24:31,712 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-29 23:24:32,571 [INFO]  * Restarting with stat
+2024-10-29 23:25:56,710 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-29 23:25:56,711 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-29 23:25:56,714 [INFO]  * Restarting with stat
+2024-10-29 23:25:58,067 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:26:01,226 [WARNING]  * Debugger is active!
+2024-10-29 23:26:01,234 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:26:04,718 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:26:18,082 [INFO] 192.168.10.185 - - [29/Oct/2024 23:26:18] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-29 23:26:18,127 [INFO] 192.168.10.185 - - [29/Oct/2024 23:26:18] "GET /login HTTP/1.1" 200 -
+2024-10-29 23:26:18,195 [INFO] 192.168.10.185 - - [29/Oct/2024 23:26:18] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:26:27,868 [INFO] 192.168.10.185 - - [29/Oct/2024 23:26:27] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:26:27,961 [INFO] 192.168.10.185 - - [29/Oct/2024 23:26:27] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-29 23:29:21,453 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-29 23:29:21,770 [INFO]  * Restarting with stat
+2024-10-29 23:29:26,503 [WARNING]  * Debugger is active!
+2024-10-29 23:29:26,505 [INFO]  * Debugger PIN: 134-296-000
+2024-10-29 23:29:27,629 [ERROR] 카메라를 열 수 없습니다.
+2024-10-29 23:29:44,216 [INFO] 192.168.10.185 - - [29/Oct/2024 23:29:44] "POST /login HTTP/1.1" 200 -
+2024-10-29 23:29:44,294 [INFO] 192.168.10.185 - - [29/Oct/2024 23:29:44] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -

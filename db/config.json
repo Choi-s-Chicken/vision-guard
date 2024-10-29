@@ -1,1 +1,4 @@
-{"status": "normal"}
+{
+    "status": "normal",
+    "reboot_poss": true
+}

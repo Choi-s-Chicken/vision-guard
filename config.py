@@ -1,5 +1,12 @@
 import json
 import os
+import socket
+import platform 
+
+MODEL = "VG01"
+SERIAL = "169d236880ae"
+FLATFORM = platform.system()
+HOSTNAME = socket.gethostname()
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -25,10 +32,17 @@ STATUS_WARN   = "warning"
 STATUS_ERROR  = "error"
 STATUS_CRITI  = "critical"
 
-def get_status():
-    with open(os.path.join(DB_FOLDER_PATH, "config.json"), "r") as f:
-        return json.load(f)["status"]
+config_path = os.path.join(DB_FOLDER_PATH, "config.json")
 
-def set_status(status):
-    with open(os.path.join(DB_FOLDER_PATH, "config.json"), "w") as f:
-        json.dump({"status": status}, f)
+def get_config(key:str):
+    with open(config_path, "r") as f:
+        return json.load(f)[key]
+
+def set_config(key, value):
+    with open(config_path, "r") as f:
+        config = json.load(f)
+    
+    config[key] = value
+    
+    with open(config_path, "w") as f:
+        json.dump(config, f, indent=4)
