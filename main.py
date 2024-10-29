@@ -20,11 +20,19 @@ WEB_HOST = os.getenv("WEB_HOST")
 WEB_PORT = os.getenv("WEB_PORT")
 HOSTNAME = socket.gethostname()
 
-buzz_pin = 23
-buzz_disable_btn = 24
+# GPIO Setup
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(buzz_pin, GPIO.OUT)
-GPIO.setup(buzz_disable_btn, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+## GPIO Setup
+GPIO.setup(config.PIN_BUZZ, GPIO.OUT)
+GPIO.setup(config.PIN_BUZZ_DISABLE_BTN, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(config.PIN_R_LED, GPIO.OUT)
+GPIO.setup(config.PIN_Y_LED, GPIO.OUT)
+GPIO.setup(config.PIN_G_LED, GPIO.OUT)
+## GPIO Init
+GPIO.output(config.PIN_BUZZ, GPIO.LOW)
+GPIO.output(config.PIN_R_LED, GPIO.LOW)
+GPIO.output(config.PIN_Y_LED, GPIO.LOW)
+GPIO.output(config.PIN_G_LED, GPIO.LOW)
 
 def _capture_target(_capture_delay):
     detector = HumanDetection(config.DETECTION_MODEL_PATH, config.REID_MODEL_PATH, config.DEVICE)
@@ -50,7 +58,7 @@ def _capture_target(_capture_delay):
             print(detector.is_face(save_path)[0])
             if detector.is_face(save_path)[0] == True:
                 logger.info(f"{save_name} 얼굴 인식됨")
-                GPIO.output(buzz_pin, GPIO.HIGH)
+                GPIO.output(config.PIN_BUZZ, GPIO.HIGH)
                 with open(save_path, "rb") as f:
                     image = f.read()
                     image = base64.b64encode(image).decode("utf-8")
@@ -62,23 +70,67 @@ def _capture_target(_capture_delay):
                     }
                     req_rst = requests.post(f"{PROCESS_URL}/process", data=data)
             else:
-                GPIO.output(buzz_pin, GPIO.LOW)
+                GPIO.output(config.PIN_BUZZ, GPIO.LOW)
                     
             time.sleep(_capture_delay)
             
     cap.release()
 threading.Thread(target=_capture_target, args=(0.1,), daemon=True).start()
 
-def _buzz_thread():
-    GPIO.output(buzz_pin, GPIO.HIGH)
-    logger.info("경보기가 작동했습니다.")
-    config.STATUS = config.STATUS_WARN
+def _led_matrix_target():
     while True:
-        if GPIO.input(buzz_disable_btn) == GPIO.HIGH:
-            GPIO.output(buzz_pin, GPIO.LOW)
+        for i in range(0, 4):
+            if config.get_status() == config.STATUS_NORMAL:
+                GPIO.output(config.PIN_G_LED, GPIO.HIGH)
+                GPIO.output(config.PIN_Y_LED, GPIO.LOW)
+                GPIO.output(config.PIN_R_LED, GPIO.LOW)
+                
+            elif config.get_status() == config.STATUS_WARN:
+                if i < 2:
+                    GPIO.output(config.PIN_G_LED, GPIO.LOW)
+                    GPIO.output(config.PIN_Y_LED, GPIO.HIGH)
+                    GPIO.output(config.PIN_R_LED, GPIO.LOW)
+                else:
+                    GPIO.output(config.PIN_G_LED, GPIO.LOW)
+                    GPIO.output(config.PIN_Y_LED, GPIO.LOW)
+                    GPIO.output(config.PIN_R_LED, GPIO.LOW)
+                
+            elif config.get_status() == config.STATUS_ERROR:
+                GPIO.output(config.PIN_G_LED, GPIO.LOW)
+                GPIO.output(config.PIN_Y_LED, GPIO.LOW)
+                GPIO.output(config.PIN_R_LED, GPIO.HIGH)
+                
+            elif config.get_status() == config.STATUS_CRITICAL:
+                if i < 2:
+                    GPIO.output(config.PIN_G_LED, GPIO.LOW)
+                    GPIO.output(config.PIN_Y_LED, GPIO.LOW)
+                    GPIO.output(config.PIN_R_LED, GPIO.HIGH)
+                else:
+                    GPIO.output(config.PIN_G_LED, GPIO.LOW)
+                    GPIO.output(config.PIN_Y_LED, GPIO.LOW)
+                    GPIO.output(config.PIN_R_LED, GPIO.LOW)
+            
+            time.sleep(0.5)
+threading.Thread(target=_led_matrix_target, daemon=True).start()
+
+def _buzz_target():
+    config.set_status(config.STATUS_WARN)
+    GPIO.output(config.PIN_BUZZ, GPIO.HIGH)
+    logger.info("경보기가 작동했습니다.")
+    
+    disable_stack = 0
+    while True:
+        if (GPIO.input(config.PIN_BUZZ_DISABLE_BTN) == GPIO.HIGH) or (config.get_status() == config.STATUS_NORMAL):
+            disable_stack += 1
+        else:
+            disable_stack = 0
+        
+        if disable_stack >= 30:
+            config.set_status(config.STATUS_NORMAL)
+            GPIO.output(config.PIN_BUZZ, GPIO.LOW)
             logger.info("경보기가 해제되었습니다.")
-            config.STATUS = config.STATUS_NORMAL
-            break
+            return
+        
         time.sleep(0.1)
 
 app = Flask(__name__)
@@ -89,7 +141,17 @@ def index():
 
 @app.route("/buzz", methods=["GET"])
 def buzz():
-    threading.Thread(target=_buzz_thread, daemon=True).start()
+    if config.get_status() == config.STATUS_ERROR:
+        return redirect("/")
+    threading.Thread(target=_buzz_target, daemon=True).start()
+    return redirect("/")
+
+@app.route("/buzz_off", methods=["GET"])
+def buzz_off():
+    config.set_status(config.STATUS_NORMAL)
+    GPIO.output(config.PIN_BUZZ, GPIO.LOW)
+    logger.info("경보기가 해제되었습니다.")
+    
     return redirect("/")
 
 @app.route("/last_capture", methods=["GET"])
