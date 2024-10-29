@@ -7,7 +7,7 @@ import socket
 import base64
 import requests
 import RPi.GPIO as GPIO
-from flask import Flask, request, jsonify, render_template, redirect
+from flask import Flask, jsonify, render_template, redirect
 from dotenv import load_dotenv
 import src.utils as utils
 from modules.logging import logger
