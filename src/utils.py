@@ -19,10 +19,6 @@ def get_now_iso_time() -> str:
 def convert_now_ftime(_time_str: str, _format = '%Y%m%d%H%M%S') -> datetime:
     return datetime.strptime(_time_str, _format)
 
-def parse_time(ftime_str: str, time_format: str | None = default_timef) -> datetime:
-    time = datetime.strptime(ftime_str, time_format)
-    return time
-
 def get_local_ip(_defalut:str = "N/A") -> str:
     try:
         ip = subprocess.check_output(['hostname', '-I']).decode('utf-8').strip()

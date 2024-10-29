@@ -1,10 +1,14 @@
 import json
 import os
 import socket
-import platform 
+import platform
+from dotenv import load_dotenv
+load_dotenv()
 
-MODEL = "VG01"
-SERIAL = "169d236880ae"
+# Product info
+PRCT_MODEL = os.environ["PRCT_MODEL"]
+PRCT_SERIAL = os.environ["PRCT_MODEL"]
+PROCESS_URL = os.environ["PROCESS_URL"]
 FLATFORM = platform.system()
 HOSTNAME = socket.gethostname()
 
@@ -32,6 +36,7 @@ STATUS_WARN   = "warning"
 STATUS_ERROR  = "error"
 STATUS_CRITI  = "critical"
 
+# Config
 config_path = os.path.join(DB_FOLDER_PATH, "config.json")
 
 def get_config(key:str):
