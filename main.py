@@ -57,7 +57,7 @@ def _capture_target(_capture_delay):
         req_data = {
             "serial": config.PRCT_SERIAL,
             "capture_time": capture_time,
-            "capture_data": base64.b64encode(frame).decode('utf-8')
+            "capture_data": base64.b64encode(frame)
         }
         
         try:

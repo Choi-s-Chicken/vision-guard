@@ -30,7 +30,7 @@
 </div>
 
 
-<h3>제품 정보</h3>
+<h4>제품 정보</h4>
 <p>
     모델: {{ prct_model }}<br>
     시리얼: {{ prct_serial }}
@@ -38,11 +38,10 @@
 <p>
     경보: 기능이 {% if alarm_poss %}활성화{% else %}비활성화{% endif %} 되어있습니다.<br>
     재부팅: 기능이 {% if alarm_poss %}활성화{% else %}비활성화{% endif %} 되어있습니다.<br>
-    위 설정은 <a href="visionguard.dyhs.kr">비전가드 홈페이지</a> 관리자만 가능합니다.<br>
 </p>
 <hr>
 
-<h3>제어 메뉴</h3>
+<h4>제어 메뉴</h4>
 <a href="/alarm/turnon"><button type="button" class="btn btn-outline-danger">경보</button></a>
 <a href="/alarm/turnoff"><button type="button" class="btn btn-outline-warning">경보해제</button></a>
 <button id="reboot-btn" type="button" class="btn btn-outline-primary">재부팅</button><br>

@@ -12,13 +12,13 @@ bp = Blueprint('system', __name__, url_prefix='/system')
 def reboot():
     reboot_status = True
     detail = ""
+    if config.get_config('reboot_poss') == False:
+        reboot_status = False
+        detail = "재부팅이 비활성화 되어있습니다. 재부팅할 수 없습니다."
+        return render_template("reboot.html", reboot_status=reboot_status, detail=detail)
     if config.get_config('alarm') == True:
         reboot_status = False
         detail = "경보기가 작동 중일 때는 재부팅할 수 없습니다."
-        return render_template("reboot.html", reboot_status=reboot_status, detail=detail)
-    elif config.get_config('reboot_poss') == False:
-        reboot_status = False
-        detail = "재부팅이 비활성화 되어있습니다. 재부팅할 수 없습니다."
         return render_template("reboot.html", reboot_status=reboot_status, detail=detail)
     
     if reboot_status == True:

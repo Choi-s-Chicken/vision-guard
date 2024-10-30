@@ -41,9 +41,12 @@ STATUS_CRITI  = "critical"
 # Config
 config_path = os.path.join(DB_FOLDER_PATH, "config.json")
 
-def get_config(key:str):
-    with open(config_path, "r") as f:
-        return json.load(f)[key]
+def get_config(key:str, _default = None):
+    try:
+        with open(config_path, "r") as f:
+            return json.load(f)[key]
+    except:
+        return _default
 
 def set_config(key, value):
     with open(config_path, "r") as f:

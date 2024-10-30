@@ -12,29 +12,30 @@ from modules.logging import logger
 def _led_control_target():
     detail = 20
     while True:
-        for i in range(0, detail):
-            if config.get_config('status') == config.STATUS_NORMAL:
-                gpio_ctrl.control_led(green=True, yellow=False, red=False)
-                
-            elif config.get_config('status') == config.STATUS_WARN:
-                gpio_ctrl.control_led(yellow=True)
-                
-            elif config.get_config('status') == config.STATUS_ERROR:
-                gpio_ctrl.control_led(green=False, yellow=False, red=True)
-                
-            elif config.get_config('status') == config.STATUS_CRITI:
-                if i < (detail/2):
-                    gpio_ctrl.control_led(green=False, yellow=False, red=True)
-                else:
-                    gpio_ctrl.control_led(green=False, yellow=False, red=False)
-            
-            if config.get_config('alarm') == True:
-                if i < (detail/2):
+        try:
+            for i in range(0, detail):
+                status = config.get_config('status')
+                if status == config.STATUS_NORMAL:
+                    gpio_ctrl.control_led(green=True, yellow=False, red=False)
+                elif status == config.STATUS_WARN:
                     gpio_ctrl.control_led(yellow=True)
-                else:
-                    gpio_ctrl.control_led(yellow=False)
-            
-            time.sleep(0.03)
+                elif status == config.STATUS_ERROR:
+                    gpio_ctrl.control_led(green=False, yellow=False, red=True)
+                elif status == config.STATUS_CRITI:
+                    if i < (detail / 2):
+                        gpio_ctrl.control_led(green=False, yellow=False, red=True)
+                    else:
+                        gpio_ctrl.control_led(green=False, yellow=False, red=False)
+
+                if config.get_config('alarm') == True:
+                    if i < (detail / 2):
+                        gpio_ctrl.control_led(yellow=True)
+                    else:
+                        gpio_ctrl.control_led(yellow=False)
+
+                time.sleep(0.03)
+        except Exception as e:
+            logger.error(f"LED control error: {e}")
 
 def _alarm_turnon_target():
     if config.get_config('alarm') == True:
