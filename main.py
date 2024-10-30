@@ -23,6 +23,7 @@ WEB_PORT = os.getenv("WEB_PORT")
 gpio_ctrl.gpio_init()
 gpio_ctrl.control_led(green=False, yellow=False, red=False)
 config.set_config('status', config.STATUS_NORMAL)
+config.set_config('alarm', False)
 
 # boot animation
 for i in range(0, 3):
@@ -65,14 +66,14 @@ def _capture_target(_capture_delay):
             config.set_config('status', config.STATUS_NORMAL)
             logger.info("서버로 사진을 전송했습니다.")
         except:
-            config.set_config('status', config.STATUS_ERROR)
             logger.error("서버와 통신 중 문제가 발생했습니다.")
-            time.sleep(_capture_delay)
-            continue
+            config.set_config('status', config.STATUS_ERROR)
         
-        os.remove("capture.jpg")
+        if os.path.exists("capture.jpg"):
+            os.remove("capture.jpg")
     
         time.sleep(_capture_delay)
+        continue
 # thread start
 threading.Thread(target=targets._led_control_target, daemon=True).start()
 threading.Thread(target=_capture_target, args=(1,), daemon=True).start()

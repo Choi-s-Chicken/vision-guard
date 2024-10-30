@@ -44,7 +44,7 @@
     const rebootTitle = document.getElementById('reboot-title');
 
     const interval = setInterval(() => {
-        rebootTitle.textContent = `${countdown}초 뒤 새로고침 됩니다.`;
+        rebootTitle.textContent = `${countdown}초 뒤 홈으로 이동합니다.`;
         countdown--;
 
         if (countdown <= 0) {
@@ -60,7 +60,7 @@
 
     const interval = setInterval(() => {
         countdown--;
-        rebootTitle.textContent = `\n${countdown}초 뒤 새로고침 됩니다.`;
+        rebootTitle.textContent = `\n${countdown}초 뒤 홈으로 이동합니다.`;
 
         if (countdown <= 0) {
             clearInterval(interval);

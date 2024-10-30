@@ -34,7 +34,7 @@ def _led_control_target():
                 else:
                     gpio_ctrl.control_led(yellow=False)
             
-            time.sleep(0.05)
+            time.sleep(0.03)
 
 def _alarm_turnon_target():
     if config.get_config('alarm') == True:
