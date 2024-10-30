@@ -5,7 +5,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/bin/sudo /bin/python3 /home/vgadmin/vision-guard/main.py
+ExecStart=/bin/sudo /bin/bash /home/vgadmin/vision-guard/vg_stater.sh
 Restart=on-failure
 RestartSec=5
 

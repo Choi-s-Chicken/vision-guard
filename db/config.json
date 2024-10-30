@@ -1,6 +1,6 @@
 {
-    "status": "critical",
+    "status": "normal",
     "alarm": false,
     "camera_ready": false,
-    "reboot_poss": true
+    "reboot_poss": false
 }

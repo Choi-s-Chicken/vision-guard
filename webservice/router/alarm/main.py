@@ -1,6 +1,6 @@
 import threading
 import config
-from flask import Blueprint, flash, render_template, redirect, url_for, request, session
+from flask import Blueprint, flash, redirect
 import modules.targets as targets
 import modules.gpio_control as gpio_ctrl
 from modules.logging import logger
