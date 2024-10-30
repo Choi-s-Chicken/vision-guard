@@ -97,17 +97,4 @@ class FaceRecognition:
         face = self.extract_face(image, detection_threshold)
         return face is not None
 
-if __name__ == "__main__":
-    detection_model_path = "./models/face-detection-adas-0001"
-    reid_model_path = "./models/face-reidentification-retail-0095"
-
-    face_recognition = FaceRecognition(detection_model_path, reid_model_path)
-
-    # # 얼굴이냐?
-    # face_present = face_recognition.is_face('./minsang.jpg')
-    # print(f"Is face present: {face_present}")
-
-    # 얼굴 비교
-    similarity_score = face_recognition.compare_faces(os.path.join('faces', 'minsang.jpg'), os.path.join('faces', 'base_face.png'))
-    print(f"Similarity score: {similarity_score}")
 
