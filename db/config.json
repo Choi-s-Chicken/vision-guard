@@ -1,6 +1,7 @@
 {
-    "status": "normal",
+    "status": "error",
     "alarm": false,
     "camera_ready": false,
-    "reboot_poss": false
+    "reboot_poss": false,
+    "alarm_poss": true
 }

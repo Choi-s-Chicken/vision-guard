@@ -11,15 +11,15 @@ class VGApp():
         self.application = Flask(import_name=__name__)
         self.application.secret_key = secrets.token_hex(32)
         self.application.register_blueprint(router.bp)
-
+        
         # main route
         @self.application.route('/')
         @login_required
         def home():
             return render_template("index.html", prct_model=config.PRCT_MODEL, prct_serial=config.PRCT_SERIAL,
-                                   status=config.get_config('status'), status_normal=config.STATUS_NORMAL, status_warn=config.STATUS_WARN,
-                                   status_error=config.STATUS_ERROR, status_criti=config.STATUS_CRITI,
-                                   client_name=session.get('username'))
+                                   status=config.get_config('status'), alarm=config.get_config('alarm'), status_normal=config.STATUS_NORMAL,
+                                   status_warn=config.STATUS_WARN, status_error=config.STATUS_ERROR, status_criti=config.STATUS_CRITI,
+                                   client_name=session.get('username'), reboot_poss=config.get_config('reboot_poss'), alarm_poss=config.get_config('alarm_poss'))
         
 
         @self.application.route('/login', methods=['GET', 'POST'])

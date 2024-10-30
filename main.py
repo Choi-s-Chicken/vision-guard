@@ -41,10 +41,11 @@ def _capture_target(_capture_delay):
         
         # Read the captured image
         if os.path.exists("capture.jpg") == False:
-            logger.error("사진 정보 얻기에 실패했습니다.")
             config.set_config('status', config.STATUS_CRITI)
+            logger.error("사진 정보 얻기에 실패했습니다.")
             time.sleep(_capture_delay)
             continue
+        config.set_config('status', config.STATUS_NORMAL)
         logger.info("사진을 촬영했습니다.")
         
         with open("capture.jpg", "rb") as image_file:
@@ -58,14 +59,23 @@ def _capture_target(_capture_delay):
             "capture_data": base64.b64encode(frame).decode('utf-8')
         }
         
-        req_rst = requests.post(config.PROCESS_URL, json=req_data, timeout=3)
+        try:
+            req_rst = requests.post(config.PROCESS_URL, json=req_data, timeout=3)
+            req_rst.raise_for_status()
+            config.set_config('status', config.STATUS_NORMAL)
+            logger.info("서버로 사진을 전송했습니다.")
+        except:
+            config.set_config('status', config.STATUS_ERROR)
+            logger.error("서버와 통신 중 문제가 발생했습니다.")
+            time.sleep(_capture_delay)
+            continue
         
         os.remove("capture.jpg")
-                
+    
         time.sleep(_capture_delay)
 # thread start
 threading.Thread(target=targets._led_control_target, daemon=True).start()
-threading.Thread(target=_capture_target, args=(0,), daemon=True).start()
+threading.Thread(target=_capture_target, args=(1,), daemon=True).start()
 
 # WebService Start
 vg_web_app = VGApp()

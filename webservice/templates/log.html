@@ -4,6 +4,7 @@
 <h3>시스템 로그</h3>
 <a href='/system/log'>새로고침<a>
 <textarea class="form-control" id="logTextarea" rows="3" style="height: 400px;">{{ log }}</textarea>
+<button id="log-init-btn" type="button" class="btn btn-secondary  btn-sm">로그 초기화</button>
 <hr>
 <a href='/'>홈으로</a>
 
@@ -11,6 +12,39 @@
     document.addEventListener('DOMContentLoaded', (event) => {
         const logTextarea = document.getElementById('logTextarea');
         logTextarea.scrollTop = logTextarea.scrollHeight;
+    });
+
+    const logInitBtn = document.getElementById('log-init-btn');
+    logInitBtn.addEventListener('click', () => {
+        if (!confirm('로그를 초기화하시겠습니까?')) {
+            alert('취소되었습니다.');
+            return;
+        }
+
+        const password = prompt('관리자 비밀번호를 입력하세요.');
+        if (!password) {
+            alert('취소되었습니다.');
+            return;
+        }
+
+        fetch('/system/log_init', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ password: password })
+        }).then((response) => response.json())
+          .then((data) => {
+              if (data.status === 'success') {
+                  alert(data.message);
+                  window.location.reload();
+              } else {
+                  alert(data.message);
+              }
+          }).catch((error) => {
+              alert('로그 초기화에 실패했습니다.');
+              console.error('Error:', error);
+          });
     });
 </script>
 {% endblock %}

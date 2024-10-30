@@ -5,28 +5,45 @@
 </style>
 
 <div>
+    {% if alarm %}
+    <div class="alert alert-warning" role="alert">
+        경보가 작동 중입니다. <a href='/alarm/turnoff'>경보 해제</a>
+    </div>
+    {% endif %}
     {% if status == status_normal %}
     <div class="alert alert-primary" role="alert">
         제품이 잘 작동되고 있습니다.
     </div>
     {% elif status == status_warn %}
     <div class="alert alert-warning" role="alert">
-        경보가 실행 중입니다. <a href="/buzz_off">경보 해제</a>
+        확인할 사항이 있습니다.</a>
     </div>
     {% elif status == status_error %}
     <div class="alert alert-danger" role="alert">
         에러가 발생했습니다. <a href="/system/log">기록 보기</a>
     </div>
     {% elif status == status_criti %}
-    <div class="alert alert-dark" role="alert">
-        심각 상태입니다. <a href="/system/log">기록 보기</a>
+    <div class="alert alert-danger" role="alert">
+        심각한 에러가 발생했습니다. <a href="/system/log">기록 보기</a>
     </div>
     {% endif %}
 </div>
 
-<p>모델: {{ prct_model }}</p>
-<p>시리얼: {{ prct_serial }}</p>
+<h3>제품 설정</h3>
+{% if alarm_poss %}
 
+{% else %}
+
+{% endif %}
+
+<h3>제품 정보</h3>
+<p>
+    모델: {{ prct_model }}<br>
+    시리얼: {{ prct_serial }}
+</p>
+<hr>
+
+<h3>제어 메뉴</h3>
 <a href="/alarm/turnon"><button>경보</button></a>
 <a href="/alarm/turnoff"><button>경보해제</button></a><br><br>
 

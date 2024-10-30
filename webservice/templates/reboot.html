@@ -23,27 +23,18 @@
         align-items: center;
         justify-content: center;
     }
-    .spinner {
-        border: 4px solid rgba(0, 0, 0, 0.1);
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        border-left-color: #09f;
-        animation: spin 1s linear infinite;
-        display: inline-block;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-    @keyframes spin {
-        to { transform: rotate(360deg); }
-    }
 </style>
 
 <div id="modal" class="modal-overlay">
     <div class="modal-content">
-        <div class="spinner"></div><br>
-        <p>{{ detail }}</p>
-        <p id="reboot-title"></p>
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div><br>
+        <span>{{ detail }}</span>
+        <span id="reboot-title"></span><br>
+        <p><a href="/">홈으로</a></p>
     </div>
 </div>
 

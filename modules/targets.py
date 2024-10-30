@@ -10,27 +10,31 @@ import modules.gpio_control as gpio_ctrl
 from modules.logging import logger
 
 def _led_control_target():
+    detail = 20
     while True:
-        for i in range(0, 2):
+        for i in range(0, detail):
             if config.get_config('status') == config.STATUS_NORMAL:
                 gpio_ctrl.control_led(green=True, yellow=False, red=False)
                 
             elif config.get_config('status') == config.STATUS_WARN:
-                if i == 0:
-                    gpio_ctrl.control_led(green=False, yellow=True, red=False)
-                else:
-                    gpio_ctrl.control_led(green=False, yellow=False, red=False)
+                gpio_ctrl.control_led(yellow=True)
                 
             elif config.get_config('status') == config.STATUS_ERROR:
-                gpio_ctrl.control_led(green=False, yellow=True, red=False)
+                gpio_ctrl.control_led(green=False, yellow=False, red=True)
                 
             elif config.get_config('status') == config.STATUS_CRITI:
-                if i == 0:
+                if i < (detail/2):
                     gpio_ctrl.control_led(green=False, yellow=False, red=True)
                 else:
                     gpio_ctrl.control_led(green=False, yellow=False, red=False)
             
-            time.sleep(0.25)
+            if config.get_config('alarm') == True:
+                if i < (detail/2):
+                    gpio_ctrl.control_led(yellow=True)
+                else:
+                    gpio_ctrl.control_led(yellow=False)
+            
+            time.sleep(0.05)
 
 def _alarm_turnon_target():
     if config.get_config('alarm') == True:
@@ -38,7 +42,6 @@ def _alarm_turnon_target():
         return
     
     config.set_config('alarm', True)
-    config.set_config('status', config.STATUS_WARN)
     gpio_ctrl.control_alarm(True)
     logger.info("경보기를 작동했습니다.")
     
@@ -50,7 +53,6 @@ def _alarm_turnon_target():
             disable_stack = 0
         
         if disable_stack >= 30 or config.get_config('alarm') == False:
-            config.set_config('status', config.STATUS_NORMAL)
             config.set_config('alarm', False)
             gpio_ctrl.control_alarm(False)
             logger.info("경보기가 해제되었습니다.")

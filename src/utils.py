@@ -12,6 +12,9 @@ default_timef = "%Y%m%d%H%M%S"
 def get_log() -> str:
     with open(config.LOG_PATH, 'r') as f:
         return f.read()
+def init_log():
+    with open(config.LOG_PATH, 'w') as f:
+        f.write("")
 
 def get_now_ftime(time_format: str | None = default_timef) -> str:
     time = datetime.now()

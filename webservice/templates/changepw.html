@@ -12,6 +12,18 @@
         <label for="new-pw" class="form-label">새로운 비밀번호</label>
         <input type="password" class="form-control" id="new-pw" name="new-pw" required>
     </div>
+    <button type="button" id="cancel-btn" class="btn btn-secondary">취소</button>
     <button type="submit" class="btn btn-primary">변경하기</button>
 </form>
+
+<script>
+    const cancel = document.getElementById('cancel-btn');
+
+    cancel.addEventListener('click', () => {
+        if (!confirm('비밀번호 변경을 취소하시겠습니까?'))
+            return;
+
+        window.location.href = '/';
+    });
+</script>
 {% endblock %}

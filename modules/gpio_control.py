@@ -23,6 +23,7 @@ def control_alarm(control: bool):
     if control == True:
         GPIO.output(config.PIN_ALARM, HIGH)
     else:
+        control_led(yellow=False)
         GPIO.output(config.PIN_ALARM, LOW)
 
 def alarm_btn_status(pin: int = config.PIN_ALARM_BTN) -> bool:
