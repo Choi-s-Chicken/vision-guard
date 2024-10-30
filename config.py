@@ -26,8 +26,8 @@ DETECTION_MODEL_PATH = os.path.join(MODEL_PATH, "face-detection-adas-0001")
 REID_MODEL_PATH = os.path.join(MODEL_PATH, "face-reidentification-retail-0095")
 
 # Pins
-PIN_BUZZ = 23
-PIN_BUZZ_DISABLE_BTN = 24
+PIN_ALARM = 23
+PIN_ALARM_BTN = 24
 PIN_R_LED = 22
 PIN_Y_LED = 27
 PIN_G_LED = 17

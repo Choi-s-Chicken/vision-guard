@@ -32,6 +32,12 @@ if python -m pip config set global.break-system-packages true; then
         echo "python modules install failed."
         exit 1
     fi
+    if pip install RPi.GPIO --upgrade; then
+        echo "RPi.GPIO install successfully."
+    else
+        echo "RPi.GPIO install failed."
+        exit 1
+    fi
 else
     echo "python modules install failed."
     exit 1

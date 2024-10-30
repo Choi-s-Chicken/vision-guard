@@ -4782,3 +4782,1435 @@ UnboundLocalError: cannot access local variable 'bol' where it is not associated
 2024-10-30 11:34:43,309 [ERROR] 카메라가 준비되지 않아 재시도합니다.
 2024-10-30 11:34:47,506 [ERROR] 카메라를 열 수 없습니다.
 2024-10-30 11:34:47,507 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:43:38,574 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:43:38,576 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:43:38,604 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:43:38,605 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:43:38,607 [INFO]  * Restarting with stat
+2024-10-30 12:44:11,528 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:44:11,531 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:44:11,567 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:44:11,567 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:44:11,570 [INFO]  * Restarting with stat
+2024-10-30 12:44:25,039 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:44:25,040 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:44:25,062 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:44:25,063 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:44:25,064 [INFO]  * Restarting with stat
+2024-10-30 12:44:37,674 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:44:37,676 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:44:37,705 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:44:37,705 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:44:37,708 [INFO]  * Restarting with stat
+2024-10-30 12:44:50,200 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:44:50,201 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:44:50,220 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:44:50,220 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:44:50,222 [INFO]  * Restarting with stat
+2024-10-30 12:45:02,669 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:45:02,672 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:45:02,707 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:45:02,708 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:45:02,710 [INFO]  * Restarting with stat
+2024-10-30 12:45:15,225 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:45:15,225 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:45:15,247 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:45:15,247 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:45:15,249 [INFO]  * Restarting with stat
+2024-10-30 12:45:27,607 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:45:27,607 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:45:27,623 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:45:27,623 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:45:27,625 [INFO]  * Restarting with stat
+2024-10-30 12:45:39,955 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:45:39,957 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:45:39,993 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:45:39,993 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:45:39,995 [INFO]  * Restarting with stat
+2024-10-30 12:45:52,420 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:45:52,423 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:45:52,461 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:45:52,461 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:45:52,464 [INFO]  * Restarting with stat
+2024-10-30 12:46:04,918 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:46:04,920 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:46:04,969 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:46:04,970 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:46:04,973 [INFO]  * Restarting with stat
+2024-10-30 12:46:17,432 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:46:17,434 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:46:17,483 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:46:17,483 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:46:17,487 [INFO]  * Restarting with stat
+2024-10-30 12:46:29,936 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:46:29,938 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:46:29,971 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:46:29,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:46:29,973 [INFO]  * Restarting with stat
+2024-10-30 12:46:42,433 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:46:42,434 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:46:42,486 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:46:42,486 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:46:42,490 [INFO]  * Restarting with stat
+2024-10-30 12:46:54,908 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:46:54,911 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:46:54,965 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:46:54,966 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:46:54,969 [INFO]  * Restarting with stat
+2024-10-30 12:47:07,422 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:47:07,423 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:47:07,472 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:47:07,472 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:47:07,476 [INFO]  * Restarting with stat
+2024-10-30 12:47:19,935 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:47:19,936 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:47:19,970 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:47:19,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:47:19,972 [INFO]  * Restarting with stat
+2024-10-30 12:47:32,441 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:47:32,444 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:47:32,488 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:47:32,489 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:47:32,491 [INFO]  * Restarting with stat
+2024-10-30 12:47:44,930 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:47:44,932 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:47:44,970 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:47:44,970 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:47:44,973 [INFO]  * Restarting with stat
+2024-10-30 12:47:57,435 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:47:57,437 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:47:57,473 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:47:57,473 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:47:57,476 [INFO]  * Restarting with stat
+2024-10-30 12:48:09,924 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:48:09,925 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:48:09,977 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:48:09,978 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:48:09,982 [INFO]  * Restarting with stat
+2024-10-30 12:48:22,418 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:48:22,420 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:48:22,472 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:48:22,472 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:48:22,476 [INFO]  * Restarting with stat
+2024-10-30 12:48:34,915 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:48:34,917 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:48:34,971 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:48:34,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:48:34,975 [INFO]  * Restarting with stat
+2024-10-30 12:48:47,412 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:48:47,415 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:48:47,453 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:48:47,454 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:48:47,457 [INFO]  * Restarting with stat
+2024-10-30 12:48:59,940 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:48:59,945 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:48:59,978 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:48:59,979 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:48:59,981 [INFO]  * Restarting with stat
+2024-10-30 12:49:12,415 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:49:12,416 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:49:12,436 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:49:12,436 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:49:12,438 [INFO]  * Restarting with stat
+2024-10-30 12:49:24,929 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:49:24,931 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:49:24,978 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:49:24,979 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:49:24,982 [INFO]  * Restarting with stat
+2024-10-30 12:49:37,419 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:49:37,420 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:49:37,468 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:49:37,468 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:49:37,472 [INFO]  * Restarting with stat
+2024-10-30 12:49:49,943 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:49:49,945 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:49:49,977 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:49:49,977 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:49:49,980 [INFO]  * Restarting with stat
+2024-10-30 12:50:02,454 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:50:02,456 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:50:02,503 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:50:02,503 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:50:02,507 [INFO]  * Restarting with stat
+2024-10-30 12:50:14,937 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:50:14,941 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:50:14,973 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:50:14,974 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:50:14,976 [INFO]  * Restarting with stat
+2024-10-30 12:50:27,409 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:50:27,411 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:50:27,463 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:50:27,463 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:50:27,467 [INFO]  * Restarting with stat
+2024-10-30 12:50:39,909 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:50:39,911 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:50:39,963 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:50:39,964 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:50:39,967 [INFO]  * Restarting with stat
+2024-10-30 12:50:52,417 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:50:52,419 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:50:52,467 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:50:52,468 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:50:52,471 [INFO]  * Restarting with stat
+2024-10-30 12:51:04,919 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:51:04,919 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:51:04,962 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:51:04,963 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:51:04,966 [INFO]  * Restarting with stat
+2024-10-30 12:51:17,417 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:51:17,421 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:51:17,470 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:51:17,470 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:51:17,474 [INFO]  * Restarting with stat
+2024-10-30 12:51:29,910 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:51:29,911 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:51:29,954 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:51:29,955 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:51:29,958 [INFO]  * Restarting with stat
+2024-10-30 12:51:42,416 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:51:42,417 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:51:42,465 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:51:42,465 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:51:42,469 [INFO]  * Restarting with stat
+2024-10-30 12:51:54,918 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:51:54,919 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:51:54,973 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:51:54,974 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:51:54,977 [INFO]  * Restarting with stat
+2024-10-30 12:52:07,419 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:52:07,423 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:52:07,457 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:52:07,457 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:52:07,459 [INFO]  * Restarting with stat
+2024-10-30 12:52:19,914 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:52:19,915 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:52:19,953 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:52:19,953 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:52:19,956 [INFO]  * Restarting with stat
+2024-10-30 12:52:32,413 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:52:32,418 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:52:32,477 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:52:32,477 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:52:32,481 [INFO]  * Restarting with stat
+2024-10-30 12:52:44,920 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:52:44,922 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:52:44,954 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:52:44,954 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:52:44,956 [INFO]  * Restarting with stat
+2024-10-30 12:52:57,410 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:52:57,414 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:52:57,453 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:52:57,454 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:52:57,457 [INFO]  * Restarting with stat
+2024-10-30 12:53:09,920 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:53:09,923 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:53:09,974 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:53:09,975 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:53:09,979 [INFO]  * Restarting with stat
+2024-10-30 12:53:22,437 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:53:22,438 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:53:22,481 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:53:22,482 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:53:22,483 [INFO]  * Restarting with stat
+2024-10-30 12:53:34,915 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:53:34,916 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:53:34,954 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:53:34,954 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:53:34,957 [INFO]  * Restarting with stat
+2024-10-30 12:53:47,461 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:53:47,465 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:53:47,497 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:53:47,498 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:53:47,500 [INFO]  * Restarting with stat
+2024-10-30 12:53:59,936 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:53:59,937 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:53:59,967 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:53:59,967 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:53:59,969 [INFO]  * Restarting with stat
+2024-10-30 12:54:12,435 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:54:12,440 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:54:12,491 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:54:12,492 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:54:12,494 [INFO]  * Restarting with stat
+2024-10-30 12:54:24,940 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:54:24,941 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:54:24,974 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:54:24,974 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:54:24,977 [INFO]  * Restarting with stat
+2024-10-30 12:54:37,437 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:54:37,438 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:54:37,486 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:54:37,487 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:54:37,490 [INFO]  * Restarting with stat
+2024-10-30 12:54:49,911 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:54:49,915 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:54:49,954 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:54:49,955 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:54:49,958 [INFO]  * Restarting with stat
+2024-10-30 12:55:02,421 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:55:02,423 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:55:02,460 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:55:02,461 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:55:02,464 [INFO]  * Restarting with stat
+2024-10-30 12:55:14,963 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:55:14,964 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:55:15,000 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:55:15,001 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:55:15,003 [INFO]  * Restarting with stat
+2024-10-30 12:55:27,432 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:55:27,433 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:55:27,470 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:55:27,470 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:55:27,473 [INFO]  * Restarting with stat
+2024-10-30 12:55:39,930 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:55:39,932 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:55:39,964 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:55:39,965 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:55:39,967 [INFO]  * Restarting with stat
+2024-10-30 12:55:52,443 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:55:52,448 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:55:52,475 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:55:52,475 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:55:52,477 [INFO]  * Restarting with stat
+2024-10-30 12:56:04,912 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:56:04,915 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:56:04,954 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:56:04,954 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:56:04,957 [INFO]  * Restarting with stat
+2024-10-30 12:56:17,411 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:56:17,412 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:56:17,450 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:56:17,451 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:56:17,454 [INFO]  * Restarting with stat
+2024-10-30 12:56:29,903 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:56:29,906 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:56:29,948 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:56:29,948 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:56:29,951 [INFO]  * Restarting with stat
+2024-10-30 12:56:42,422 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:56:42,426 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:56:42,460 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:56:42,460 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:56:42,462 [INFO]  * Restarting with stat
+2024-10-30 12:56:54,915 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:56:54,917 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:56:54,955 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:56:54,956 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:56:54,959 [INFO]  * Restarting with stat
+2024-10-30 12:57:07,446 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:57:07,448 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:57:07,496 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:57:07,496 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:57:07,500 [INFO]  * Restarting with stat
+2024-10-30 12:57:19,932 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:57:19,934 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:57:19,971 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:57:19,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:57:19,974 [INFO]  * Restarting with stat
+2024-10-30 12:57:32,418 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:57:32,419 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:57:32,459 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:57:32,460 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:57:32,461 [INFO]  * Restarting with stat
+2024-10-30 12:57:44,935 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:57:44,937 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:57:44,979 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:57:44,980 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:57:44,981 [INFO]  * Restarting with stat
+2024-10-30 12:57:57,434 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:57:57,436 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:57:57,482 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:57:57,483 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:57:57,484 [INFO]  * Restarting with stat
+2024-10-30 12:58:09,953 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:58:09,955 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:58:09,987 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:58:09,988 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:58:09,990 [INFO]  * Restarting with stat
+2024-10-30 12:58:22,408 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:58:22,410 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:58:22,451 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:58:22,451 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:58:22,454 [INFO]  * Restarting with stat
+2024-10-30 12:58:34,913 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:58:34,915 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:58:34,969 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:58:34,970 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:58:34,973 [INFO]  * Restarting with stat
+2024-10-30 12:58:47,411 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:58:47,412 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:58:47,453 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:58:47,454 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:58:47,457 [INFO]  * Restarting with stat
+2024-10-30 12:58:59,927 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:58:59,931 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:58:59,967 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:58:59,967 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:58:59,970 [INFO]  * Restarting with stat
+2024-10-30 12:59:12,415 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:59:12,418 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:59:12,454 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:59:12,454 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:59:12,457 [INFO]  * Restarting with stat
+2024-10-30 12:59:24,924 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:59:24,925 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:59:24,960 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:59:24,960 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:59:24,963 [INFO]  * Restarting with stat
+2024-10-30 12:59:37,409 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:59:37,412 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:59:37,448 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:59:37,449 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:59:37,452 [INFO]  * Restarting with stat
+2024-10-30 12:59:49,909 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 12:59:49,912 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 12:59:49,951 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 12:59:49,951 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 12:59:49,954 [INFO]  * Restarting with stat
+2024-10-30 13:00:02,433 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:00:02,436 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:00:02,480 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:00:02,480 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:00:02,482 [INFO]  * Restarting with stat
+2024-10-30 13:00:14,916 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:00:14,918 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:00:14,956 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:00:14,957 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:00:14,960 [INFO]  * Restarting with stat
+2024-10-30 13:00:27,416 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:00:27,418 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:00:27,454 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:00:27,455 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:00:27,456 [INFO]  * Restarting with stat
+2024-10-30 13:00:39,952 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:00:39,953 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:00:39,998 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:00:39,998 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:00:40,000 [INFO]  * Restarting with stat
+2024-10-30 13:00:52,438 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:00:52,444 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:00:52,484 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:00:52,484 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:00:52,486 [INFO]  * Restarting with stat
+2024-10-30 13:01:04,917 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:01:04,920 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:01:04,959 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:01:04,959 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:01:04,962 [INFO]  * Restarting with stat
+2024-10-30 13:01:17,438 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:01:17,440 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:01:17,467 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:01:17,467 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:01:17,471 [INFO]  * Restarting with stat
+2024-10-30 13:01:29,912 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:01:29,913 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:01:29,961 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:01:29,962 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:01:29,965 [INFO]  * Restarting with stat
+2024-10-30 13:01:42,425 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:01:42,426 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:01:42,458 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:01:42,458 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:01:42,461 [INFO]  * Restarting with stat
+2024-10-30 13:01:54,916 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:01:54,918 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:01:54,966 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:01:54,967 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:01:54,971 [INFO]  * Restarting with stat
+2024-10-30 13:02:07,418 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:02:07,422 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:02:07,482 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:02:07,483 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:02:07,486 [INFO]  * Restarting with stat
+2024-10-30 13:02:19,918 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:02:19,919 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:02:19,968 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:02:19,969 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:02:19,972 [INFO]  * Restarting with stat
+2024-10-30 13:02:32,432 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:02:32,434 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:02:32,471 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:02:32,471 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:02:32,473 [INFO]  * Restarting with stat
+2024-10-30 13:02:44,920 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:02:44,922 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:02:44,970 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:02:44,970 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:02:44,974 [INFO]  * Restarting with stat
+2024-10-30 13:02:57,456 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:02:57,457 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:02:57,484 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:02:57,484 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:02:57,488 [INFO]  * Restarting with stat
+2024-10-30 13:03:09,917 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:03:09,921 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:03:09,970 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:03:09,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:03:09,975 [INFO]  * Restarting with stat
+2024-10-30 13:03:22,407 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:03:22,408 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:03:22,446 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:03:22,447 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:03:22,450 [INFO]  * Restarting with stat
+2024-10-30 13:03:34,914 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:03:34,915 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:03:34,963 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:03:34,963 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:03:34,967 [INFO]  * Restarting with stat
+2024-10-30 13:03:47,447 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:03:47,451 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:03:47,483 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:03:47,484 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:03:47,486 [INFO]  * Restarting with stat
+2024-10-30 13:03:59,931 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:03:59,933 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:03:59,981 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:03:59,982 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:03:59,986 [INFO]  * Restarting with stat
+2024-10-30 13:04:12,421 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:04:12,423 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:04:12,473 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:04:12,474 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:04:12,478 [INFO]  * Restarting with stat
+2024-10-30 13:04:24,912 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:04:24,915 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:04:24,954 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:04:24,954 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:04:24,957 [INFO]  * Restarting with stat
+2024-10-30 13:04:37,408 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:04:37,412 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:04:37,462 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:04:37,462 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:04:37,466 [INFO]  * Restarting with stat
+2024-10-30 13:04:49,933 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:04:49,934 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:04:49,978 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:04:49,978 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:04:49,980 [INFO]  * Restarting with stat
+2024-10-30 13:05:02,408 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:05:02,412 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:05:02,461 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:05:02,462 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:05:02,465 [INFO]  * Restarting with stat
+2024-10-30 13:05:14,916 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:05:14,919 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:05:14,974 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:05:14,974 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:05:14,978 [INFO]  * Restarting with stat
+2024-10-30 13:05:27,429 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:05:27,431 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:05:27,463 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:05:27,463 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:05:27,466 [INFO]  * Restarting with stat
+2024-10-30 13:05:39,939 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:05:39,942 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:05:39,984 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:05:39,984 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:05:39,987 [INFO]  * Restarting with stat
+2024-10-30 13:05:52,430 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:05:52,431 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:05:52,461 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:05:52,461 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:05:52,464 [INFO]  * Restarting with stat
+2024-10-30 13:06:04,917 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:06:04,918 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:06:04,971 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:06:04,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:06:04,975 [INFO]  * Restarting with stat
+2024-10-30 13:06:17,410 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:06:17,412 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:06:17,460 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:06:17,461 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:06:17,465 [INFO]  * Restarting with stat
+2024-10-30 13:06:29,920 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:06:29,922 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:06:29,964 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:06:29,965 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:06:29,968 [INFO]  * Restarting with stat
+2024-10-30 13:06:42,409 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:06:42,410 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:06:42,446 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:06:42,446 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:06:42,449 [INFO]  * Restarting with stat
+2024-10-30 13:06:54,913 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:06:54,914 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:06:54,958 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:06:54,958 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:06:54,961 [INFO]  * Restarting with stat
+2024-10-30 13:07:07,412 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:07:07,414 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:07:07,468 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:07:07,469 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:07:07,473 [INFO]  * Restarting with stat
+2024-10-30 13:07:19,908 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:07:19,910 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:07:19,965 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:07:19,966 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:07:19,970 [INFO]  * Restarting with stat
+2024-10-30 13:07:32,417 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:07:32,419 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:07:32,458 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:07:32,459 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:07:32,462 [INFO]  * Restarting with stat
+2024-10-30 13:07:44,905 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:07:44,908 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:07:44,945 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:07:44,945 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:07:44,948 [INFO]  * Restarting with stat
+2024-10-30 13:07:57,406 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:07:57,407 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:07:57,446 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:07:57,446 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:07:57,449 [INFO]  * Restarting with stat
+2024-10-30 13:08:09,917 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:08:09,921 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:08:09,970 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:08:09,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:08:09,974 [INFO]  * Restarting with stat
+2024-10-30 13:08:22,433 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:08:22,434 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:08:22,469 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:08:22,470 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:08:22,471 [INFO]  * Restarting with stat
+2024-10-30 13:08:34,937 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:08:34,941 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:08:34,974 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:08:34,975 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:08:34,976 [INFO]  * Restarting with stat
+2024-10-30 13:08:47,424 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:08:47,426 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:08:47,473 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:08:47,474 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:08:47,477 [INFO]  * Restarting with stat
+2024-10-30 13:08:59,929 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:08:59,932 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:08:59,971 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:08:59,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:08:59,974 [INFO]  * Restarting with stat
+2024-10-30 13:09:12,415 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:09:12,416 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:09:12,464 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:09:12,465 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:09:12,469 [INFO]  * Restarting with stat
+2024-10-30 13:09:24,931 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:09:24,933 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:09:24,981 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:09:24,982 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:09:24,985 [INFO]  * Restarting with stat
+2024-10-30 13:09:37,438 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:09:37,439 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:09:37,482 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:09:37,483 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:09:37,486 [INFO]  * Restarting with stat
+2024-10-30 13:09:49,932 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:09:49,933 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:09:49,971 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:09:49,972 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:09:49,975 [INFO]  * Restarting with stat
+2024-10-30 13:10:02,408 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:10:02,410 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:10:02,455 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:10:02,456 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:10:02,459 [INFO]  * Restarting with stat
+2024-10-30 13:10:14,939 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:10:14,941 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:10:14,970 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:10:14,970 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:10:14,972 [INFO]  * Restarting with stat
+2024-10-30 13:10:27,429 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:10:27,430 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:10:27,469 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:10:27,469 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:10:27,471 [INFO]  * Restarting with stat
+2024-10-30 13:10:39,935 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:10:39,937 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:10:39,973 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:10:39,973 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:10:39,976 [INFO]  * Restarting with stat
+2024-10-30 13:10:52,447 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:10:52,451 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:10:52,490 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:10:52,490 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:10:52,493 [INFO]  * Restarting with stat
+2024-10-30 13:11:04,939 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:11:04,941 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:11:04,989 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:11:04,989 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:11:04,991 [INFO]  * Restarting with stat
+2024-10-30 13:11:17,426 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:11:17,428 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:11:17,459 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:11:17,459 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:11:17,462 [INFO]  * Restarting with stat
+2024-10-30 13:11:29,928 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:11:29,930 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:11:29,975 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:11:29,975 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:11:29,978 [INFO]  * Restarting with stat
+2024-10-30 13:11:42,421 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:11:42,424 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:11:42,472 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:11:42,472 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:11:42,473 [INFO]  * Restarting with stat
+2024-10-30 13:11:54,931 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:11:54,935 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:11:54,968 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:11:54,968 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:11:54,971 [INFO]  * Restarting with stat
+2024-10-30 13:12:07,419 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:12:07,420 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:12:07,468 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:12:07,468 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:12:07,472 [INFO]  * Restarting with stat
+2024-10-30 13:12:19,922 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:12:19,923 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:12:19,972 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:12:19,972 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:12:19,976 [INFO]  * Restarting with stat
+2024-10-30 13:12:32,431 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:12:32,435 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:12:32,467 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:12:32,468 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:12:32,470 [INFO]  * Restarting with stat
+2024-10-30 13:12:44,931 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:12:44,932 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:12:44,967 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:12:44,967 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:12:44,969 [INFO]  * Restarting with stat
+2024-10-30 13:12:57,423 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:12:57,425 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:12:57,463 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:12:57,463 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:12:57,466 [INFO]  * Restarting with stat
+2024-10-30 13:13:09,936 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:13:09,937 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:13:09,982 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:13:09,983 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:13:09,985 [INFO]  * Restarting with stat
+2024-10-30 13:13:22,426 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:13:22,427 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:13:22,458 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:13:22,459 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:13:22,462 [INFO]  * Restarting with stat
+2024-10-30 13:13:34,939 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:13:34,941 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:13:34,978 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:13:34,978 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:13:34,980 [INFO]  * Restarting with stat
+2024-10-30 13:13:47,424 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:13:47,426 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:13:47,478 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:13:47,479 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:13:47,482 [INFO]  * Restarting with stat
+2024-10-30 13:13:59,882 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:13:59,885 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:13:59,926 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:13:59,927 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:13:59,928 [INFO]  * Restarting with stat
+2024-10-30 13:14:12,349 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:14:12,351 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:14:12,368 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:14:12,368 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:14:12,370 [INFO]  * Restarting with stat
+2024-10-30 13:14:24,693 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:14:24,695 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:14:24,750 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:14:24,751 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:14:24,755 [INFO]  * Restarting with stat
+2024-10-30 13:14:37,186 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:14:37,187 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:14:37,235 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:14:37,235 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:14:37,239 [INFO]  * Restarting with stat
+2024-10-30 13:14:49,708 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:14:49,709 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:14:49,732 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:14:49,732 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:14:49,733 [INFO]  * Restarting with stat
+2024-10-30 13:15:02,204 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:15:02,206 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:15:02,242 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:15:02,242 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:15:02,245 [INFO]  * Restarting with stat
+2024-10-30 13:15:14,603 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:15:14,611 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:15:14,663 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:15:14,664 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:15:14,666 [INFO]  * Restarting with stat
+2024-10-30 13:15:31,291 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:15:31,292 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:15:31,313 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:15:31,314 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:15:31,315 [INFO]  * Restarting with stat
+2024-10-30 13:16:34,146 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:16:34,146 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:16:34,167 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:16:34,168 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:16:34,169 [INFO]  * Restarting with stat
+2024-10-30 13:18:01,584 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:18:01,586 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:18:01,608 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:18:01,608 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:18:01,610 [INFO]  * Restarting with stat
+2024-10-30 13:19:20,764 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:19:20,766 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:19:20,811 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:19:20,812 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:19:20,814 [INFO]  * Restarting with stat
+2024-10-30 13:26:04,677 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:26:04,679 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:26:04,715 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:26:04,715 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:26:04,718 [INFO]  * Restarting with stat
+2024-10-30 13:26:32,647 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:26:32,651 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:26:32,703 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:26:32,703 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:26:32,705 [INFO]  * Restarting with stat
+2024-10-30 13:27:05,113 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:27:05,117 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:27:05,138 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:27:05,139 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:27:05,142 [INFO]  * Restarting with stat
+2024-10-30 13:27:17,506 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:27:17,507 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:27:17,546 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:27:17,546 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:27:17,549 [INFO]  * Restarting with stat
+2024-10-30 13:27:30,007 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:27:30,010 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:27:30,055 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:27:30,056 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:27:30,059 [INFO]  * Restarting with stat
+2024-10-30 13:27:42,490 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:27:42,494 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:27:42,542 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:27:42,542 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:27:42,546 [INFO]  * Restarting with stat
+2024-10-30 13:27:54,991 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:27:54,993 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:27:55,039 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:27:55,040 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:27:55,043 [INFO]  * Restarting with stat
+2024-10-30 13:28:07,519 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:28:07,520 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:28:07,557 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:28:07,558 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:28:07,559 [INFO]  * Restarting with stat
+2024-10-30 13:28:20,026 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:28:20,028 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:28:20,065 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:28:20,066 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:28:20,068 [INFO]  * Restarting with stat
+2024-10-30 13:28:32,488 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:28:32,492 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:28:32,525 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:28:32,525 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:28:32,527 [INFO]  * Restarting with stat
+2024-10-30 13:28:45,022 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:28:45,026 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:28:45,075 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:28:45,075 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:28:45,079 [INFO]  * Restarting with stat
+2024-10-30 13:28:57,492 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:28:57,496 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:28:57,536 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:28:57,536 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:28:57,538 [INFO]  * Restarting with stat
+2024-10-30 13:29:10,009 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:29:10,010 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:29:10,046 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:29:10,046 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:29:10,049 [INFO]  * Restarting with stat
+2024-10-30 13:29:22,495 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:29:22,497 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:29:22,532 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:29:22,533 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:29:22,535 [INFO]  * Restarting with stat
+2024-10-30 13:29:35,025 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:29:35,026 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:29:35,054 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:29:35,054 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:29:35,057 [INFO]  * Restarting with stat
+2024-10-30 13:29:47,505 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:29:47,506 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:29:47,547 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:29:47,547 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:29:47,548 [INFO]  * Restarting with stat
+2024-10-30 13:29:59,970 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:29:59,971 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:30:00,015 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:30:00,015 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:30:00,018 [INFO]  * Restarting with stat
+2024-10-30 13:30:13,619 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:30:13,620 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:30:13,639 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:30:13,640 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:30:13,642 [INFO]  * Restarting with stat
+2024-10-30 13:30:26,794 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:30:26,795 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:30:26,856 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:30:26,857 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:30:26,861 [INFO]  * Restarting with stat
+2024-10-30 13:30:41,204 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:30:41,206 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:30:41,227 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:30:41,228 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:30:41,229 [INFO]  * Restarting with stat
+2024-10-30 13:30:53,944 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:30:53,945 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:30:53,966 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:30:53,966 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:30:53,967 [INFO]  * Restarting with stat
+2024-10-30 13:31:43,282 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:31:43,285 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:31:43,339 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:31:43,339 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:31:43,341 [INFO]  * Restarting with stat
+2024-10-30 13:32:21,336 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:32:21,337 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:32:21,360 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:32:21,360 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:32:21,362 [INFO]  * Restarting with stat
+2024-10-30 13:34:28,156 [ERROR] 카메라를 열 수 없습니다.
+2024-10-30 13:34:28,158 [ERROR] 카메라가 준비되지 않아 재시도합니다.
+2024-10-30 13:34:28,193 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 13:34:28,194 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 13:34:28,196 [INFO]  * Restarting with stat
