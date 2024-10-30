@@ -9,32 +9,49 @@ import src.utils as utils
 def login_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        if 'username' not in session:
+        if 'user_info' not in session:
             flash('로그인 후 이용하세요.', 'warning')
-            return redirect(url_for('login'))
+            return redirect(url_for('main.user.login'))
         
-        user_id = session.get('userid')
+        user_info = session.get('user_info')
         
-        is_id_exist = False
-        for db_user in config.get_user_db():
-            if db_user['login_id'] == user_id:
-                is_id_exist = True
-                break
-        
-        if is_id_exist == False:
+        if check_account(user_info.get('user_id'), user_info.get('user_pw')) == False:
             session.clear()
-            flash('존재하지 않는 계정입니다. 다시 로그인하세요.', 'error')
-            return redirect(url_for('login'))
+            flash('다시 로그인하세요.', 'error')
+            return redirect(url_for('main.user.login'))
         
         if 'lastworktime' in session:
             if utils.convert_now_ftime(session['lastworktime']) < utils.convert_now_ftime(utils.get_now_ftime()) - timedelta(minutes=5):
                 session.clear()
                 flash('세션이 만료되었습니다. 다시 로그인하세요.', 'error')
-                return redirect(url_for('login'))
+                return redirect(url_for('main.user.login'))
         
         session['lastworktime'] = utils.get_now_ftime()
         
         return f(*args, **kwargs)
     return decorated_function
 
-def (user_id):
+def check_id_duplicate(_user_id):
+    for db_user in config.get_user_db():
+        if db_user['user_id'] == _user_id:
+            return db_user
+    return False
+
+def check_account(_user_id, _user_pw):
+    for db_user in config.get_user_db():
+        if db_user['user_id'] == _user_id and db_user['user_pw'] == utils.gen_hash(_user_pw):
+            return db_user
+    return False
+
+def regi_account(_user_id, _user_pw, _user_name, _uuid=utils.gen_rhash()):
+    data = config.get_user_db()
+    regi_data = {
+        'user_id': _user_id,
+        'user_pw': utils.gen_hash(_user_pw),
+        'user_name': _user_name,
+        'uuid': _uuid,
+        'regi_date': utils.get_now_ftime()
+    }
+    
+    data.append(regi_data)
+    config.set_user_db(data)

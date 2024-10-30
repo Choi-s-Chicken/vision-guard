@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<h2>대시보드<h2><hr>
+<h4>내 기기</h4>
+<div class="row">
+    <div class="col">
+        <div class="card" style="width: 14rem;">
+            <div class="card-body">
+                <h5 class="card-title">기기 추가하기</h5>
+                <p class="card-text">새로운 기기를 추가하여 관리하세요.</p>
+                <a href="/device/regi" class="btn btn-primary">추가하기</a>
+            </div>
+        </div>
+    </div>
+    {% for device in devices %}
+    <div class="col">
+        <div class="card" style="width: 14rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{ device['name'] }}</h5>
+                <p class="card-text">{{ device['description'] }}</p>
+                <a href="/device/view/{{ device['uuid'] }}" class="btn btn-primary">보기</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<hr>
+
+<h4>내 장소</h4>
+<div class="row">
+    <div class="col">
+        <div class="card" style="width: 14rem;">
+            <div class="card-body">
+                <h5 class="card-title">공간 만들기</h5>
+                <p class="card-text">기기와 사람의 접근을 관리할 구역을 생성하세요.</p>
+                <a href="/workspace/make" class="btn btn-primary">만들러가기</a>
+            </div>
+        </div>
+    </div>
+    {% for my_workspace in my_workspaces %}
+    <div class="col">
+        <div class="card" style="width: 14rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{my_workspace['name']}}</h5>
+                <p class="card-text">{{my_workspace['description']}}</p>
+                <a href="/workspace/view/{{ my_workspace['uuid'] }}" class="btn btn-primary">보기</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<hr>
+
+{% endblock %}

@@ -25,7 +25,7 @@
         <header>
             <p>현재 시간: <span id="time"></span>
                 {% if user_info %}
-                    &nbsp;|&nbsp;{{ user_info['login_name'] }}({{ user_info['login_id'] }}) | <a href="/user/logout">로그아웃</a>
+                    &nbsp;|&nbsp;{{ user_info['user_name'] }}({{ user_info['user_id'] }}) | <a href="/user/logout">로그아웃</a>
                 {% endif %}
             <h2 id="title" style="cursor: pointer;"><img src="{{ url_for('static', filename='title_icon.png') }}" style="height: 1.3em; vertical-align: middle;">&nbsp;비전가드</h2>
             <hr>
