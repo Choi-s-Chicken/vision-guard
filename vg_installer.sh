@@ -21,7 +21,10 @@ if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then
     exit 1
 fi
 
-# init
+# init camera
+echo "Initializing camera..."
+echo "start_x=1" | sudo tee -a /boot/firmware/config.txt
+echo "gpu_mem=128" | sudo tee -a /boot/firmware/config.txt
 
 # install module
 echo "Installing python modules..."

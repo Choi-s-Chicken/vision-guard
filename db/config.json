@@ -1,5 +1,5 @@
 {
-    "status": "normal",
+    "status": "critical",
     "alarm": false,
     "camera_ready": false,
     "reboot_poss": true
