@@ -8316,3 +8316,110 @@ UnboundLocalError: cannot access local variable 'bol' where it is not associated
 2024-10-30 15:43:12,490 [INFO]  * Restarting with stat
 2024-10-30 15:43:18,439 [WARNING]  * Debugger is active!
 2024-10-30 15:43:18,441 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:45:30,844 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 15:45:30,846 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 15:45:30,849 [INFO]  * Restarting with stat
+2024-10-30 15:45:36,980 [WARNING]  * Debugger is active!
+2024-10-30 15:45:36,985 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:45:38,389 [INFO] 192.168.10.243 - - [30/Oct/2024 15:45:38] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-30 15:45:38,442 [INFO] 192.168.10.243 - - [30/Oct/2024 15:45:38] "GET /login HTTP/1.1" 200 -
+2024-10-30 15:45:38,521 [INFO] 192.168.10.243 - - [30/Oct/2024 15:45:38] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-30 15:45:41,779 [INFO] 192.168.10.243 - - [30/Oct/2024 15:45:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-30 15:45:41,860 [INFO] 192.168.10.243 - - [30/Oct/2024 15:45:41] "GET / HTTP/1.1" 200 -
+2024-10-30 15:45:41,913 [INFO] 192.168.10.243 - - [30/Oct/2024 15:45:41] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:49:52,312 [INFO] 192.168.10.243 - - [30/Oct/2024 15:49:52] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:49:52,386 [INFO] 192.168.10.243 - - [30/Oct/2024 15:49:52] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:49:55,470 [INFO] 192.168.10.243 - - [30/Oct/2024 15:49:55] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:49:55,531 [INFO] 192.168.10.243 - - [30/Oct/2024 15:49:55] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-30 15:49:56,608 [INFO] 192.168.10.243 - - [30/Oct/2024 15:49:56] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:49:56,662 [INFO] 192.168.10.243 - - [30/Oct/2024 15:49:56] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:49:57,181 [INFO] 192.168.10.243 - - [30/Oct/2024 15:49:57] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:49:57,232 [INFO] 192.168.10.243 - - [30/Oct/2024 15:49:57] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:50:49,181 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:50:49,639 [INFO]  * Restarting with stat
+2024-10-30 15:51:01,746 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 15:51:01,747 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 15:51:01,754 [INFO]  * Restarting with stat
+2024-10-30 15:51:07,899 [WARNING]  * Debugger is active!
+2024-10-30 15:51:07,906 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:52:23,716 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:23] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-10-30 15:52:23,801 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:23] "GET /login HTTP/1.1" 200 -
+2024-10-30 15:52:23,860 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:23] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-30 15:52:26,075 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-30 15:52:26,169 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:26] "GET / HTTP/1.1" 200 -
+2024-10-30 15:52:26,213 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:26] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:52:27,742 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:27] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:52:27,796 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:27] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:52:30,823 [INFO] 192.168.10.243 - - [30/Oct/2024 15:52:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-30 15:52:39,624 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:52:39,880 [INFO]  * Restarting with stat
+2024-10-30 15:52:46,007 [WARNING]  * Debugger is active!
+2024-10-30 15:52:46,008 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:52:47,031 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:52:47,273 [INFO]  * Restarting with stat
+2024-10-30 15:52:53,103 [WARNING]  * Debugger is active!
+2024-10-30 15:52:53,104 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:53:20,523 [INFO] 192.168.10.243 - - [30/Oct/2024 15:53:20] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-30 15:53:20,598 [INFO] 192.168.10.243 - - [30/Oct/2024 15:53:20] "GET /login HTTP/1.1" 200 -
+2024-10-30 15:53:20,656 [INFO] 192.168.10.243 - - [30/Oct/2024 15:53:20] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-30 15:53:23,450 [INFO] 192.168.10.243 - - [30/Oct/2024 15:53:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-30 15:53:23,551 [INFO] 192.168.10.243 - - [30/Oct/2024 15:53:23] "GET / HTTP/1.1" 200 -
+2024-10-30 15:53:23,616 [INFO] 192.168.10.243 - - [30/Oct/2024 15:53:23] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:54:34,176 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:54:34,423 [INFO]  * Restarting with stat
+2024-10-30 15:54:40,273 [WARNING]  * Debugger is active!
+2024-10-30 15:54:40,275 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:54:46,353 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:54:46,621 [INFO]  * Restarting with stat
+2024-10-30 15:54:52,413 [WARNING]  * Debugger is active!
+2024-10-30 15:54:52,414 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:54:53,485 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:54:53,736 [INFO]  * Restarting with stat
+2024-10-30 15:54:59,592 [WARNING]  * Debugger is active!
+2024-10-30 15:54:59,593 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:55:11,677 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:55:11,921 [INFO]  * Restarting with stat
+2024-10-30 15:55:17,822 [WARNING]  * Debugger is active!
+2024-10-30 15:55:17,824 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:55:20,260 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:20] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-10-30 15:55:20,308 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:20] "GET /login HTTP/1.1" 200 -
+2024-10-30 15:55:20,362 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:20] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:55:22,270 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-30 15:55:22,351 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:22] "GET / HTTP/1.1" 200 -
+2024-10-30 15:55:22,396 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:22] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:55:23,425 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:23] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:55:23,497 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:23] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:55:27,079 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:27] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:55:27,130 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:27] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:55:27,614 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:27] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:55:27,679 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:27] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:55:27,909 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:27] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:55:27,973 [INFO] 192.168.10.243 - - [30/Oct/2024 15:55:27] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:56:20,308 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:56:20,548 [INFO]  * Restarting with stat
+2024-10-30 15:56:26,584 [WARNING]  * Debugger is active!
+2024-10-30 15:56:26,585 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:56:28,620 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:56:28,871 [INFO]  * Restarting with stat
+2024-10-30 15:56:34,727 [WARNING]  * Debugger is active!
+2024-10-30 15:56:34,729 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:57:42,595 [INFO] 192.168.10.243 - - [30/Oct/2024 15:57:42] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-10-30 15:57:42,684 [INFO] 192.168.10.243 - - [30/Oct/2024 15:57:42] "GET /login HTTP/1.1" 200 -
+2024-10-30 15:57:42,760 [INFO] 192.168.10.243 - - [30/Oct/2024 15:57:42] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-10-30 15:57:46,026 [INFO] 192.168.10.243 - - [30/Oct/2024 15:57:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-30 15:57:46,106 [INFO] 192.168.10.243 - - [30/Oct/2024 15:57:46] "GET / HTTP/1.1" 200 -
+2024-10-30 15:57:46,157 [INFO] 192.168.10.243 - - [30/Oct/2024 15:57:46] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:57:52,810 [INFO] 192.168.10.243 - - [30/Oct/2024 15:57:52] "GET /system/log HTTP/1.1" 200 -
+2024-10-30 15:57:52,864 [INFO] 192.168.10.243 - - [30/Oct/2024 15:57:52] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-10-30 15:58:38,887 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:58:39,163 [INFO]  * Restarting with stat
+2024-10-30 16:00:02,076 [INFO] 사진을 촬영했습니다.
+2024-10-30 16:00:40,390 [INFO] 사진을 촬영했습니다.
+2024-10-30 16:00:40,427 [DEBUG] Starting new HTTP connection (1): visionguard.dyhs.kr:80
+2024-10-30 16:00:41,891 [DEBUG] http://visionguard.dyhs.kr:80 "POST / HTTP/11" 502 6360

@@ -36,40 +36,16 @@ gpio_ctrl.control_led(green=False, yellow=False, red=False)
 
 # capture target
 def _capture_target(_capture_delay):
-    # # Camera load
-    # while True:
-    #     cap = cv2.VideoCapture(0)
-    #     if cap.isOpened():
-    #         config.set_config('status', config.STATUS_NORMAL)
-    #         config.set_config('camera_ready', True)
-    #     else:
-    #         config.set_config('status', config.STATUS_CRITI)
-    #         config.set_config('camera_ready', False)
-    #         logger.error("카메라를 열 수 없습니다.")
-        
-    #     if config.get_config('camera_ready') == False:
-    #         logger.error("카메라가 준비되지 않아 10초 후 재시도합니다.")
-    #         time.sleep(10)
-    #         continue
-        
-    #     break
-    
-    # Capture frame
-    while True:
-        # ret, frame = cap.read()
-        # if not ret:
-        #     logger.error("프레임을 가져올 수 없습니다.")
-        #     time.sleep(_capture_delay)
-        #     continue
-        
+    while True:        
         subprocess.run(["libcamera-jpeg", "-o", "capture.jpg"])
         
         # Read the captured image
-        if os.exists("capture.jpg") == False:
-            logger.error("사진 정보를 읽을 수 없습니다.")
+        if os.path.exists("capture.jpg") == False:
+            logger.error("사진 정보 얻기에 실패했습니다.")
             config.set_config('status', config.STATUS_CRITI)
             time.sleep(_capture_delay)
             continue
+        logger.info("사진을 촬영했습니다.")
         
         with open("capture.jpg", "rb") as image_file:
             frame = image_file.read()
@@ -79,19 +55,17 @@ def _capture_target(_capture_delay):
         req_data = {
             "serial": config.PRCT_SERIAL,
             "capture_time": capture_time,
-            "capture_data": base64.encode.b64encode(frame)
+            "capture_data": base64.b64encode(frame).decode('utf-8')
         }
         
-        req_rst = requests.post(config.PROCESS_URL, json=req_data)
+        req_rst = requests.post(config.PROCESS_URL, json=req_data, timeout=3)
         
         os.remove("capture.jpg")
                 
         time.sleep(_capture_delay)
-            
-    cap.release()
 # thread start
 threading.Thread(target=targets._led_control_target, daemon=True).start()
-threading.Thread(target=_capture_target, args=(0.1,), daemon=True).start()
+threading.Thread(target=_capture_target, args=(0,), daemon=True).start()
 
 # WebService Start
 vg_web_app = VGApp()
