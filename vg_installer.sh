@@ -21,8 +21,21 @@ if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then
     exit 1
 fi
 
+# init
+
 # install module
-## ~~~
+echo "Installing python modules..."
+if python -m pip config set global.break-system-packages true; then
+    if pip install -r requirements.txt; then
+        echo "python modules install successfully."
+    else
+        echo "python modules install failed."
+        exit 1
+    fi
+else
+    echo "python modules install failed."
+    exit 1
+fi
 
 # install service
 echo "Installing service..."
