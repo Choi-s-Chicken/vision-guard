@@ -7,7 +7,7 @@ load_dotenv()
 
 # Product info
 PRCT_MODEL = os.environ["PRCT_MODEL"]
-PRCT_SERIAL = os.environ["PRCT_MODEL"]
+PRCT_SERIAL = os.environ["PRCT_SERIAL"]
 PROCESS_URL = os.environ["PROCESS_URL"]
 FLATFORM = platform.system()
 HOSTNAME = socket.gethostname()
@@ -16,6 +16,8 @@ HOSTNAME = socket.gethostname()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "src", "models")
 DB_FOLDER_PATH = os.path.join(BASE_DIR, 'db')
+LOG_PATH = os.path.join(DB_FOLDER_PATH, "main.log")
+USER_DB_PATH = os.path.join(DB_FOLDER_PATH, "user.db")
 CAPTURE_FOLDER_PATH = os.path.join(DB_FOLDER_PATH, "captures")
 
 # OpenVINO

@@ -15,11 +15,11 @@
     </div>
     {% elif status == status_error %}
     <div class="alert alert-danger" role="alert">
-        에러가 발생했습니다. <a href="/log">기록 열람</a>
+        에러가 발생했습니다. <a href="/system/log">기록 보기</a>
     </div>
     {% elif status == status_criti %}
     <div class="alert alert-dark" role="alert">
-        심각 상태입니다. 뭐하지
+        심각 상태입니다. <a href="/system/log">기록 보기</a>
     </div>
     {% endif %}
 </div>
@@ -27,10 +27,15 @@
 <p>모델: {{ prct_model }}</p>
 <p>시리얼: {{ prct_serial }}</p>
 
-<a href="/buzz"><button>경보</button></a>
-<a href="/buzz_off"><button>경보해제</button></a><br>
+<a href="/alarm/turnon"><button>경보</button></a>
+<a href="/alarm/turnoff"><button>경보해제</button></a><br><br>
 
-<button id="reboot-btn">재부팅</button>
+<button id="reboot-btn">재부팅</button><br><br>
+
+<hr>
+
+<a href="/system/log">기록 보기</a><br>
+<a href="/changepw">관리자 비밀번호 변경</a>
 
 <script>
     const reboot = document.getElementById('reboot-btn');
@@ -39,7 +44,7 @@
         if (!confirm('재부팅하시겠습니까?'))
             return;
 
-        window.location.href = '/reboot';
+        window.location.href = '/system/reboot';
     });
 </script>
 

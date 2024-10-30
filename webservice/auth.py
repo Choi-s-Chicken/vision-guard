@@ -2,10 +2,10 @@ from functools import wraps
 from flask import session, redirect, url_for, flash
 from datetime import timedelta
 import sqlite3
-import base64
+import config
 import src.utils as utils
 
-user_db = sqlite3.connect('./db/user.db', check_same_thread=False)
+user_db = sqlite3.connect(config.USER_DB_PATH, check_same_thread=False)
 user_cursor = user_db.cursor()
 
 # level 정보
@@ -74,6 +74,14 @@ def regi_account(_regi_id, _regi_pw, _regi_name, _regi_level):
         return False
     
     user_cursor.execute('INSERT OR IGNORE INTO USERS (ID, PW, NAME, LEVEL) VALUES (?, ?, ?, ?)', (_regi_id, _regi_pw_hash, _regi_name, _regi_level))
+    user_db.commit()
+    
+    return True
+
+def change_password(_id, _new_pw):
+    _new_pw_hash = utils.gen_hash(_new_pw)
+    
+    user_cursor.execute('UPDATE USERS SET PW=? WHERE ID=?', (_new_pw_hash, _id))
     user_db.commit()
     
     return True

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<h3>시스템 로그</h3>
+<a href='/system/log'>새로고침<a>
+<textarea class="form-control" id="logTextarea" rows="3" style="height: 400px;">{{ log }}</textarea>
+<hr>
+<a href='/'>홈으로</a>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const logTextarea = document.getElementById('logTextarea');
+        logTextarea.scrollTop = logTextarea.scrollHeight;
+    });
+</script>
+{% endblock %}

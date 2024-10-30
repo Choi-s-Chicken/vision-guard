@@ -1,5 +1,6 @@
 import threading
 import config
+import src.utils as utils
 from flask import Blueprint, flash, render_template, redirect, url_for, request, session
 from webservice.auth import login_required, check_login
 import modules.targets as targets
@@ -25,3 +26,8 @@ def reboot():
         detail = "재부팅이 승인되었습니다."
     
     return render_template("reboot.html", reboot_status=reboot_status, detail=detail)
+
+@bp.route("/log", methods=["GET"])
+@login_required
+def log():
+    return render_template("log.html", log=utils.get_log(), client_name=session.get('username'))

@@ -22,7 +22,7 @@ def alarm_on():
 @bp.route("/turnoff", methods=["GET"])
 @login_required
 def alarm_off():
-    config.set_config('status', config.STATUS_NORMAL)
-    logger.info("경보기가 해제되었습니다.")
+    config.set_config('alarm', False)
+    flash("경보기가 해제되었습니다.")
     
     return redirect("/")

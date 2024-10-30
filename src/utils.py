@@ -3,9 +3,15 @@ import hashlib
 import os
 import subprocess
 
+import config
+
 log_time_format = "%Z %x %X"
 log_format = "%(asctime)s %(levelname)8s %(message)s"
 default_timef = "%Y%m%d%H%M%S"
+
+def get_log() -> str:
+    with open(config.LOG_PATH, 'r') as f:
+        return f.read()
 
 def get_now_ftime(time_format: str | None = default_timef) -> str:
     time = datetime.now()

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<h1>404 Not Found</h1>
+<p>URL을 확인하세요.</p>
+<hr>
+<p id="desc"></p>
+<a href="/">홈으로</a><br>
+
+<script>
+    let time = 10, desc = document.getElementById('desc');
+    const updateDesc = () => desc.innerText = ` ${time}초 후 자동으로 이동합니다 . . .`;
+    updateDesc();
+
+    const intervalId = setInterval(() => {
+        time--;
+        time > 0 ? updateDesc() : clearInterval(intervalId);
+    }, 1000);
+
+    setTimeout(() => location.href = '/', time * 1000);
+</script>
+{% endblock %}

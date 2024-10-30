@@ -10,7 +10,10 @@
 <body>
     <div class="container">
         <header>
-            <p>현재 시간: <span id="time"></span>&nbsp;|&nbsp;<a href="/logout">로그아웃</a></p>
+            <p>현재 시간: <span id="time"></span>
+                {% if client_name %}
+                    &nbsp;|&nbsp;{{ client_name }}(<a href="/logout">로그아웃</a>)
+                {% endif %}
             <h2 id="title" style="cursor: pointer;"><img src="{{ url_for('static', filename='title_icon.png') }}" style="height: 1.3em; vertical-align: middle;">&nbsp;비전가드 관리페이지</h2>
             <hr>
         </header>
@@ -26,22 +29,22 @@
                     <div style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1050;">
                         {% for category, message in messages %}
                             {% if category == "info" %}
-                                <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                <div class="flash-alert alert alert-primary alert-dismissible fade show" role="alert">
                                     <div>{{ message }}</div>
                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                             {% elif category == "success" %}
-                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <div class="flash-alert alert alert-success alert-dismissible fade show" role="alert">
                                     <div>{{ message }}</div>
                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                             {% elif category == "warning" %}
-                                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                <div class="flash-alert alert alert-warning alert-dismissible fade show" role="alert">
                                     <div>{{ message }}</div>
                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                             {% elif category == "error" %}         
-                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <div class="flash-alert alert alert-danger alert-dismissible fade show" role="alert">
                                     <div>{{ message }}</div>
                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
@@ -50,10 +53,13 @@
                     </div>
                     <script>
                         setTimeout(() => {
-                            const alerts = document.querySelectorAll('.alert');
+                            const alerts = document.querySelectorAll('.flash-alert');
                             alerts.forEach(alert => {
                                 alert.classList.remove('show');
                                 alert.classList.add('hide');
+                                setTimeout(() => {
+                                    alert.remove();
+                                }, 500)
                             });
                         }, 2000);
                     </script>

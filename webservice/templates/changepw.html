@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<h1>로그인 비밀번호 변경</h1>
+<p>비밀번호를 변경하시겠어요? 기존 비밀번호와 새로운 비밀번호를 입력하세요.</p>
+<form action="/changepw" accept-charset="utf-8" name="login" method="post">
+    <div class="mb-3">
+        <label for="old-pw" class="form-label">기존 비밀번호</label>
+        <input type="text" class="form-control" id="old-pw" name="old-pw" required>
+    </div>
+    <div class="mb-3">
+        <label for="new-pw" class="form-label">새로운 비밀번호</label>
+        <input type="password" class="form-control" id="new-pw" name="new-pw" required>
+    </div>
+    <button type="submit" class="btn btn-primary">변경하기</button>
+</form>
+{% endblock %}

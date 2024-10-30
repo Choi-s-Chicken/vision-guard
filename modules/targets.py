@@ -50,7 +50,7 @@ def _capture_target(_capture_delay):
             continue
         
         break
-        
+    
     # Capture frame
     while True:
         ret, frame = cap.read()
