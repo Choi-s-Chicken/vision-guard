@@ -8272,3 +8272,47 @@ UnboundLocalError: cannot access local variable 'bol' where it is not associated
 2024-10-30 15:09:28,330 [INFO]  * Restarting with stat
 2024-10-30 15:09:34,335 [WARNING]  * Debugger is active!
 2024-10-30 15:09:34,337 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:41:18,185 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:41:18,626 [INFO]  * Restarting with stat
+2024-10-30 15:41:30,726 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 15:41:30,727 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 15:41:30,731 [INFO]  * Restarting with stat
+2024-10-30 15:41:36,677 [WARNING]  * Debugger is active!
+2024-10-30 15:41:36,685 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:41:43,755 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:41:44,135 [INFO]  * Restarting with stat
+2024-10-30 15:41:56,080 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-10-30 15:41:56,081 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-30 15:41:56,084 [INFO]  * Restarting with stat
+2024-10-30 15:42:02,903 [WARNING]  * Debugger is active!
+2024-10-30 15:42:02,906 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:42:06,962 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:42:07,248 [INFO]  * Restarting with stat
+2024-10-30 15:42:13,570 [WARNING]  * Debugger is active!
+2024-10-30 15:42:13,572 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:42:16,614 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:42:16,891 [INFO]  * Restarting with stat
+2024-10-30 15:42:22,731 [WARNING]  * Debugger is active!
+2024-10-30 15:42:22,733 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:42:30,815 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:42:31,047 [INFO]  * Restarting with stat
+2024-10-30 15:42:36,848 [WARNING]  * Debugger is active!
+2024-10-30 15:42:36,850 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:42:46,954 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:42:47,188 [INFO]  * Restarting with stat
+2024-10-30 15:42:53,053 [WARNING]  * Debugger is active!
+2024-10-30 15:42:53,054 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:42:58,100 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:42:58,345 [INFO]  * Restarting with stat
+2024-10-30 15:43:04,156 [WARNING]  * Debugger is active!
+2024-10-30 15:43:04,157 [INFO]  * Debugger PIN: 105-440-626
+2024-10-30 15:43:12,233 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-10-30 15:43:12,490 [INFO]  * Restarting with stat
+2024-10-30 15:43:18,439 [WARNING]  * Debugger is active!
+2024-10-30 15:43:18,441 [INFO]  * Debugger PIN: 105-440-626

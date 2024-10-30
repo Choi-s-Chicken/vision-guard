@@ -64,6 +64,16 @@ def _capture_target(_capture_delay):
         
         subprocess.run(["libcamera-jpeg", "-o", "capture.jpg"])
         
+        # Read the captured image
+        if os.exists("capture.jpg") == False:
+            logger.error("사진 정보를 읽을 수 없습니다.")
+            config.set_config('status', config.STATUS_CRITI)
+            time.sleep(_capture_delay)
+            continue
+        
+        with open("capture.jpg", "rb") as image_file:
+            frame = image_file.read()
+        
         # Send data to process server
         capture_time = utils.get_now_ftime()
         req_data = {
@@ -73,6 +83,8 @@ def _capture_target(_capture_delay):
         }
         
         req_rst = requests.post(config.PROCESS_URL, json=req_data)
+        
+        os.remove("capture.jpg")
                 
         time.sleep(_capture_delay)
             
