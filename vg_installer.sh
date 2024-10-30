@@ -21,10 +21,20 @@ if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then
     exit 1
 fi
 
+# apt update upgrade
+echo "Updating and upgrading system..."
+if apt update && apt upgrade -y; then
+    echo "System updated and upgraded successfully."
+else
+    echo "System update and upgrade failed."
+    exit 1
+fi
+
 # init camera
 echo "Initializing camera..."
 echo "start_x=1" | sudo tee -a /boot/firmware/config.txt
 echo "gpu_mem=128" | sudo tee -a /boot/firmware/config.txt
+sudo apt install libopencv-dev
 
 # install module
 echo "Installing python modules..."
