@@ -24,3 +24,12 @@ def process():
 @bp.route('/robots.txt')
 def robots():
     return send_from_directory('static', 'robots.txt')
+
+# error handlers
+@bp.application.errorhandler(404)
+def error_404(e):
+    return render_template('error/404.html'), 404
+
+@bp.application.errorhandler(405)
+def error_405(e):
+    return render_template('error/405.html'), 405

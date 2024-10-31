@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<h1>Vision Guard CCTV P1 실시간 화면</h1>
+<img id="live-image" src="{{ url_for('main.device.get_image') }}" alt="Live Image" width="500">
+
+<script>
+    const imageElement = document.getElementById("live-image");
+
+    setInterval(() => {
+        const timestamp = new Date().getTime();  // 캐시 방지
+        imageElement.src = `{{ url_for('main.device.get_image') }}?t=${timestamp}`;
+    }, 1000);  // 1초마다 갱신
+</script>
+{% endblock %}

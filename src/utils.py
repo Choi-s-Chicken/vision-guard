@@ -28,7 +28,7 @@ def gen_rhash(length=64):
     random_hash = hash_object.hexdigest()
     return random_hash[:length]
 
-def gen_hash(_data: str | None = str(random.randbytes), _salt="797882ad4a5fe5beb57600ea5026c40257d29596265fa77efcf991bb71f5bf04f0e057ebcab91f69f9a9d54061d6d34dd188ac92271559256e3df062d4d6b0ad") -> str:
+def gen_hash(_data: str | None = str(random.randbytes), _salt="797882ad4a5fe5be") -> str:
     return hashlib.sha256(f"{_data}+{_salt}".encode('utf-8')).hexdigest()
 
 def get_file_ext(file_name):
