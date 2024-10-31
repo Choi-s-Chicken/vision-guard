@@ -36,12 +36,12 @@
 
 <h4>내 장소</h4>
 <div class="row">
-    {% for my_workspace in my_workspaces %}
+    {% for space in spaces %}
     <div class="card" style="width: 14rem;">
         <div class="card-body">
-            <h5 class="card-title">{{my_workspace['name']}}</h5>
-            <p class="card-text">{{my_workspace['description']}}</p>
-            <a href="/workspace/view/{{ my_workspace['serial'] }}" class="btn btn-primary">보기</a>
+            <h5 class="card-title">{{space['name']}}</h5>
+            <p class="card-text">{{space['description']}}</p>
+            <a href="/space/view/{{ space['serial'] }}" class="btn btn-primary">보기</a>
         </div>
     </div>
     {% endfor %}
@@ -49,10 +49,11 @@
         <div class="card-body">
             <h5 class="card-title">공간 만들기</h5>
             <p class="card-text">기기와 사람의 접근을 관리할 구역을 생성하세요.</p>
-            <a href="/workspace/make" class="btn btn-primary">만들러가기</a>
+            <a href="/space/make" class="btn btn-primary">만들러가기</a>
         </div>
     </div>
 </div>
 <hr>
+
 
 {% endblock %}

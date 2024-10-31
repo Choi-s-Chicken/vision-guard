@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify, render_template, send_from_directory, session
 import router.user.main as user
 import router.dashboard.main as dashboard
-import router.workspace.main as workspace
+import router.space.main as space
 import router.device.main as device
 
 bp = Blueprint('main', __name__)
@@ -24,5 +24,5 @@ def robots():
 
 bp.register_blueprint(user.bp)
 bp.register_blueprint(dashboard.bp)
-bp.register_blueprint(workspace.bp)
+bp.register_blueprint(space.bp)
 bp.register_blueprint(device.bp)
