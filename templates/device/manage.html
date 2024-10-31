@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<style>
+    #true {
+        color: green;
+    }
+    #false {
+        color: red;
+    }
+</style>
+
+<h1>{{ prct['name'] }} 관리</h1>
+
+{% if prct['type'] == 'cam' %}
+    <h2>실시간 화면 열람</h2>
+    <img id="live-image" src="{{ url_for('main.device.get_image') }}" alt="Live Image" width="500">
+    <script>
+        const imageElement = document.getElementById("live-image");
+
+        setInterval(() => {
+            const timestamp = new Date().getTime();  // 캐시 방지
+            imageElement.src = `{{ url_for('main.device.get_image') }}?t=${timestamp}`;
+        }, 2000);  // 1초마다 갱신
+    </script>
+{% endif %}
+
+<h2>기기 정보</h2>
+<p>
+    이름: {{ prct['name'] }} | 상세: {{ prct['description'] }}<br>
+    모델: {{ prct['model'] }} | 생성일자: {{ prct['created_at'] }}<br>
+    시리얼: {{ prct['serial'] }} | 마지막연결: {{ prct['last_connected'] }}
+</p>
+{% if prct['type'] == 'cam' %}
+    <div class="form-check form-switch">
+        재부팅기능: {% if prct['reboot_possible'] %}<span id='true'>활성화</span>{% else %}<span id='false'>비활성화</span>{% endif %} <input class="form-check-input" type="checkbox" role="switch" id="reboot-poss-sw" {% if prct['reboot_possible'] %}checked{% endif %}>
+    </div>
+    <div class="form-check form-switch">
+        경보기능: {% if prct['alarm_possible'] %}<span id='true'>활성화</span>{% else %}<span id='false'>비활성화</span>{% endif %} <input class="form-check-input" type="checkbox" role="switch" id="alarm-poss-sw" {% if prct['alarm_possible'] %}checked{% endif %}>
+    </div>
+{% endif %}
+
+<a href="/device/userunregi" class="btn btn-secondary">제품 등록 해제</a>
+
+<hr>
+<a href="/dashboard">홈으로</a>
+
+<script>
+    const rebootPossSwitch = document.getElementById("reboot-poss-sw");
+    const alarmPossSwitch = document.getElementById("alarm-poss-sw");
+
+    rebootPossSwitch.addEventListener("change", async () => {
+        if (confirm("재부팅 기능을 변경하시겠습니까?") === true) {
+            const response = await fetch("https://visionguard.dyhs.kr/device/manage", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    serial: "{{ prct['serial'] }}",
+                    reboot_possible: rebootPossSwitch.checked,
+                }),
+            });
+    
+            if (!response.ok) {
+                alert("재부팅 기능 변경에 실패했습니다.");
+                location.reload();
+            } else {
+                location.reload();
+            }
+        } else {
+            rebootPossSwitch.checked = !rebootPossSwitch.checked;
+            location.reload();
+        }
+    });
+
+    alarmPossSwitch.addEventListener("change", async () => {
+        if (confirm("재부팅 기능을 변경하시겠습니까?") === true) {
+            const response = await fetch("/device/manage", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    serial: "{{ prct['serial'] }}",
+                    alarm_possible: alarmPossSwitch.checked,
+                }),
+            });
+
+            if (!response.ok) {
+                alert("경보 기능 변경에 실패했습니다.");
+                location.reload();
+            } else {
+                location.reload();
+            }
+        } else {
+            rebootPossSwitch.checked = !rebootPossSwitch.checked;
+            location.reload();
+        }
+    });
+</script>
+
+{% endblock %}

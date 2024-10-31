@@ -9,7 +9,4 @@ bp = Blueprint('dashboard', __name__, url_prefix='/dashboard')
 def index():
     return render_template('dashboard/index.html', user_info=session.get('user_info'),
                            prcts=config.get_products_db())
-    
-# @bp.route('/userregi', methods=['GET', 'POST'])
-# @login_required
-# def 
+

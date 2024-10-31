@@ -5,17 +5,14 @@ import router.workspace.main as workspace
 import router.device.main as device
 
 bp = Blueprint('main', __name__)
-bp.register_blueprint(user.bp)
-bp.register_blueprint(dashboard.bp)
-bp.register_blueprint(workspace.bp)
-bp.register_blueprint(device.bp)
 
-@bp.route('/', methods=['GET', 'POST'])
+@bp.route('/', methods=['GET'])
 def index():
-    if request.method == 'POST':
-        print(request.form.keys())
-        return {'result': 'success'}
     return render_template('index.html', user_info=session.get('user_info'))
+
+@bp.route('/asus', methods=['GET'])
+def index_asus():
+    return render_template('index_asus.html', user_info=session.get('user_info'))
 
 @bp.route('/process')
 def process():
@@ -25,11 +22,7 @@ def process():
 def robots():
     return send_from_directory('static', 'robots.txt')
 
-# error handlers
-@bp.application.errorhandler(404)
-def error_404(e):
-    return render_template('error/404.html'), 404
-
-@bp.application.errorhandler(405)
-def error_405(e):
-    return render_template('error/405.html'), 405
+bp.register_blueprint(user.bp)
+bp.register_blueprint(dashboard.bp)
+bp.register_blueprint(workspace.bp)
+bp.register_blueprint(device.bp)

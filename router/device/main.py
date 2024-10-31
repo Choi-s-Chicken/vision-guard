@@ -5,17 +5,21 @@ import config
 from modules.auth import login_required
 from modules.FaceRecognition import FaceRecognition
 
-ai = FaceRecognition(config.FACE_DECT_MODEL_PATH, config.FACE_REID_MODEL_PATH)
-
 bp = Blueprint('device', __name__, url_prefix='/device')
 
-@bp.route('/view/<string:prct_serial>', methods=['GET'])
-def view(prct_serial):
+ai = FaceRecognition(config.FACE_DECT_MODEL_PATH, config.FACE_REID_MODEL_PATH)
+
+@bp.route('/manage/<string:prct_serial>', methods=['GET', 'POST'])
+@login_required
+def manage(prct_serial):
     for prct in config.get_products_db():
-        if prct['serial'] == prct_serial:
-            return render_template('device/view.html', user_info=session.get('user_info'), prct=prct)
+        if prct['serial'] != prct_serial:
+            continue
+            
+        if prct['owner_uuid'] == session['user_info']['uuid']:
+            return render_template('device/manage.html', user_info=session.get('user_info'), prct=prct)
     
-    return render_template('device/index.html', user_info=session.get('user_info'))
+    return render_template('error/404.html', )
 
 @bp.route('/get-image', methods=['GET'])
 def get_image():
@@ -37,7 +41,7 @@ def image_process():
         f.write(base64.b64decode(res_data['capture_data']))
         
     # 이미지 처리
-    ai.annotate_faces(image_path, output_path, 0.4)
+    ai.annotate_faces(image_path, output_path, 0.1)
     
     return jsonify({'status': 'success', 'message': '이미지가 성공적으로 업로드되었습니다.'}), 200
 
@@ -68,3 +72,35 @@ def userregi():
         return redirect(url_for('main.device.userregi'))
     
     return render_template('device/userregi.html', user_info=session.get('user_info'))
+
+@bp.route('/userunregi', methods=['GET', 'POST'])
+@login_required
+def userunregi():
+    if request.method == 'POST':
+        prct_serial = request.form.get('prct-serial')
+        
+        if not prct_serial:
+            flash('시리얼 번호를 입력하세요.', 'error')
+            return redirect(url_for('main.device.userunregi'))
+        
+        prct_db = config.get_products_db()
+        search_db = prct_db
+        for index, prct in enumerate(search_db):
+            if prct['serial'] == prct_serial:
+                if prct['owner_uuid'] is None:
+                    flash('등록되지 않은 장치입니다.', 'error')
+                    return redirect(url_for('main.device.userunregi'))
+
+                if prct['owner_uuid'] == session['user_info']['uuid']:
+                    prct_db[index]['owner_uuid'] = None
+                    config.set_products_db(prct_db)
+                    flash('장치가 계정에서 해제되었습니다.', 'success')
+                    return redirect(url_for('main.dashboard.index'))
+                
+                flash('자신의 장치만 해지할 수 있습니다.', 'success')
+                return redirect(url_for('main.dashboard.index'))
+        
+        flash('잘못된 시리얼키입니다. 확인 후 다시 등록하세요.', 'error')
+        return redirect(url_for('main.device.userunregi'))
+    
+    return render_template('device/userunregi.html', user_info=session.get('user_info'))
