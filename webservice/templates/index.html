@@ -2,6 +2,12 @@
  
 {% block content %}
 <style>
+    #true {
+        color: green;
+    }
+    #false {
+        color: red;
+    }
 </style>
 
 <div>
@@ -36,8 +42,8 @@
     시리얼: {{ prct_serial }}
 </p>
 <p>
-    경보: 기능이 {% if alarm_poss %}활성화{% else %}비활성화{% endif %} 되어있습니다.<br>
-    재부팅: 기능이 {% if alarm_poss %}활성화{% else %}비활성화{% endif %} 되어있습니다.<br>
+    경보기능: {% if alarm_poss %}<span id='true'>활성화</span>{% else %}<span id='false'>비활성화</span>{% endif %}<br>
+    재부팅기능: {% if reboot_poss %}<span id='true'>활성화</span>{% else %}<span id='false'>비활성화</span>{% endif %}<br>
 </p>
 <hr>
 

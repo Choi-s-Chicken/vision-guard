@@ -7,5 +7,5 @@ logging.basicConfig(level=logging.INFO,
                     format=_logging_format,
                     encoding="utf-8",
                     filename=config.LOG_PATH)
-
+ 
 logger = logging.getLogger(__name__)

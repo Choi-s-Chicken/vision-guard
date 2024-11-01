@@ -12,7 +12,7 @@ bp = Blueprint('system', __name__, url_prefix='/system')
 def reboot():
     reboot_status = True
     detail = ""
-    if config.get_config('reboot_poss') == False:
+    if config.get_config('reboot_poss') != True:
         reboot_status = False
         detail = "재부팅이 비활성화 되어있습니다. 재부팅할 수 없습니다."
         return render_template("reboot.html", reboot_status=reboot_status, detail=detail)

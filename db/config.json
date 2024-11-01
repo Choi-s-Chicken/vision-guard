@@ -1,7 +1,7 @@
 {
-    "status": "normal",
+    "status": "error",
     "alarm": false,
-    "camera_ready": false,
-    "reboot_poss": false,
-    "alarm_poss": true
+    "reboot_poss": true,
+    "alarm_poss": true,
+    "api_error_max_retry": 3
 }

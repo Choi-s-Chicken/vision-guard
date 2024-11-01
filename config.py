@@ -8,6 +8,7 @@ load_dotenv()
 # Product info
 PRCT_MODEL = os.environ["PRCT_MODEL"]
 PRCT_SERIAL = os.environ["PRCT_SERIAL"]
+CONNECT_KEY = os.environ["PRCT_CONNECT_KEY"]
 PROCESS_URL = os.environ["PROCESS_URL"]
 FLATFORM = platform.system()
 HOSTNAME = socket.gethostname()

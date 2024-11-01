@@ -13,8 +13,6 @@ import modules.gpio_control as gpio_ctrl
 from webservice.main import VGApp
 import modules.targets as targets
 
-SERVICE_KEY = os.getenv("SERVICE_KEY")
-PROCESS_URL = os.getenv("PROCESS_URL")
 WEB_HOST = os.getenv("WEB_HOST")
 WEB_PORT = os.getenv("WEB_PORT")
 
@@ -25,58 +23,94 @@ gpio_ctrl.control_led(green=False, yellow=False, red=False)
 config.set_config('status', config.STATUS_NORMAL)
 config.set_config('alarm', False)
 
-# boot animation
-for i in range(0, 3):
-    gpio_ctrl.control_led(green=True, yellow=True, red=True)
-    time.sleep(0.3)
-    gpio_ctrl.control_led(green=False, yellow=False, red=False)
-    time.sleep(0.3)
-gpio_ctrl.control_led(green=True, yellow=True, red=True)
-time.sleep(3)
-gpio_ctrl.control_led(green=False, yellow=False, red=False)
-
 # capture target
 def _capture_target(_capture_delay):
     while True:        
-        subprocess.run(["libcamera-jpeg", "-o", "capture.jpg"])
-        
-        # Read the captured image
-        if os.path.exists("capture.jpg") == False:
-            config.set_config('status', config.STATUS_CRITI)
-            logger.error("사진 정보 얻기에 실패했습니다.")
-            time.sleep(_capture_delay)
-            continue
-        config.set_config('status', config.STATUS_NORMAL)
-        logger.info("사진을 촬영했습니다.")
-        
+        capture_success = False
+        while not capture_success:
+            try:
+                subprocess.run(["libcamera-jpeg", "-o", "capture.jpg"], check=True)
+            except subprocess.CalledProcessError as e:
+                config.set_config('status', config.STATUS_ERROR)
+                logger.error(f"사진 정보 얻기에 실패했습니다: {e}")
+                time.sleep(_capture_delay)
+                continue
+            
+            # Read the captured image
+            if not os.path.exists("capture.jpg"):
+                config.set_config('status', config.STATUS_ERROR)
+                logger.error("사진 정보 얻기에 실패했습니다.")
+                time.sleep(_capture_delay)
+            else:
+                capture_success = True
+                config.set_config('status', config.STATUS_NORMAL)
+                logger.info("사진을 촬영했습니다.")
+                
         with open("capture.jpg", "rb") as image_file:
             frame = image_file.read()
-        
+            
         # Send data to process server
         capture_time = utils.get_now_ftime()
         req_data = {
             "serial": config.PRCT_SERIAL,
+            "connect_key": config.CONNECT_KEY,
+            "status": config.get_config('status'),
+            "is_alarm": config.get_config('alarm'),
+            "reboot_poss": config.get_config('reboot_poss'),
+            "alarm_poss": config.get_config('alarm_poss'),
             "capture_time": capture_time,
-            "capture_data": base64.b64encode(frame)
+            "capture_data": base64.b64encode(frame).decode('utf-8'),
         }
         
-        try:
-            req_rst = requests.post(config.PROCESS_URL, json=req_data, timeout=3)
-            req_rst.raise_for_status()
-            config.set_config('status', config.STATUS_NORMAL)
-            logger.info("서버로 사진을 전송했습니다.")
-        except:
-            logger.error("서버와 통신 중 문제가 발생했습니다.")
-            config.set_config('status', config.STATUS_ERROR)
+        retry_count = 0
+        while True:
+            retry_count += 1
+            if retry_count > config.get_config('api_error_max_retry'):
+                config.set_config('status', config.STATUS_CRITI)
+                logger.critical("서버와 통신을 실패했습니다.")
+                break
+            
+            try:
+                req_rst = requests.post(f"{config.PROCESS_URL}/device/data-process", json=req_data, timeout=3)
+                req_rst.raise_for_status()
+                config.set_config('status', config.STATUS_NORMAL)
+                logger.info(req_rst.text)
+                logger.info("서버로 데이터를 전송했습니다.")
+                
+                res_data = req_rst.json()
+                res_config_data = res_data.get('server_device_status', '-999')
+                
+                if res_config_data != '-999':
+                    alarm = res_config_data.get('alarm', '-999')
+                    disable_alarm = res_config_data.get('disable_alarm', '-999')
+                    if alarm != '-999':
+                        threading.Thread(target=targets._alarm_turnon_target, daemon=True).start()
+                    if disable_alarm != '-999':
+                        config.set_config('alarm', False)
+                    
+                    reboot_possible = res_config_data.get('reboot_possible', '-999')
+                    alarm_possible = res_config_data.get('alarm_possible', '-999')
+                    if reboot_possible != '-999':
+                        config.set_config('reboot_poss', reboot_possible)
+                    if alarm_possible != '-999':
+                        config.set_config('alarm_poss', alarm_possible)
+                
+                 
+                
+            except requests.RequestException as e:
+                config.set_config('status', config.STATUS_ERROR)
+                logger.error(f"서버와 통신 중 문제가 발생했습니다. 재시도 중... ({retry_count}/{config.get_config('api_error_max_retry')}): {e}")
+                time.delay(_capture_delay)
+                continue
         
         if os.path.exists("capture.jpg"):
             os.remove("capture.jpg")
     
         time.sleep(_capture_delay)
-        continue
+
 # thread start
 threading.Thread(target=targets._led_control_target, daemon=True).start()
-threading.Thread(target=_capture_target, args=(1,), daemon=True).start()
+threading.Thread(target=_capture_target, args=(0,), daemon=True).start()
 
 # WebService Start
 vg_web_app = VGApp()
