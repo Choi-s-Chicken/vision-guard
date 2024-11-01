@@ -84,7 +84,8 @@ def _capture_target(_capture_delay):
                     alarm = res_config_data.get('alarm', '-999')
                     disable_alarm = res_config_data.get('disable_alarm', '-999')
                     if alarm != '-999':
-                        threading.Thread(target=targets._alarm_turnon_target, daemon=True).start()
+                        if disable_alarm != True:
+                            threading.Thread(target=targets._alarm_turnon_target, daemon=True).start()
                     if disable_alarm != '-999':
                         config.set_config('alarm', False)
                     
@@ -95,12 +96,12 @@ def _capture_target(_capture_delay):
                     if alarm_possible != '-999':
                         config.set_config('alarm_poss', alarm_possible)
                 
-                 
+                
                 
             except requests.RequestException as e:
                 config.set_config('status', config.STATUS_ERROR)
                 logger.error(f"서버와 통신 중 문제가 발생했습니다. 재시도 중... ({retry_count}/{config.get_config('api_error_max_retry')}): {e}")
-                time.delay(_capture_delay)
+                time.sleep(_capture_delay)
                 continue
         
         if os.path.exists("capture.jpg"):
