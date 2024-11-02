@@ -74,8 +74,7 @@ def _capture_target(_capture_delay):
                 req_rst = requests.post(f"{config.PROCESS_URL}/device/data-process", json=req_data, timeout=3)
                 req_rst.raise_for_status()
                 config.set_config('status', config.STATUS_NORMAL)
-                logger.info(req_rst.text)
-                logger.info("서버로 데이터를 전송했습니다.")
+                logger.info("서버와 통신했습니다.")
                 
                 res_data = req_rst.json()
                 res_config_data = res_data.get('server_device_status', '-999')
