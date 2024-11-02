@@ -87,14 +87,19 @@ def _capture_target(_capture_delay):
                         if disable_alarm != True:
                             threading.Thread(target=targets._alarm_turnon_target, daemon=True).start()
                     if disable_alarm != '-999':
-                        config.set_config('alarm', False)
-                    
+                        if disable_alarm == True:
+                            config.set_config('alarm', False)
+                        
                     reboot_possible = res_config_data.get('reboot_possible', '-999')
                     alarm_possible = res_config_data.get('alarm_possible', '-999')
                     if reboot_possible != '-999':
                         config.set_config('reboot_poss', reboot_possible)
                     if alarm_possible != '-999':
                         config.set_config('alarm_poss', alarm_possible)
+                        
+                    last_server_connect_time = res_config_data.get('last_connection', '-999')
+                    if last_server_connect_time != '-999':
+                        config.set_config('last_server_connect_time', last_server_connect_time)
                 
                 
                 
@@ -108,6 +113,8 @@ def _capture_target(_capture_delay):
             os.remove("capture.jpg")
     
         time.sleep(_capture_delay)
+
+_capture_target(1)
 
 # thread start
 threading.Thread(target=targets._led_control_target, daemon=True).start()

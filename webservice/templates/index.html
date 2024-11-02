@@ -42,6 +42,9 @@
     시리얼: {{ prct_serial }}
 </p>
 <p>
+    마지막 서버 연결: {{ last_server_connect_time }}<br>
+</p>
+<p>
     경보기능: {% if alarm_poss %}<span id='true'>활성화</span>{% else %}<span id='false'>비활성화</span>{% endif %}<br>
     재부팅기능: {% if reboot_poss %}<span id='true'>활성화</span>{% else %}<span id='false'>비활성화</span>{% endif %}<br>
 </p>

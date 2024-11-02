@@ -2,6 +2,7 @@ import json
 import os
 import socket
 import platform
+import sqlite3
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -21,11 +22,6 @@ LOG_PATH = os.path.join(DB_FOLDER_PATH, "main.log")
 USER_DB_PATH = os.path.join(DB_FOLDER_PATH, "user.db")
 CAPTURE_FOLDER_PATH = os.path.join(DB_FOLDER_PATH, "captures")
 
-# OpenVINO
-DEVICE = "CPU"
-DETECTION_MODEL_PATH = os.path.join(MODEL_PATH, "face-detection-adas-0001")
-REID_MODEL_PATH = os.path.join(MODEL_PATH, "face-reidentification-retail-0095")
-
 # Pins
 PIN_ALARM = 23
 PIN_ALARM_BTN = 24
@@ -40,20 +36,19 @@ STATUS_ERROR  = "error"
 STATUS_CRITI  = "critical"
 
 # Config
-config_path = os.path.join(DB_FOLDER_PATH, "config.json")
+CONFIG_DB_PATH = os.path.join(DB_FOLDER_PATH, "config.db")
 
-def get_config(key:str, _default = None):
-    try:
-        with open(config_path, "r") as f:
-            return json.load(f)[key]
-    except:
-        return _default
+def get_config(key: str, _default=None):
+    conn = sqlite3.connect(CONFIG_DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute('SELECT value FROM config WHERE key = ?', (key,))
+    result = cursor.fetchone()
+    conn.close()
+    return json.loads(result[0]) if result else _default
 
 def set_config(key, value):
-    with open(config_path, "r") as f:
-        config = json.load(f)
-    
-    config[key] = value
-    
-    with open(config_path, "w") as f:
-        json.dump(config, f, indent=4)
+    conn = sqlite3.connect(CONFIG_DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute('REPLACE INTO config (key, value) VALUES (?, ?)', (key, json.dumps(value)))
+    conn.commit()
+    conn.close()

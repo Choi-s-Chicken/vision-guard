@@ -2,6 +2,7 @@ from datetime import datetime
 import hashlib
 import os
 import subprocess
+import time
 
 import config
 
@@ -25,8 +26,14 @@ def get_now_iso_time() -> str:
     time = datetime.now()
     return time.isoformat()
 
-def convert_now_ftime(_time_str: str, _format = '%Y%m%d%H%M%S') -> datetime:
+def convert_now_ftime(_time_str: str, _format=default_timef) -> datetime:
     return datetime.strptime(_time_str, _format)
+
+def convert_str_to_time(_str_time, _format=default_timef):
+    return datetime.strptime(_str_time, _format)
+
+def re_time_string_format(_str_time, _reformat, _format=default_timef) -> str:
+    return convert_str_to_time(_str_time, _format).strftime(_reformat)
 
 def get_local_ip(_defalut:str = "N/A") -> str:
     try:

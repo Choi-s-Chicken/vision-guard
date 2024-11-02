@@ -1,7 +1,0 @@
-{
-    "status": "error",
-    "alarm": false,
-    "reboot_poss": true,
-    "alarm_poss": true,
-    "api_error_max_retry": 3
-}
