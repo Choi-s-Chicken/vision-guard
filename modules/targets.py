@@ -1,8 +1,15 @@
 import os
+import threading
 import time
 import config
 import modules.gpio_control as gpio_ctrl
 from modules.logging import logger
+
+def terminate_all_threads():
+    main_thread = threading.main_thread()
+    for thread in threading.enumerate():
+        if thread is not main_thread:
+            thread.join(timeout=1)
 
 def _led_control_target():
     # boot animation
@@ -72,6 +79,7 @@ def _alarm_turnon_target():
         time.sleep(0.1)
 
 def _reboot_target():
+    terminate_all_threads()
     for i in range(0, 3):
         gpio_ctrl.control_led(green=True, yellow=True, red=True)
         time.sleep(0.5)
