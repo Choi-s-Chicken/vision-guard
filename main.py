@@ -114,8 +114,6 @@ def _capture_target(_capture_delay):
     
         time.sleep(_capture_delay)
 
-_capture_target(1)
-
 # thread start
 threading.Thread(target=targets._led_control_target, daemon=True).start()
 threading.Thread(target=_capture_target, args=(0,), daemon=True).start()

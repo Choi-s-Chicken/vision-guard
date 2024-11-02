@@ -40149,3 +40149,52 @@
 2024-11-02 16:16:12,152 [INFO] 서버로 데이터를 전송했습니다.
 2024-11-02 16:16:12,154 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
 2024-11-02 16:16:12,277 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 16:16:48,569 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:16:51,885 [INFO] {
+  "message": "Success", 
+  "server_device_status": {
+    "alarm": true, 
+    "alarm_possible": true, 
+    "connect_key": "f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f", 
+    "created_at": "20241030190207", 
+    "description": "\ube44\uc804\uac00\ub4dc CCTV \ubcf8\uccb4 \ud504\ub85c\ud1a0\ud0c0\uc785", 
+    "disable_alarm": false, 
+    "last_connection": "20241102071651", 
+    "model": "VGCTVP1", 
+    "name": "Vision Guard CCTV P1", 
+    "owner_uuid": "8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13", 
+    "reboot_possible": true, 
+    "serial": "a6bd8024", 
+    "status": "normal", 
+    "type": "cam", 
+    "work_space_uuid": null
+  }, 
+  "status": "success"
+}
+
+2024-11-02 16:16:51,885 [INFO] 서버로 데이터를 전송했습니다.
+2024-11-02 16:16:51,949 [INFO] 경보기를 작동했습니다.
+2024-11-02 16:16:55,004 [INFO] {
+  "message": "Success", 
+  "server_device_status": {
+    "alarm": true, 
+    "alarm_possible": true, 
+    "connect_key": "f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f", 
+    "created_at": "20241030190207", 
+    "description": "\ube44\uc804\uac00\ub4dc CCTV \ubcf8\uccb4 \ud504\ub85c\ud1a0\ud0c0\uc785", 
+    "disable_alarm": false, 
+    "last_connection": "20241102071654", 
+    "model": "VGCTVP1", 
+    "name": "Vision Guard CCTV P1", 
+    "owner_uuid": "8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13", 
+    "reboot_possible": true, 
+    "serial": "a6bd8024", 
+    "status": "normal", 
+    "type": "cam", 
+    "work_space_uuid": null
+  }, 
+  "status": "success"
+}
+
+2024-11-02 16:16:55,004 [INFO] 서버로 데이터를 전송했습니다.
+2024-11-02 16:16:55,006 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
