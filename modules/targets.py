@@ -126,7 +126,7 @@ def _capture_target(_capture_delay):
                 break
             
             try:
-                req_rst = requests.get(f"{config.PROCESS_URL}/device/data-process", json=req_data, timeout=3)
+                req_rst = requests.post(f"{config.PROCESS_URL}/device/data-process", json=req_data, timeout=3)
                 req_rst.raise_for_status()
                 config.set_config('status', config.STATUS_NORMAL)
                 logger.info("서버에 사진을 전송했습니다.")

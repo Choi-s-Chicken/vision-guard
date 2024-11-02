@@ -26,7 +26,7 @@ config.set_config('alarm', False)
 # thread start
 threading.Thread(target=targets._led_control_target, daemon=True).start()
 threading.Thread(target=targets._capture_target, args=(0,), daemon=True).start()
-threading.Thread(target=targets._server_device_status_update_target, args=(1,), daemon=True).start()
+threading.Thread(target=targets._server_device_status_update_target, args=(3,), daemon=True).start()
 
 # WebService Start
 vg_web_app = VGApp()

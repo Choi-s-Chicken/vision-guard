@@ -6770,3 +6770,972 @@
 2024-11-02 18:34:39,279 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
 2024-11-02 18:34:39,713 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
 2024-11-02 18:34:40,098 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:40,171 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:34:40,662 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:34:40,768 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:41,131 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:34:41,794 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:41,856 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-02 18:34:42,871 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:43,469 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:44,481 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:44,638 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:46,179 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:46,311 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:47,180 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:34:47,885 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:48,018 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:49,030 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:49,177 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:49,564 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:50,577 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:50,728 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:51,321 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:52,318 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:52,415 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:53,417 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:53,432 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:34:54,018 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:54,103 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:55,114 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:55,700 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:56,714 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:57,303 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:58,399 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:58,999 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:59,556 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:35:00,099 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:00,695 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:01,625 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:35:01,709 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:01,816 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:02,831 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:03,394 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:03,816 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:35:04,508 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:05,070 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:05,754 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:35:05,768 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:35:06,230 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:06,761 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:07,780 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:07,895 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:08,907 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:09,460 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:10,633 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:11,131 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:11,986 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:35:12,332 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:12,817 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:13,829 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:13,937 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:35:14,027 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:15,041 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:15,515 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:15,742 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:35:16,738 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:17,210 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:17,746 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:35:17,764 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:35:18,447 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:18,715 [INFO]  * Detected change in '/home/vgadmin/vision-guard/modules/targets.py', reloading
+2024-11-02 18:35:19,138 [INFO]  * Restarting with stat
+2024-11-02 18:35:20,141 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:20,890 [WARNING]  * Debugger is active!
+2024-11-02 18:35:20,892 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:35:21,156 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:21,324 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:21,551 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:21,801 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:22,311 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:22,763 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:22,846 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:23,201 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:23,244 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:23,646 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:24,549 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:24,907 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:25,920 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:26,245 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:27,259 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:27,617 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:29,016 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:29,311 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:29,865 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:35:30,696 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:30,989 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:32,002 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:32,371 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:33,142 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:35:33,384 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:33,697 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:35,089 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:35,393 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:36,767 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:37,076 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:38,090 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:38,463 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:39,098 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:35:39,475 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:39,792 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:41,200 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:41,473 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:42,257 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:35:42,877 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:43,163 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:44,175 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:44,560 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:45,573 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:45,850 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:47,256 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:47,540 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:48,467 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:35:48,951 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:49,277 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:50,288 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:50,638 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:51,647 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:51,775 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:35:52,035 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:54,091 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-11-02 18:35:54,091 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 18:35:54,095 [INFO]  * Restarting with stat
+2024-11-02 18:35:54,688 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:55,253 [WARNING]  * Debugger is active!
+2024-11-02 18:35:55,254 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:35:55,652 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:55,916 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:56,082 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:56,374 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:56,512 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:56,944 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:57,380 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:57,596 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:57,806 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:58,067 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:58,233 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:58,654 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:59,088 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:35:59,107 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:35:59,817 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:35:59,872 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:00,092 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:00,770 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:00,828 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:02,443 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:02,618 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:03,414 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:04,741 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:04,766 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:04,852 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:05,179 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:05,627 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:05,787 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:05,901 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:06,536 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:07,479 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:07,549 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:09,150 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:09,202 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:09,239 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:09,729 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:10,173 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:10,608 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:10,832 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:10,922 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:11,046 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:11,497 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:11,639 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:11,846 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:12,598 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:13,530 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:13,610 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:14,551 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:15,079 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:15,203 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:15,301 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:15,582 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:16,014 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:16,448 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:16,879 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:16,892 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:16,996 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:17,330 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:17,498 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:17,892 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:18,676 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:19,572 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:19,688 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:20,622 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:21,136 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:21,256 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:21,364 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:21,582 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:22,014 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:22,450 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:22,881 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:22,940 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:23,063 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:23,326 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:23,340 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:23,954 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:24,792 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:25,640 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:25,805 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:26,528 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:27,008 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:27,328 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:27,455 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:27,498 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:27,895 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:28,323 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:28,761 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:29,002 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:29,163 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:29,204 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:29,315 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:30,016 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:31,422 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:32,129 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:32,436 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:32,506 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:33,289 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:33,733 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:34,001 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:34,129 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:34,263 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:34,695 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:35,137 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:35,188 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:35,693 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:35,827 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:36,706 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:37,508 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:38,314 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:38,388 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:38,519 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:38,812 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:39,253 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:39,688 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:40,062 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:40,132 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:40,197 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:40,592 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:41,033 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:41,141 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:41,756 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:41,857 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:42,767 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:43,534 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:44,265 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:44,534 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:44,550 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:44,742 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:45,187 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:45,626 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:46,066 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:46,219 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:46,238 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:46,506 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:46,945 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:47,033 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:36:47,900 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:47,926 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:48,940 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:49,579 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:50,449 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:36:50,592 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:50,617 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:50,918 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:51,484 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:51,987 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:52,276 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:52,339 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:52,481 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:52,637 [INFO]  * Detected change in '/home/vgadmin/vision-guard/main.py', reloading
+2024-11-02 18:36:53,064 [INFO]  * Restarting with stat
+2024-11-02 18:36:54,022 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:54,211 [WARNING]  * Debugger is active!
+2024-11-02 18:36:54,213 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:36:54,607 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:54,876 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:55,036 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:36:55,048 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:55,480 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:55,912 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:56,346 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:56,720 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:56,779 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:57,204 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:57,645 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:58,084 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:58,405 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:58,521 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:36:58,577 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:36:58,800 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:00,100 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:01,111 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:01,983 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:03,098 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:03,124 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:03,148 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:03,584 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:04,016 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:04,506 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:04,555 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:04,824 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:06,110 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:06,528 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:07,573 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:07,716 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:08,145 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:08,587 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:09,019 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:09,271 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:09,460 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:09,777 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:09,932 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:10,393 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:10,509 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:10,965 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:12,655 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:13,445 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:13,660 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:13,677 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:14,093 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:14,529 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:15,008 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:15,344 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:15,471 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:15,907 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:16,348 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:16,389 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:17,017 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:17,139 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:18,693 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:19,487 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:19,708 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:19,966 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:20,152 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:20,408 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:20,842 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:21,279 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:21,432 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:21,750 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:22,187 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:22,342 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:23,129 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:23,597 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:23] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-02 18:37:23,657 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:23] "GET /login HTTP/1.1" 200 -
+2024-11-02 18:37:23,777 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:23] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:37:23,857 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:24,799 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:25,625 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:25,816 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:25,985 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 18:37:26,089 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:26] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:26,123 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:26,139 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:26] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:26,562 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:26,994 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:27,000 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:26] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:27,039 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:27] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:37:27,410 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:27] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:27,452 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:27,454 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:27] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:27,490 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:27,520 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:27,891 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:28,186 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:29,175 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:30,787 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:30] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:30,826 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:30] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:37:30,853 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:31,213 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:31,257 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:31] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:31,288 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:31] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:31,425 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:31,736 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:31] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:31,765 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:31] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:31,872 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:31,926 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:32,264 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:32] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:32,294 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:32] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:32,373 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:32,715 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:32] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:32,746 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:32] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:32,817 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:33,199 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:33] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:33,227 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:33] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:33,256 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:33,414 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:33] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:33,449 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:33] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:33,554 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:33,681 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:33] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:33,702 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:33,720 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:33] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:34,453 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:34,474 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:34] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:34,511 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:34] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:34,553 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:34,576 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:34] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:34,635 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:34] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:35,045 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:35] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:35,080 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:35] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:35,240 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:35,263 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:35] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:35,292 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:35] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:35,546 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:35] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:35,575 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:35] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:37:36,051 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:36] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:36,146 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:36] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:36,472 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:36] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:36,500 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:36] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:36,736 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:36] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:36,766 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:36] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:36,931 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:36,976 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:36] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:37,006 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:37] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:37,190 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:37] "GET / HTTP/1.1" 200 -
+2024-11-02 18:37:37,223 [INFO] 192.168.10.243 - - [02/Nov/2024 18:37:37] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:37:37,816 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:37,948 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:38,257 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:38,311 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:38,753 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:39,199 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:39,622 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:39,656 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:39,702 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:41,301 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:41,956 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:42,988 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:43,008 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:43,460 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:43,908 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:44,021 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:44,346 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:44,788 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:45,228 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:45,661 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:45,675 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:45,708 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:45,716 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:47,396 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:48,731 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:48,989 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:49,089 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:49,478 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:49,912 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:50,129 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:50,344 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:50,770 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:51,201 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:51,641 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:51,657 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:51,816 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:52,431 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:53,502 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:54,847 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:37:55,182 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:55,356 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:55,824 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:56,128 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:56,200 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:37:56,264 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:56,702 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:57,136 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:57,626 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:37:57,641 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:37:57,882 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:59,677 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:37:59,799 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:00,769 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:01,200 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:01,347 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:01,651 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:02,110 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:02,359 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:02,545 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:02,818 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:02,982 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:03,417 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:03,615 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:04,041 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:05,721 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:06,507 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:06,554 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:07,048 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:07,388 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:07,486 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:07,917 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:08,357 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:08,406 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:08,783 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:09,214 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:09,407 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:10,148 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:10,193 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:11,827 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:12,739 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:13,207 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:13,511 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:13,643 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:13,880 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:14,078 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:14,506 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:14,526 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:14,949 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:15,212 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:16,207 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:16,892 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:17,887 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:18,321 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:18,819 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:19,251 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:19,685 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:20,117 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:20,468 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:20,579 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:20,602 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:20,943 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:21,479 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:23,161 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:38:23,577 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:38:24,550 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:24,564 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:24,924 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:24,936 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:25,640 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:38:26,590 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:26,642 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:26,659 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:27,671 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:28,217 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:28] "GET / HTTP/1.1" 200 -
+2024-11-02 18:38:28,234 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:28,246 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:28,252 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:28] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:38:28,649 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:28] "GET / HTTP/1.1" 200 -
+2024-11-02 18:38:28,686 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:28] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:38:28,766 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:28,824 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:28] "GET / HTTP/1.1" 200 -
+2024-11-02 18:38:28,856 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:28] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:38:29,359 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:29,371 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:29,693 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:30,122 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:30,555 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:30,993 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:31,046 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:31,082 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:31,271 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:31,426 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:31,862 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:32,291 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:32,718 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:32,767 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:32,780 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:33,151 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:33,578 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:33,796 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:34,011 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:34,446 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:34,799 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:34,994 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:35,006 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:35,470 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:35,482 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:37,189 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:37,203 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:37,362 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:37] "GET / HTTP/1.1" 200 -
+2024-11-02 18:38:37,396 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:37] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:38:37,691 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:37] "GET / HTTP/1.1" 200 -
+2024-11-02 18:38:37,721 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:37] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:38:37,882 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:37] "GET / HTTP/1.1" 200 -
+2024-11-02 18:38:37,911 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:37] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:38:38,155 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:38,637 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:38,805 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:38,818 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:38,900 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:38,919 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:39,121 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:39,553 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:39,941 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:40,001 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:40,446 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:40,463 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:41,250 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:41] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:38:41,299 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:41] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:38:41,622 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:41,634 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:42,528 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:42,541 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:43,315 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:43,328 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:43,672 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:44,145 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:44,227 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:44] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:38:44,258 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:44] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:38:44,590 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:44,936 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:44] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:38:44,967 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:44] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:38:45,022 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:45,034 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:45,051 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:45,285 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:45] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:38:45,314 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:45] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:38:45,479 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:45,501 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:45] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:38:45,533 [INFO] 192.168.10.243 - - [02/Nov/2024 18:38:45] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:38:45,553 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:45,915 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:46,062 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:46,351 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:46,436 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:47,737 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:47,749 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:49,281 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:49,296 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:49,426 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:49,438 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:49,606 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:50,110 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:50,557 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:51,012 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:51,121 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:51,134 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:51,448 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:51,889 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:52,148 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:52,334 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:52,351 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:52,982 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:52,993 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:53,840 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:53,853 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:55,505 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:38:55,579 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:55,596 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:56,007 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:56,441 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:56,672 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:56,683 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:56,879 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:57,269 [INFO] 서버와 통신했습니다.
+2024-11-02 18:38:57,285 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:38:57,316 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:57,744 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:58,186 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:38:58,316 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:58,371 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:38:59,699 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:38:59,996 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:00,009 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:01,485 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:01,707 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:01,722 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:01,963 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:02,404 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:02,833 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:03,269 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:03,380 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:03,405 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:03,418 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:03,445 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:03,732 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:04,180 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:04,200 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:04,457 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:06,269 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:06,281 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:07,089 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:07,102 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:07,401 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:08,394 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:08,420 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:08,435 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:08,867 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:09,301 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:09,740 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:10,144 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:10,161 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:10,178 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:10,770 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:10,781 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:11,181 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:12,094 [INFO]  * Detected change in '/home/vgadmin/vision-guard/modules/targets.py', reloading
+2024-11-02 18:39:12,618 [INFO]  * Restarting with stat
+2024-11-02 18:39:12,893 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:12,917 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:13,316 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:14,100 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:14,632 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:14,655 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:14,702 [WARNING]  * Debugger is active!
+2024-11-02 18:39:14,703 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:39:14,975 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:15,219 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:15,305 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093912', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:15,320 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:15,584 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:16,103 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:16,352 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:16,366 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:16,550 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:16,985 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:17,379 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:17,418 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:17,845 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:18,279 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:18,718 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:18,998 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093912', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:19,015 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:19,067 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:19,079 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:19,150 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:19,170 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:19] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-11-02 18:39:19,236 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:19] "GET /login HTTP/1.1" 200 -
+2024-11-02 18:39:19,352 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:19] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:39:19,621 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:20,050 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:20,485 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:20,765 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:20,780 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:20,930 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:21,409 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:21,420 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:22,243 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:22] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-11-02 18:39:22,301 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:22] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:39:22,495 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:22,507 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:22,704 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093912', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:22,717 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:23,523 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:24,508 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:25,014 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:25,201 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:25,213 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:25,457 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:25,732 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:25,891 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:26,323 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:26,755 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:26,899 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:26,911 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:27,208 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:27,393 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:28,602 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:28,614 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:29,409 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093924', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:29,420 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:29,627 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:30,349 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:30,844 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:31,016 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 18:39:31,066 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:31] "GET / HTTP/1.1" 200 -
+2024-11-02 18:39:31,131 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:31] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:39:31,290 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:31,326 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:31,343 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:31,725 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:32,160 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:32,593 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:33,027 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:33,045 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:33,059 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:33,100 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093929', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:33,115 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:33,148 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:33] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:39:33,196 [INFO] 192.168.10.243 - - [02/Nov/2024 18:39:33] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:39:33,209 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:34,742 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:34,757 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:35,769 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:36,472 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:36,789 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093936', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:36,804 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:36,976 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:37,430 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:37,451 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:37,464 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:37,862 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:38,299 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:38,732 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:39,035 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:39,949 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:39,961 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:39,994 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:41,659 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:41,672 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:42,116 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:42,549 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:42,691 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:42,988 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:43,420 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:43,700 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093941', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:43,718 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:43,856 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:44,292 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:44,417 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:44,432 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:44,728 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:44,739 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:46,114 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:46,125 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:47,412 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093941', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:47,430 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:47,816 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:47,831 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:47,934 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:48,433 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:48,850 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:48,862 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:49,297 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:49,729 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:50,164 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:50,545 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:50,556 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:50,605 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:50,723 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:51,114 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093947', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:51,124 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:52,250 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:52,262 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:53,966 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:53,978 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:54,025 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:39:54,138 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:54,510 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:54,948 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:54,997 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:39:55,383 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:55,809 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:56,273 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:39:56,606 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:39:56,685 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:56,704 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:58,483 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': [{'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093953', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, {'connect_key': 'c458b144e3c233dfc017d1d98b11bac2058d35f7087e213422464540d11c07962f217df4d700c478a4f8b0f7600f47c49a96da4642ef119edc2de46dda8bef00', 'created_at': '20241030190207', 'description': '비전가드 경보기 모듈 프로토타입', 'model': 'VGALMP1', 'name': 'Vision Guard Alarm P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'serial': '9ba4ed65', 'type': 'alarm', 'work_space_uuid': None}], 'status': 'success'}
+2024-11-02 18:39:58,496 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:58,518 [INFO] 서버와 통신했습니다.
+2024-11-02 18:39:58,530 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 'list' object has no attribute 'get'
+2024-11-02 18:39:59,780 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:40:00,276 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:00,324 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:00,339 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 'list' object has no attribute 'get'
+2024-11-02 18:40:00,713 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:01,149 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:01,350 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:40:01,587 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:02,022 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:02,201 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': {'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102093959', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, 'status': 'success'}
+2024-11-02 18:40:02,269 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:40:03,036 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:04,756 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:05,277 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:40:05,741 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:05,922 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': {'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102094004', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, 'status': 'success'}
+2024-11-02 18:40:06,179 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:06,488 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:06,617 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:07,061 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:07,495 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:07,937 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:08,025 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:40:08,083 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:09,502 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:09,642 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:10,002 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:40:11,345 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:11,976 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:40:12,357 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:40:13,019 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:13,819 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:40:13,834 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:40:13,921 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:40:13,984 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:15,523 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:15,719 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:40:16,552 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:17,056 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:40:17,388 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:40:18,069 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:40:19,565 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:40:19,763 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:19,872 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:40:20,675 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:40:21,139 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:21] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:40:21,196 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:21] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:40:21,533 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:22,652 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:22] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:40:22,691 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:22] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:40:22,828 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:22] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:40:22,859 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:22] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:40:23,104 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:40:23,263 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': {'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102094022', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, 'status': 'success'}
+2024-11-02 18:40:23,274 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:23,605 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:23,960 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:23] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:40:23,994 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:23] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:40:24,046 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:24,355 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:24] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:40:24,387 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:24] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:40:24,482 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:24,913 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:24,999 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:25,584 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:26,021 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:26,452 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:26,702 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:40:27,073 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': {'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102094022', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, 'status': 'success'}
+2024-11-02 18:40:27,248 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:28,121 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-02 18:40:28,689 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:28] "GET / HTTP/1.1" 200 -
+2024-11-02 18:40:28,731 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:28] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:40:28,988 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:29,139 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:29] "GET / HTTP/1.1" 200 -
+2024-11-02 18:40:29,170 [INFO] 192.168.10.243 - - [02/Nov/2024 18:40:29] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:40:29,955 [INFO] 서버에 사진을 전송했습니다.
+2024-11-02 18:40:30,393 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:30,737 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:30,797 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': {'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102094029', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, 'status': 'success'}
+2024-11-02 18:40:30,863 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:31,296 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:31,732 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:32,181 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:32,457 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:40:32,473 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:34,220 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:34,521 [INFO] 서버와 통신했습니다.{'message': 'Success', 'server_device_status': {'alarm': False, 'alarm_possible': True, 'connect_key': 'f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f', 'created_at': '20241030190207', 'description': '비전가드 CCTV 본체 프로토타입', 'last_connection': '20241102094029', 'model': 'VGCTVP1', 'name': 'Vision Guard CCTV P1', 'owner_uuid': '8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13', 'reboot_possible': False, 'serial': 'a6bd8024', 'status': 'normal', 'type': 'cam', 'work_space_uuid': None}, 'status': 'success'}
+2024-11-02 18:40:35,258 [INFO]  * Detected change in '/home/vgadmin/vision-guard/modules/targets.py', reloading
+2024-11-02 18:40:35,520 [INFO]  * Restarting with stat
+2024-11-02 18:40:35,968 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:36,623 [WARNING]  * Debugger is active!
+2024-11-02 18:40:36,624 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:40:37,045 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:37,301 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:37,497 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:37,696 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:37,938 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:38,298 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:40:39,437 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:41,606 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-11-02 18:40:41,607 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 18:40:41,609 [INFO]  * Restarting with stat
+2024-11-02 18:40:42,516 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:42,859 [WARNING]  * Debugger is active!
+2024-11-02 18:40:42,861 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:40:43,292 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:43,506 [INFO] 서버와 통신했습니다.
+2024-11-02 18:40:43,750 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:44,201 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:44,639 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:45,101 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:45,560 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:40:46,004 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
