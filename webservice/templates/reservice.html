@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<style>
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(128, 128, 128, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<div id="modal" class="modal-overlay">
+    <div class="modal-content">
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div><br>
+        <span>{{ detail }}</span>
+        <span id="reservice-title"></span><br>
+    </div>
+</div>
+
+<script>
+    let countdown = 10;
+    const reserviceTitle = document.getElementById('reservice-title');
+
+    const interval = setInterval(() => {
+        countdown--;
+        reserviceTitle.textContent = `\n${countdown}초 뒤 홈으로 이동합니다.`;
+
+        if (countdown <= 0) {
+            clearInterval(interval);
+            window.location.href = '/';
+        }
+    }, 1000);
+</script>
+
+{% endblock %}

@@ -27,6 +27,23 @@ def reboot():
     
     return render_template("reboot.html", reboot_status=reboot_status, detail=detail)
 
+@bp.route("/reservice", methods=["GET"])
+@login_required
+def reservice():
+    reservice_status = True
+    detail = ""
+    
+    if config.get_config('alarm') == True:
+        reservice_status = False
+        detail = "경보기가 작동 중일 때는 서비스를 재시작할 수 없습니다."
+        return render_template("reservice.html", reservice_status=reservice_status, detail=detail)
+    
+    if reservice_status == True:
+        threading.Thread(target=targets._reservice_target, daemon=True).start()
+        detail = "서비스 재시작이 승인되었습니다."
+    
+    return render_template("reservice.html", reservice_status=reservice_status, detail=detail)
+
 @bp.route("/log", methods=["GET"])
 @login_required
 def log():

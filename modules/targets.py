@@ -122,16 +122,53 @@ def _capture_target(_capture_delay):
             retry_count += 1
             if retry_count > config.get_config('api_error_max_retry'):
                 config.set_config('status', config.STATUS_CRITI)
+                logger.critical("서버에 사진 전송을 실패했습니다.")
+                break
+            
+            try:
+                req_rst = requests.get(f"{config.PROCESS_URL}/device/data-process", json=req_data, timeout=3)
+                req_rst.raise_for_status()
+                config.set_config('status', config.STATUS_NORMAL)
+                logger.info("서버에 사진을 전송했습니다.")
+                break
+                
+            except Exception as e:
+                config.set_config('status', config.STATUS_ERROR)
+                logger.error(f"서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... ({retry_count}/{config.get_config('api_error_max_retry')}): {e}")
+                time.sleep(_capture_delay)
+                continue
+        
+        if os.path.exists("capture.jpg"):
+            os.remove("capture.jpg")
+    
+        time.sleep(_capture_delay)
+
+def _server_device_status_update_target(_req_delay):
+    while True:
+        req_data = {
+            "serial": config.PRCT_SERIAL,
+            "connect_key": config.CONNECT_KEY
+        }
+        
+        retry_count = 0
+        while True:
+            retry_count += 1
+            if retry_count > config.get_config('api_error_max_retry'):
+                config.set_config('status', config.STATUS_CRITI)
                 logger.critical("서버와 통신을 실패했습니다.")
                 break
             
             try:
-                req_rst = requests.post(f"{config.PROCESS_URL}/device/data-process", json=req_data, timeout=3)
+                req_rst = requests.post(f"{config.PROCESS_URL}/device/get-status", json=req_data, timeout=3)
                 req_rst.raise_for_status()
                 config.set_config('status', config.STATUS_NORMAL)
                 logger.info("서버와 통신했습니다.")
-                
                 res_data = req_rst.json()
+                
+                if res_data.get('status', 'error') != 'success':
+                    logger.error("서버와 통신 중 문제가 발생했습니다.")
+                    break
+                
                 res_config_data = res_data.get('server_device_status', '-999')
                 
                 if res_config_data != '-999':
@@ -158,14 +195,22 @@ def _capture_target(_capture_delay):
             except Exception as e:
                 config.set_config('status', config.STATUS_ERROR)
                 logger.error(f"서버와 통신 중 문제가 발생했습니다. 재시도 중... ({retry_count}/{config.get_config('api_error_max_retry')}): {e}")
-                time.sleep(_capture_delay)
+                time.sleep(_req_delay)
                 continue
         
-        if os.path.exists("capture.jpg"):
-            os.remove("capture.jpg")
-    
-        time.sleep(_capture_delay)
+        time.sleep(_req_delay)
 
+def _reservice_target():
+    for i in range(0, 3):
+        gpio_ctrl.control_led(green=True, yellow=True, red=True)
+        time.sleep(0.2)
+        gpio_ctrl.control_led(green=False, yellow=False, red=False)
+        time.sleep(0.2)
+    logger.info("서비스를 재시작합니다.")
+    gpio_ctrl.control_alarm(False)
+    gpio_ctrl.control_led(green=False, yellow=False, red=False)
+    os.system("sudo systemctl restart vg")
+    
 def _reboot_target():
     for i in range(0, 3):
         gpio_ctrl.control_led(green=True, yellow=True, red=True)
