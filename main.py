@@ -81,12 +81,10 @@ def _capture_target(_capture_delay):
                 
                 if res_config_data != '-999':
                     alarm = res_config_data.get('alarm', '-999')
-                    disable_alarm = res_config_data.get('disable_alarm', '-999')
                     if alarm != '-999':
-                        if disable_alarm != True:
+                        if alarm == True:
                             threading.Thread(target=targets._alarm_turnon_target, daemon=True).start()
-                    if disable_alarm != '-999':
-                        if disable_alarm == True:
+                        else:
                             config.set_config('alarm', False)
                         
                     reboot_possible = res_config_data.get('reboot_possible', '-999')
