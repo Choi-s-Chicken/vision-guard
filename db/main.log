@@ -770,3 +770,836 @@
 2024-11-02 17:00:43,498 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
 2024-11-02 17:00:43,957 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
 2024-11-02 17:00:44,313 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:00:47,531 [INFO] 서버와 통신했습니다.
+2024-11-02 17:00:48,039 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:00:48,484 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:00:48,928 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:00:49,395 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:00:49,945 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:00:50,053 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:00:51,262 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:51] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-11-02 17:00:51,321 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:51] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:00:51,434 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:51] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:53,405 [INFO] 서버와 통신했습니다.
+2024-11-02 17:00:53,867 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 17:00:53,929 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:53] "GET / HTTP/1.1" 200 -
+2024-11-02 17:00:53,996 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:55,356 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:55] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:55,419 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:55] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:55,973 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:00:56,558 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:56] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:56,612 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:56] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:56,615 [INFO] 서버와 통신했습니다.
+2024-11-02 17:00:57,187 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:57] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:57,227 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:57] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:57,697 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:57] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:57,743 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:57] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:58,150 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:58] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:58,195 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:58] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:58,492 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:58] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:58,542 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:58] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:58,754 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:58] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:58,804 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:58] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:59,035 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:59] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:59,080 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:59] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:59,228 [INFO] 서버와 통신했습니다.
+2024-11-02 17:00:59,276 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:59] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:59,321 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:59] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:59,526 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:59] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:59,572 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:59] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:59,845 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:59] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:00:59,924 [INFO] 서버와 통신했습니다.
+2024-11-02 17:00:59,941 [INFO] 192.168.10.243 - - [02/Nov/2024 17:00:59] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:00:59,985 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 17:01:00,099 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:00] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:00,153 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:00] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:00,345 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:00] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:00,391 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:00] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:00,423 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:00,606 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:00] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:00,651 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:00] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:00,788 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:00] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:00,833 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:00] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:00,871 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:01,301 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:01,743 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:02,252 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:02,680 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:03,115 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:03,552 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:03,994 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:04,422 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:04,867 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:05,314 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:01:08,397 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:08,883 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:09,313 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:09,744 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:10,215 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:10,657 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:10,887 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:01:13,828 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:16,861 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:01:16,968 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:19,929 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:20,011 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:20,058 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 17:01:20,604 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:20,708 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' died with <Signals.SIGTERM: 15>.
+2024-11-02 17:01:28,258 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-11-02 17:01:28,258 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 17:01:28,261 [INFO]  * Restarting with stat
+2024-11-02 17:01:29,355 [WARNING]  * Debugger is active!
+2024-11-02 17:01:29,357 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:01:29,769 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:30,200 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:30,674 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:31,109 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:31,532 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:31,966 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:32,424 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:32,513 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:32] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-11-02 17:01:32,582 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:32] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:01:32,664 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:32] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:32,869 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:33,305 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:33,737 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:34,173 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:34,311 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:01:36,008 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 17:01:36,094 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:36] "GET / HTTP/1.1" 200 -
+2024-11-02 17:01:36,187 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:36] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:37,430 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:37] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:37,508 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:37] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:37,604 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:38,144 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:38,598 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:39,030 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:39,454 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:39,730 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:39] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:39,800 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:39] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:39,889 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:40,177 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:01:41,617 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:41] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:41,713 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:41] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:43,159 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:43] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:43,227 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:43] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:43,325 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:43,811 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:43,916 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:43] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:43,965 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:43] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:44,253 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:44,682 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:44,704 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:44] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:01:44,758 [INFO] 192.168.10.243 - - [02/Nov/2024 17:01:44] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:01:45,120 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:45,566 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:45,895 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:01:49,124 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:49,660 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:50,090 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:50,562 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:51,319 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:51,663 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:01:54,713 [INFO] 서버와 통신했습니다.
+2024-11-02 17:01:55,245 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:55,694 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:56,122 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:56,588 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:57,061 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:57,515 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:01:57,655 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:00,834 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:01,469 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:02,057 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:02,453 [INFO] 192.168.10.243 - - [02/Nov/2024 17:02:02] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:02:02,488 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:02,506 [INFO] 192.168.10.243 - - [02/Nov/2024 17:02:02] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:02:02,937 [INFO] 192.168.10.243 - - [02/Nov/2024 17:02:02] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:02:02,955 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:02,984 [INFO] 192.168.10.243 - - [02/Nov/2024 17:02:02] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:02:03,249 [INFO] 192.168.10.243 - - [02/Nov/2024 17:02:03] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:02:03,299 [INFO] 192.168.10.243 - - [02/Nov/2024 17:02:03] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:02:03,403 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:03,528 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:06,565 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:07,390 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:07,853 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:08,287 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:08,723 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:09,154 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:09,429 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:12,695 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:13,216 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:13,649 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:14,075 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:14,511 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:14,949 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:15,169 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:18,399 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:18,925 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:19,363 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:19,794 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:20,232 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:20,668 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:20,948 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:24,098 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:24,635 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:25,073 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:25,506 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:25,937 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:26,368 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:26,676 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:29,760 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:30,304 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:30,740 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:31,176 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:31,603 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:32,039 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:32,357 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:35,479 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:36,011 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:36,475 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:36,938 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:37,368 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:37,798 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:38,035 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:41,186 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:42,028 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:42,497 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:42,931 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:43,385 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:43,789 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:46,927 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:47,703 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:48,399 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:48,837 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:49,279 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:49,379 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:52,728 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:52,977 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-11-02 17:02:53,495 [INFO]  * Restarting with stat
+2024-11-02 17:02:54,962 [WARNING]  * Debugger is active!
+2024-11-02 17:02:54,963 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:02:55,269 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:02:58,343 [INFO] 서버와 통신했습니다.
+2024-11-02 17:02:58,822 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:59,257 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:02:59,682 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:00,116 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:00,573 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:00,956 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:03:04,708 [INFO] 서버와 통신했습니다.
+2024-11-02 17:03:05,268 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:05,701 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:06,170 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:06,621 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:03:09,702 [INFO] 서버와 통신했습니다.
+2024-11-02 17:03:10,534 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:11,150 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:11,751 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:12,161 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:03:17,376 [INFO] 서버와 통신했습니다.
+2024-11-02 17:03:17,778 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:03:20,989 [INFO] 서버와 통신했습니다.
+2024-11-02 17:03:21,510 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:21,978 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:22,493 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:23,124 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:23,552 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:03:26,594 [INFO] 서버와 통신했습니다.
+2024-11-02 17:03:27,123 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:27,560 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:28,006 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:28,453 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:28,891 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:29,177 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:03:32,396 [INFO] 서버와 통신했습니다.
+2024-11-02 17:03:33,150 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:33,233 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-11-02 17:03:33,621 [INFO]  * Restarting with stat
+2024-11-02 17:03:33,911 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:34,746 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:36,102 [WARNING]  * Debugger is active!
+2024-11-02 17:03:36,104 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:03:36,769 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:37,198 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:37,635 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:38,078 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:38,509 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:38,951 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:40,455 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-11-02 17:03:40,455 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 17:03:40,457 [INFO]  * Restarting with stat
+2024-11-02 17:03:41,632 [WARNING]  * Debugger is active!
+2024-11-02 17:03:41,634 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:03:41,653 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:41] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-11-02 17:03:41,724 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:41] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:03:41,820 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:41] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 17:03:42,074 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:42,512 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:42,948 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:43,377 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:43,802 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:43,887 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 17:03:43,995 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:43] "GET / HTTP/1.1" 200 -
+2024-11-02 17:03:44,074 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:44] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:44,269 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:44,705 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:45,135 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:45,189 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:45] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:45,260 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:45] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:45,576 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:46,005 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:46,442 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:46,563 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:03:49,523 [INFO] 서버와 통신했습니다.
+2024-11-02 17:03:50,020 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:50,469 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:50,898 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:51,325 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:51,425 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:51] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:51,482 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:51] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:51,759 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:51,871 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:51] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:51,917 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:51] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:52,227 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:52,253 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:52,273 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:52,453 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:52,454 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:03:52,514 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:52,641 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:52,685 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:52,809 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:52,882 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:52,973 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:52] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:53,014 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:53,110 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:53,155 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:53,208 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:53,249 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:53,345 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:53,386 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:53,483 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:03:53,522 [INFO] 192.168.10.243 - - [02/Nov/2024 17:03:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:03:55,557 [INFO] 서버와 통신했습니다.
+2024-11-02 17:03:56,048 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:56,483 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:56,944 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:57,417 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:57,894 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:03:58,255 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:01,384 [INFO] 서버와 통신했습니다.
+2024-11-02 17:04:01,880 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:02,251 [INFO] 192.168.10.205 - - [02/Nov/2024 17:04:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 17:04:02,298 [INFO] 192.168.10.205 - - [02/Nov/2024 17:04:02] "GET / HTTP/1.1" 200 -
+2024-11-02 17:04:02,381 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:02,400 [INFO] 192.168.10.205 - - [02/Nov/2024 17:04:02] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:04:02,831 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:03,268 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:03,694 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:03,896 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:06,802 [INFO] 서버와 통신했습니다.
+2024-11-02 17:04:07,330 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:07,826 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:08,258 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:08,693 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:09,139 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:09,577 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:09,741 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:13,018 [INFO] 서버와 통신했습니다.
+2024-11-02 17:04:13,908 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:14,701 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:15,510 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:15,719 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:17,911 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-11-02 17:04:18,314 [INFO]  * Restarting with stat
+2024-11-02 17:04:20,026 [WARNING]  * Debugger is active!
+2024-11-02 17:04:20,027 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:04:20,706 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:21,410 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:21,974 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:25,049 [INFO] 서버와 통신했습니다.
+2024-11-02 17:04:25,863 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:26,440 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:26,869 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:27,317 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:27,553 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:30,747 [INFO] 서버와 통신했습니다.
+2024-11-02 17:04:31,237 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:31,700 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:32,133 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:32,570 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:33,086 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:33,382 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:36,608 [INFO] 서버와 통신했습니다.
+2024-11-02 17:04:37,096 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:38,055 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:38,555 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:39,158 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:39,217 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-11-02 17:04:41,101 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-11-02 17:04:41,102 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 17:04:41,104 [INFO]  * Restarting with stat
+2024-11-02 17:04:42,218 [WARNING]  * Debugger is active!
+2024-11-02 17:04:42,219 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:04:42,239 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:42] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-11-02 17:04:42,302 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:42] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:04:42,372 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:42] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:04:42,643 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:43,084 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:43,515 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:43,945 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:44,378 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:44,570 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 17:04:44,676 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:44] "GET / HTTP/1.1" 200 -
+2024-11-02 17:04:44,750 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:44] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:04:44,845 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:45,297 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:45,725 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:46,161 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:46,199 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:46] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:04:46,257 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:46] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:04:46,606 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:47,038 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:47,194 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:04:50,200 [INFO] 서버와 통신했습니다.
+2024-11-02 17:04:50,864 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:51,310 [INFO]  * Detected change in '/home/vgadmin/vision-guard/src/utils.py', reloading
+2024-11-02 17:04:51,561 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:51,745 [INFO]  * Restarting with stat
+2024-11-02 17:04:52,375 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:53,201 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:53,688 [WARNING]  * Debugger is active!
+2024-11-02 17:04:53,689 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:04:53,711 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:53] "[32mGET /system/log HTTP/1.1[0m" 302 -
+2024-11-02 17:04:53,781 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:53] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:04:53,850 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:53] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:04:54,139 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:54,574 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:55,010 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:55,443 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:55,870 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:56,019 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 17:04:56,132 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:56] "GET / HTTP/1.1" 200 -
+2024-11-02 17:04:56,217 [INFO] 192.168.10.243 - - [02/Nov/2024 17:04:56] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:04:56,327 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:56,759 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:57,481 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:57,919 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:58,353 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:58,782 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:59,231 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:04:59,454 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:05:02,797 [INFO] 서버와 통신했습니다.
+2024-11-02 17:05:03,447 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:05:03,788 [INFO]  * Detected change in '/home/vgadmin/vision-guard/webservice/router/system/main.py', reloading
+2024-11-02 17:05:04,226 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:05:04,241 [INFO]  * Restarting with stat
+2024-11-02 17:05:05,083 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:24,764 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-11-02 17:06:24,764 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 17:06:24,772 [INFO]  * Restarting with stat
+2024-11-02 17:06:25,906 [WARNING]  * Debugger is active!
+2024-11-02 17:06:25,907 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:06:25,931 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:25] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-02 17:06:25,983 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:25] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-02 17:06:26,013 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:26] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:06:26,029 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:26] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:06:26,098 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:26] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:06:26,336 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:26,781 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:27,214 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:27,644 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:28,077 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:28,306 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 17:06:28,356 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:28] "GET / HTTP/1.1" 200 -
+2024-11-02 17:06:28,432 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:28] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:06:28,528 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:28,968 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:29,397 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:29,672 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:29] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:06:29,724 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:29] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:06:29,845 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:30,283 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:30,723 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:30,816 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:06:31,858 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:31] "GET / HTTP/1.1" 200 -
+2024-11-02 17:06:31,942 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:31] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:06:32,629 [INFO] 192.168.10.243 - - [02/Nov/2024 17:06:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-02 17:06:34,127 [INFO] 서버와 통신했습니다.
+2024-11-02 17:06:34,698 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:35,144 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:35,575 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:36,004 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:36,443 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:36,720 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:06:40,045 [INFO] 서버와 통신했습니다.
+2024-11-02 17:06:40,528 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:40,979 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:41,421 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:41,859 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:42,318 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:42,451 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:06:45,813 [INFO] 서버와 통신했습니다.
+2024-11-02 17:06:46,360 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:46,819 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:48,061 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:48,304 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:06:51,441 [INFO] 서버와 통신했습니다.
+2024-11-02 17:06:52,010 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:52,443 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:52,891 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:53,322 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:53,766 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:54,053 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:06:57,154 [INFO] 서버와 통신했습니다.
+2024-11-02 17:06:57,700 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:58,149 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:58,580 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:59,018 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:59,456 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:06:59,774 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:02,869 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:03,927 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:04,361 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:04,799 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:05,228 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:05,446 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:06,742 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:06] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:07:06,789 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:06] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:07:08,563 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:10,197 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:10,629 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:11,069 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:11,226 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:14,700 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:15,174 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:15,614 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:16,047 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:16,499 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:17,112 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:17,124 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:20,430 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:20,913 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:21,362 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:21,792 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:22,229 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:22,667 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:23,102 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:23,209 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:26,423 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:26,907 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:27,348 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:27,778 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:27,802 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:27] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:07:27,852 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:27] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:07:28,211 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:28,504 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:28] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:07:28,559 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:28] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:07:28,700 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:29,133 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:29,150 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:32,510 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:32,995 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:33,453 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:33,951 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:34,404 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:34,905 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:35,132 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:38,493 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:39,027 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:39,478 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:39,789 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:39] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:07:39,828 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:39] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 17:07:39,912 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:40,137 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:40] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:07:40,192 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:40] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:07:40,353 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:40,789 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:40,947 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:44,284 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:44,829 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:45,271 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:45,715 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:46,188 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:46,633 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:46,807 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:50,011 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:50] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:07:50,012 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:50,061 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:50] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:07:50,201 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:50] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:07:50,241 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:50] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:07:50,549 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:50,600 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:50] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:07:50,667 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:50] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:07:50,985 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:51,423 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:51,760 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:51] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:07:51,823 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:51] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:07:51,852 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:52,311 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:52,639 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:55,734 [INFO] 서버와 통신했습니다.
+2024-11-02 17:07:56,259 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:56,698 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:57,131 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:57,558 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:57,988 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:07:58,293 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:07:58,978 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:58] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:07:59,042 [INFO] 192.168.10.243 - - [02/Nov/2024 17:07:59] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:01,435 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:01,981 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:02,414 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:02,866 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:03,317 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:03,748 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:03,988 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:08:07,211 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:07,753 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:08,248 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:08,703 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:09,148 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:09,586 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:09,739 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:08:12,986 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:13,546 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:13,990 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:14,449 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:14,888 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:15,220 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:15] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:08:15,274 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:15] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:15,329 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:15,583 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:15] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:08:15,584 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:08:15,628 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:15] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:15,967 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:15] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:16,082 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:16] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:17,046 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:17] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:17,103 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:17] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:17,810 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:17] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:17,871 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:17] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:18,103 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:18] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:18,169 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:18] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:18,396 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:18] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:18,449 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:18] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:18,683 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:18] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:18,708 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:18,754 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:18] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:19,065 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:19] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:19,125 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:19] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:19,255 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:19,371 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:19] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:19,435 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:19] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:19,696 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:19,705 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:19] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:08:19,778 [INFO] 192.168.10.243 - - [02/Nov/2024 17:08:19] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:08:20,127 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:20,553 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:21,138 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:21,343 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:08:24,523 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:25,075 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:25,513 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:25,964 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:26,412 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:26,852 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:27,141 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:08:30,380 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:30,891 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:31,323 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:31,754 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:32,184 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:32,616 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:32,857 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:08:36,184 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:36,962 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:37,823 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:38,673 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:38,728 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:08:42,041 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:43,737 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:44,587 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:44,847 [INFO]  * Detected change in '/home/vgadmin/vision-guard/webservice/router/system/main.py', reloading
+2024-11-02 17:08:45,292 [INFO]  * Restarting with stat
+2024-11-02 17:08:47,647 [WARNING]  * Debugger is active!
+2024-11-02 17:08:47,649 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:08:48,270 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:48,714 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:49,146 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:49,581 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:50,030 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:50,495 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:50,981 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:51,244 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:08:54,376 [INFO] 서버와 통신했습니다.
+2024-11-02 17:08:54,722 [INFO]  * Detected change in '/home/vgadmin/vision-guard/webservice/router/system/main.py', reloading
+2024-11-02 17:08:54,986 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:55,104 [INFO]  * Restarting with stat
+2024-11-02 17:08:55,944 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:57,151 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:57,797 [WARNING]  * Debugger is active!
+2024-11-02 17:08:57,799 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 17:08:58,376 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:58,884 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:59,331 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:08:59,771 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:00,215 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:00,640 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:01,118 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:01,617 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:02,054 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:02,488 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:02,935 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:03,386 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:03,575 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:06,982 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:07,542 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:08,029 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:08,498 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:08,937 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:09,398 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:12,511 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:13,055 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:13,502 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:13,950 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:14,380 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:14,815 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:14,955 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:18,306 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:18,828 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:19,264 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:19,712 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:20,149 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:20,581 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:20,819 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:24,054 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:24,597 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:25,047 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:25,477 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:25,918 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:26,356 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:26,593 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:29,644 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:30,184 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:30,639 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:31,088 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:31,538 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:32,006 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:32,375 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:35,677 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:36,203 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:36,637 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:37,082 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:37,549 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:37,994 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:38,063 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:41,346 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:41,869 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:42,308 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:42,792 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:43,232 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:43,675 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:43,982 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:47,054 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:47,614 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:48,111 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:48,542 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:48,996 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:49,436 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:49,688 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:52,828 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:53,356 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:53,811 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:54,374 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:54,815 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:55,205 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:55] "[32mGET /system/log_all HTTP/1.1[0m" 302 -
+2024-11-02 17:09:55,274 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:55,275 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:55] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:09:55,410 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:55] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:09:55,454 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:09:55,499 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:55] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:09:55,556 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:55] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:09:55,676 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:55] "GET /login HTTP/1.1" 200 -
+2024-11-02 17:09:55,717 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:55] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:09:57,444 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 17:09:57,494 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:57] "GET / HTTP/1.1" 200 -
+2024-11-02 17:09:57,572 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:57] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:09:58,648 [INFO] 서버와 통신했습니다.
+2024-11-02 17:09:58,934 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:58] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:09:58,988 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:58] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 17:09:59,177 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:59,613 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:09:59,694 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:59] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:09:59,749 [INFO] 192.168.10.243 - - [02/Nov/2024 17:09:59] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:00,058 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:00,421 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:00] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:10:00,484 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:00] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:00,497 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:00,952 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:01,121 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:01] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:10:01,190 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:01] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:01,293 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:10:04,370 [INFO] 서버와 통신했습니다.
+2024-11-02 17:10:04,918 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:05,355 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:05,797 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:06,254 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:06,597 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:06] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:10:06,664 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:06] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:06,689 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:06,997 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:10:06,999 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:06] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:10:07,060 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:07] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:07,195 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:07] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:10:07,254 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:07] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:07,383 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:07] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:10:07,464 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:07] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:07,975 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:07] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:10:08,025 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:08] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:10,237 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:10] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:10:10,243 [INFO] 서버와 통신했습니다.
+2024-11-02 17:10:10,306 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:10] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:10,766 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:10,873 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:10] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:10:10,921 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:10] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:11,214 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:11,545 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:11] "GET /system/log_all HTTP/1.1" 200 -
+2024-11-02 17:10:11,609 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:11] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:11,649 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:12,080 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:12,511 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:12] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 17:10:12,512 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:12,568 [INFO] 192.168.10.243 - - [02/Nov/2024 17:10:12] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 17:10:12,698 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:10:16,157 [INFO] 서버와 통신했습니다.
+2024-11-02 17:10:16,692 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:17,131 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:17,566 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:18,011 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:18,482 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:18,536 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:10:21,678 [INFO] 서버와 통신했습니다.
+2024-11-02 17:10:22,213 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:22,655 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:23,093 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:23,573 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:24,023 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:24,486 [INFO] 사진을 촬영했습니다.
+2024-11-02 17:10:27,419 [INFO] 서버와 통신했습니다.
+2024-11-02 17:10:27,976 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 17:10:28,465 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.

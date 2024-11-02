@@ -30,7 +30,12 @@ def reboot():
 @bp.route("/log", methods=["GET"])
 @login_required
 def log():
-    return render_template("log.html", log=utils.get_log(), client_name=session.get('username'))
+    return render_template("log.html", log=utils.get_log(100), client_name=session.get('username'), all_log=False)
+
+@bp.route("/log_all", methods=["GET"])
+@login_required
+def log_all():
+    return render_template("log.html", log=utils.get_log(-1), client_name=session.get('username'), all_log=True)
 
 @bp.route("/log_init", methods=["POST"])
 @login_required

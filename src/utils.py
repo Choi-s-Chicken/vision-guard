@@ -10,9 +10,13 @@ log_time_format = "%Z %x %X"
 log_format = "%(asctime)s %(levelname)8s %(message)s"
 default_timef = "%Y%m%d%H%M%S"
 
-def get_log() -> str:
+def get_log(lines) -> str:
     with open(config.LOG_PATH, 'r', encoding='utf-8') as f:
-        return f.read()
+        log_lines = f.readlines()
+        if lines == -1:
+            return ''.join(log_lines)
+        return ''.join(log_lines[-lines:])
+    
 def init_log():
     with open(config.LOG_PATH, 'w', encoding='utf-8') as f:
         f.write("")
