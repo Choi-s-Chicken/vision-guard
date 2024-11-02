@@ -153,9 +153,9 @@ def _capture_target(_capture_delay):
                     if last_server_connect_time != '-999':
                         config.set_config('last_server_connect_time', last_server_connect_time)
                 
+                break
                 
-                
-            except requests.RequestException as e:
+            except Exception as e:
                 config.set_config('status', config.STATUS_ERROR)
                 logger.error(f"서버와 통신 중 문제가 발생했습니다. 재시도 중... ({retry_count}/{config.get_config('api_error_max_retry')}): {e}")
                 time.sleep(_capture_delay)
