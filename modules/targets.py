@@ -159,7 +159,7 @@ def _server_device_status_update_target(_req_delay):
                 break
             
             try:
-                req_rst = requests.post(f"{config.PROCESS_URL}/device/get-status", json=req_data, timeout=3)
+                req_rst = requests.get(f"{config.PROCESS_URL}/device/get-status", json=req_data, timeout=3)
                 req_rst.raise_for_status()
                 config.set_config('status', config.STATUS_NORMAL)
                 logger.info("서버와 통신했습니다.")

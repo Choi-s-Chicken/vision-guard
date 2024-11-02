@@ -6357,3 +6357,416 @@
  * Running on http://192.168.10.165:80
 2024-11-02 18:31:49,957 [INFO] [33mPress CTRL+C to quit[0m
 2024-11-02 18:31:49,960 [INFO]  * Restarting with stat
+2024-11-02 18:31:50,792 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:51,243 [WARNING]  * Debugger is active!
+2024-11-02 18:31:51,245 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:31:51,658 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:52,073 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:52,135 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:52,584 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:52,647 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:53,026 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:53,478 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:53,947 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:53,983 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:54,386 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:54,578 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:54,872 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:55,370 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:55,596 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:31:55,835 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:55,849 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:31:56,016 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:31:56,873 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:31:57,456 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:58,090 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:31:58,749 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:59,347 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:31:59,767 [INFO] 192.168.10.243 - - [02/Nov/2024 18:31:59] "GET /login HTTP/1.1" 200 -
+2024-11-02 18:31:59,827 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:31:59,863 [INFO] 192.168.10.243 - - [02/Nov/2024 18:31:59] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:32:00,659 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:01,226 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:01,603 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:01,613 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:32:01,909 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:02,239 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:02,540 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:02,635 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 18:32:02,675 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:02] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:02,743 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:02] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:03,553 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:03,977 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:04,119 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:05,068 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:05] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:32:05,122 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:05] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:05,390 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:06,122 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:06,134 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:07,249 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:07,678 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:08,000 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:08,222 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:08,236 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:32:09,014 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:09,108 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:09,712 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:10,122 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:10,913 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:11,778 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:12,007 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:12,782 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:13,605 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:13,616 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:32:13,877 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:14,066 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:14] "GET /system/log HTTP/1.1" 200 -
+2024-11-02 18:32:14,067 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:14,116 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:14] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:32:14,211 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:14,646 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:15,659 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:15,751 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:16,316 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:16,764 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:17,524 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:18,136 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:18,390 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-02 18:32:18,633 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:19,026 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:19] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:19,060 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:19] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:32:19,413 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:19,431 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:19] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:19,479 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:19] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:32:19,772 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:19] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:19,809 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:19] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:20,122 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:20] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:20,168 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:20] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:20,206 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:20,268 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:32:20,301 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:20,455 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:20] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:20,488 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:20] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:20,510 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:20,795 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:20] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:20,837 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:20] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:21,102 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:21] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:21,141 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:21] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:21,289 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:21,496 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:21] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:21,533 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:21] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:21,655 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:21] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:21,686 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:21] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:21,962 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:21] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:22,001 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:22,076 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:22,106 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:22,302 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:22,363 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:22,403 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:22,438 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:22,696 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:22,734 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:22,872 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:22,907 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:22] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:23,016 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:23,045 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:23,226 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:23,257 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:23,322 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:23,350 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:23,378 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:23,633 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:23,665 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:23,938 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:23,967 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:23] "GET /static/title_icon.png HTTP/1.1" 200 -
+2024-11-02 18:32:24,135 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:24,841 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:24] "GET /system/reservice HTTP/1.1" 200 -
+2024-11-02 18:32:24,888 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:24] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:25,239 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:25,999 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:26,038 [INFO] 서비스를 재시작합니다.
+2024-11-02 18:32:27,417 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-11-02 18:32:27,418 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 18:32:27,420 [INFO]  * Restarting with stat
+2024-11-02 18:32:28,259 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:28,558 [WARNING]  * Debugger is active!
+2024-11-02 18:32:28,559 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:32:28,963 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:29,397 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:29,427 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:29,828 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:30,131 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:30,263 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:30,693 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:31,134 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:31,294 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:31,572 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:32,007 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:32,020 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:32,456 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:32,891 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:33,023 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:33,181 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:33,495 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:34,194 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:34,872 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:34,970 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:34] "[32mGET / HTTP/1.1[0m" 302 -
+2024-11-02 18:32:35,038 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:35] "GET /login HTTP/1.1" 200 -
+2024-11-02 18:32:35,146 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:35] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:35,595 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:36,074 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:36,756 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:37,548 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:37,985 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:38,634 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:39,145 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:39,626 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:39,638 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:32:39,650 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:39,864 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:40,874 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:41,069 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:41,242 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-02 18:32:41,308 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:41] "GET / HTTP/1.1" 200 -
+2024-11-02 18:32:41,388 [INFO] 192.168.10.243 - - [02/Nov/2024 18:32:41] "[36mGET /static/title_icon.png HTTP/1.1[0m" 304 -
+2024-11-02 18:32:41,516 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:42,722 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:42,988 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:43,373 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:44,585 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:45,051 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:45,065 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:32:45,240 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:45,577 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:32:45,645 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:46,254 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:46,917 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:47,727 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:47,928 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:48,119 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:49,784 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:49,891 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:50,095 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:51,644 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:51,775 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:51,944 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:51,956 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:51,968 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:32:52,958 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:53,495 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:53,959 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:54,507 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:32:54,819 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:55,923 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:56,372 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:56,713 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:57,787 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:32:57,802 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:32:58,027 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:32:58,256 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:58,573 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:32:59,586 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:00,050 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:00,106 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:01,119 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:01,438 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:02,121 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:02,979 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:03,329 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:04,027 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:04,083 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:04,094 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:04,837 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:05,222 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:05,810 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:06,234 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:06,689 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:07,703 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:07,874 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:08,115 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:09,562 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:09,821 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:09,836 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:09,988 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:10,154 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:11,438 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:11,830 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:11,994 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:12,841 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:13,305 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:13,935 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:14,319 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:14,714 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 500 Server Error: INTERNAL SERVER ERROR for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:15,666 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:15,679 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:15,870 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:16,003 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:16,383 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:17,679 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:17,966 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:18,055 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:19,066 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:19,365 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:20,134 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:20,379 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:20,744 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:21,694 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:22,064 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:22,252 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:22,261 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:22,417 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:23,749 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:23,824 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:24,082 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:25,095 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:25,433 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:25,968 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:26,445 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:26,770 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:28,056 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:28,068 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:28,176 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:28,224 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:28,456 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:29,863 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:30,157 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:30,487 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:31,175 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:31,565 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:32,437 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:32,578 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:32,858 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:34,091 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:34,271 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:34,374 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:34,384 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:34,549 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:35,839 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:35,958 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:36,215 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:37,226 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:37,637 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:37,780 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:38,653 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:38,953 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:40,047 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:40,061 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:40,333 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:40,507 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:40,667 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:42,011 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:42,347 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:42,457 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:43,365 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:43,754 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:44,495 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:44,770 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:45,051 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:46,397 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:46,555 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:46,568 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:46,588 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:46,728 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:48,283 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:48,409 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:48,540 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:49,421 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:49,998 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:50,675 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:51,011 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:51,108 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:52,622 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:52,634 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:52,736 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:52,758 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:52,787 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:54,876 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:54,893 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:54,935 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:55,904 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:56,562 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:56,988 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:57,574 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:33:57,605 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:58,808 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:33:58,823 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:33:58,843 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:33:59,283 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:33:59,304 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:00,978 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:00,988 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:02,001 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:02,678 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:03,693 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:03,716 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:04,964 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:34:05,392 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:05,418 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:06,864 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:06,934 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:06,957 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:07,970 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:08,466 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:08,556 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:09,479 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:09,526 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 521 Server Error:  for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:11,296 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:11,314 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:11,335 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:11,349 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:34:12,977 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:13,073 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:13,987 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:14,777 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:15,665 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:15,789 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:17,358 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:17,511 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:17,533 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:34:19,051 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:19,203 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:19,459 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:20,061 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:20,899 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:21,463 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:21,742 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:21,912 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:23,441 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:23,546 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 520 Server Error:  for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:23,555 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:34:23,625 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:25,124 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:25,318 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:26,137 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:27,028 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:27,815 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:28,041 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:29,516 [INFO] 사진을 촬영했습니다.
+2024-11-02 18:34:29,539 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:29,707 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:31,230 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:31,327 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (1/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:31,385 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:32,243 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:33,052 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:33,227 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (2/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:33,927 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:34,067 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:35,104 [ERROR] 서버에 사진을 전송하는 중 문제가 발생했습니다. 재시도 중... (3/3): 502 Server Error: Bad Gateway for url: http://visionguard.dyhs.kr/device/data-process
+2024-11-02 18:34:35,123 [CRITICAL] 서버에 사진 전송을 실패했습니다.
+2024-11-02 18:34:35,641 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:35,829 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:36,394 [INFO]  * Detected change in '/home/vgadmin/vision-guard/modules/targets.py', reloading
+2024-11-02 18:34:36,723 [INFO]  * Restarting with stat
+2024-11-02 18:34:37,371 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (3/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:38,410 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 18:34:38,422 [WARNING]  * Debugger is active!
+2024-11-02 18:34:38,424 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 18:34:38,828 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:34:39,099 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 400 Client Error: BAD REQUEST for url: http://visionguard.dyhs.kr/device/get-status
+2024-11-02 18:34:39,279 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:34:39,713 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 18:34:40,098 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (1/3): 405 Client Error: METHOD NOT ALLOWED for url: http://visionguard.dyhs.kr/device/get-status
