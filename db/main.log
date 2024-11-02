@@ -311,3 +311,173 @@
 2024-11-02 16:20:53,708 [INFO] 경보기가 해제되었습니다.
 2024-11-02 16:20:54,084 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
 2024-11-02 16:20:54,563 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:55,131 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:55,576 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:56,013 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:56,492 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:56,932 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:57,365 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:57,801 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:58,240 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:20:58,489 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:21:01,694 [INFO] {
+  "message": "Success", 
+  "server_device_status": {
+    "alarm": true, 
+    "alarm_possible": true, 
+    "connect_key": "f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f", 
+    "created_at": "20241030190207", 
+    "description": "\ube44\uc804\uac00\ub4dc CCTV \ubcf8\uccb4 \ud504\ub85c\ud1a0\ud0c0\uc785", 
+    "disable_alarm": false, 
+    "last_connection": "20241102072101", 
+    "model": "VGCTVP1", 
+    "name": "Vision Guard CCTV P1", 
+    "owner_uuid": "8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13", 
+    "reboot_possible": true, 
+    "serial": "a6bd8024", 
+    "status": "normal", 
+    "type": "cam", 
+    "work_space_uuid": null
+  }, 
+  "status": "success"
+}
+
+2024-11-02 16:21:01,694 [INFO] 서버로 데이터를 전송했습니다.
+2024-11-02 16:21:01,766 [INFO] 경보기를 작동했습니다.
+2024-11-02 16:21:04,671 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:21:04,937 [INFO] {
+  "message": "Success", 
+  "server_device_status": {
+    "alarm": true, 
+    "alarm_possible": true, 
+    "connect_key": "f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f", 
+    "created_at": "20241030190207", 
+    "description": "\ube44\uc804\uac00\ub4dc CCTV \ubcf8\uccb4 \ud504\ub85c\ud1a0\ud0c0\uc785", 
+    "disable_alarm": false, 
+    "last_connection": "20241102072104", 
+    "model": "VGCTVP1", 
+    "name": "Vision Guard CCTV P1", 
+    "owner_uuid": "8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13", 
+    "reboot_possible": true, 
+    "serial": "a6bd8024", 
+    "status": "normal", 
+    "type": "cam", 
+    "work_space_uuid": null
+  }, 
+  "status": "success"
+}
+
+2024-11-02 16:21:04,937 [INFO] 서버로 데이터를 전송했습니다.
+2024-11-02 16:21:04,939 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:07,914 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:07,915 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:08,196 [INFO] {
+  "message": "Success", 
+  "server_device_status": {
+    "alarm": true, 
+    "alarm_possible": true, 
+    "connect_key": "f1c546d691f21be5edbd55ce68d89e5be2a995cd9590e612750efe1be50337c4333f9a06cf8428f5a7910f44699a9d7ebeb5585ec1438445c13e97b5c1a1f75f", 
+    "created_at": "20241030190207", 
+    "description": "\ube44\uc804\uac00\ub4dc CCTV \ubcf8\uccb4 \ud504\ub85c\ud1a0\ud0c0\uc785", 
+    "disable_alarm": false, 
+    "last_connection": "20241102072107", 
+    "model": "VGCTVP1", 
+    "name": "Vision Guard CCTV P1", 
+    "owner_uuid": "8f207056a52eec879b1082c56dfc5350d7c0ed129d07ff8d29bec21502b9ff13", 
+    "reboot_possible": true, 
+    "serial": "a6bd8024", 
+    "status": "normal", 
+    "type": "cam", 
+    "work_space_uuid": null
+  }, 
+  "status": "success"
+}
+
+2024-11-02 16:21:08,196 [INFO] 서버로 데이터를 전송했습니다.
+2024-11-02 16:21:08,198 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:08,236 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 16:21:10,683 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.10.165:80
+2024-11-02 16:21:10,683 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 16:21:10,686 [INFO]  * Restarting with stat
+2024-11-02 16:21:11,869 [WARNING]  * Debugger is active!
+2024-11-02 16:21:11,871 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 16:21:12,271 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:12,703 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:13,130 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:13,559 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:13,998 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:14,428 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:14,857 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:15,285 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:15,741 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:16,194 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:16,631 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:16,699 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:21:19,868 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:19,964 [INFO] 경보기를 작동했습니다.
+2024-11-02 16:21:22,646 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:21:23,098 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:23,100 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:25,764 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:25,768 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:26,339 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:26,342 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:26,391 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 16:21:29,023 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:29,024 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:32,183 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:32,186 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:32,244 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 16:21:32,527 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:21:35,688 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:35,690 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:38,385 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:21:38,760 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:38,761 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:41,701 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:41,703 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:43,099 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:43,101 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:43,144 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 16:21:44,935 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:44,937 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:46,105 [INFO]  * Detected change in '/home/vgadmin/vision-guard/modules/gpio_control.py', reloading
+2024-11-02 16:21:46,468 [INFO]  * Restarting with stat
+2024-11-02 16:21:47,868 [INFO] 경보기가 해제되었습니다.
+2024-11-02 16:21:47,889 [WARNING]  * Debugger is active!
+2024-11-02 16:21:47,890 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 16:21:48,321 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:48,796 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:21:49,110 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:21:52,163 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:52,246 [INFO] 경보기를 작동했습니다.
+2024-11-02 16:21:55,016 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:21:55,222 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:55,224 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:57,978 [INFO]  * Detected change in '/home/vgadmin/vision-guard/modules/gpio_control.py', reloading
+2024-11-02 16:21:58,205 [INFO]  * Restarting with stat
+2024-11-02 16:21:58,419 [INFO] 서버와 통신했습니다.
+2024-11-02 16:21:58,421 [ERROR] 경보기가 이미 작동 중입니다. 작업이 거부되었습니다.
+2024-11-02 16:21:58,468 [CRITICAL] 서버와 통신을 실패했습니다.
+2024-11-02 16:21:59,334 [INFO] 경보기가 해제되었습니다.
+2024-11-02 16:21:59,347 [WARNING]  * Debugger is active!
+2024-11-02 16:21:59,348 [INFO]  * Debugger PIN: 105-440-626
+2024-11-02 16:21:59,760 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:00,227 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:00,666 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:01,091 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:01,519 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:01,944 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:02,400 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:02,827 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:03,260 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:03,696 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:04,153 [ERROR] 사진 정보 얻기에 실패했습니다: Command '['libcamera-jpeg', '-o', 'capture.jpg']' returned non-zero exit status 255.
+2024-11-02 16:22:04,646 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:22:07,872 [INFO] 서버와 통신했습니다.
+2024-11-02 16:22:07,962 [INFO] 경보기를 작동했습니다.
+2024-11-02 16:22:11,049 [INFO] 사진을 촬영했습니다.
+2024-11-02 16:22:13,218 [ERROR] 서버와 통신 중 문제가 발생했습니다. 재시도 중... (2/3): HTTPConnectionPool(host='visionguard.dyhs.kr', port=80): Read timed out. (read timeout=3)

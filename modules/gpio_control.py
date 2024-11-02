@@ -12,6 +12,10 @@ def gpio_init():
     GPIO.setup(config.PIN_R_LED, GPIO.OUT)
     GPIO.setup(config.PIN_Y_LED, GPIO.OUT)
     GPIO.setup(config.PIN_G_LED, GPIO.OUT)
+    GPIO.output(config.PIN_ALARM, LOW)
+    GPIO.output(config.PIN_R_LED, LOW)
+    GPIO.output(config.PIN_Y_LED, LOW)
+    GPIO.output(config.PIN_G_LED, LOW)
 
 def control_led(green: bool = None, yellow: bool = None, red: bool = None):
     if green  != None: GPIO.output(config.PIN_G_LED, green)
