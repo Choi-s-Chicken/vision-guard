@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<style>
+    .card {
+        margin-left: 10px;
+        margin-bottom: 10px
+    }
+    .regi-card {
+        color: #c4c4c4;
+        background-color: #f9f9f9;
+    }
+</style>
+
+<h1>{{ space['name'] }}</h1>
+<p>{{ space['description'] }}</p>
+<hr>
+<p>
+    {% for user in users %}
+        {% if user['uuid'] == space['owner_uuid'] %}
+            관리자: {{ user['user_name'] }}({{ user['user_id'] }})<br>
+        {% endif %}
+    {% endfor %}
+    생성일자: {{ space['create_time'] }}
+</p>
+<hr>
+
+<h4>공간에 등록된 기기</h4>
+<div class="row">
+    {% for regi_prct in regi_prcts %}
+        {% if regi_prct['serial'] in space['work_device_uuids'] %}
+            <div class="card" style="width: 14rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ regi_prct['model'] }}</h5>
+                    <a href="/device/manage/{{ regi_prct['serial'] }}" class="btn btn-primary">기기관리</a>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    <div class="card regi-card" style="width: 14rem;">
+        <div class="card-body">
+            <h5 class="card-title">공간에 기기 추가하기</h5>
+            <a href="/space/regi_device" class="btn btn-primary">추가하기</a>
+        </div>
+    </div>
+</div>
+<hr>
+
+<hr>
+<div class="row">
+    <div class="col">
+        <a href="/dashboard" class="btn btn-primary">대시보드로</a>
+    </div>
+    <div class="col text-end">
+        <button type="button" id="space-del-btn" class="btn btn-secondary">공간삭제</button>
+    </div>
+</div>
+
+<script>
+    const spaceDelBtn = document.getElementById('space-del-btn');
+
+    spaceDelBtn.addEventListener('click', () => {
+        if (confirm('이 공간을 정말 삭제하시겠습니까? 돌이킬 수 없습니다.') == false) 
+            return;
+
+        if (confirm('이 공간을 정말 삭제하시겠습니까? 돌이킬 수 없습니다. (2차 확인)') == false)
+            return;
+        
+        window.location.href = `/space/remove/{{ space["uuid"] }}`;
+    });
+</script>
+
+{% endblock %}

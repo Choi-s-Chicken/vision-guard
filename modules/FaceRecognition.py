@@ -72,7 +72,7 @@ class FaceRecognition:
         face = self.extract_face(image, detection_threshold)
         return face is not None
 
-    def annotate_faces(self, image_path, output_path, detection_threshold=0.5):
+    def annotate_faces(self, image_path, output_path, capture_time, detection_threshold=0.5):
         # Load the original image
         image = cv2.imread(image_path)
         if image is None:
@@ -92,5 +92,7 @@ class FaceRecognition:
                 ymax = int(detection[6] * image.shape[0])
                 cv2.rectangle(image, (xmin, ymin), (xmax, ymax), (0, 255, 0), 10)
 
+        cv2.putText(image, f"{capture_time}", (20, 2400), cv2.FONT_HERSHEY_SIMPLEX, 3, (255, 255, 255), 10)
+        
         # Save the annotated image
         cv2.imwrite(output_path, image)

@@ -8,6 +8,8 @@ import numpy as np
 from openvino.runtime import Core
 import config
 
+default_timef = "%Y%m%d%H%M%S"
+
 def get_now_iso_ftime() -> str:
     now = datetime.now()
     return now.isoformat()
@@ -19,8 +21,11 @@ def get_now_ftime(_format = config.DF_TIME_FORMAT) -> str:
 def convert_now_ftime(_time_str: str, _format = config.DF_TIME_FORMAT) -> datetime:
     return datetime.strptime(_time_str, _format)
 
-def convert_str_to_time(str_time, format=config.DF_TIME_FORMAT):
-    return time.strptime(str_time, format)
+def convert_str_to_time(_str_time, _format=default_timef):
+    return datetime.strptime(_str_time, _format)
+
+def re_time_string_format(_str_time, _reformat, _format=default_timef) -> str:
+    return convert_str_to_time(_str_time, _format).strftime(_reformat)
 
 def gen_rhash(length=64):
     random_bytes = os.urandom(32)

@@ -4,9 +4,11 @@
 <style>
     .card {
         margin-left: 10px;
+        margin-bottom: 10px
     }
     .regi-card {
-        background-color: #f9f9fa;
+        color: #c4c4c4;
+        background-color: #f9f9f9;
     }
 </style>
 
@@ -14,16 +16,17 @@
 <h4>내 기기</h4>
 <div class="row">
     {% for prct in prcts %}
-    {% if prct['owner_uuid'] == user_info['uuid'] %}
-    <div class="card" style="width: 14rem;">
-        <div class="card-body">
-            <h5 class="card-title">{{ prct['name'] }}</h5>
-            <p class="card-text">{{ prct['description'] }}</p>
-            <a href="/device/manage/{{ prct['serial'] }}" class="btn btn-primary">기기관리</a>
-        </div>
-    </div>
-    {% endif %}
+        {% if prct['owner_uuid'] == user_info['uuid'] %}
+            <div class="card" style="width: 14rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ prct['name'] }}</h5>
+                    <p class="card-text">{{ prct['description'] }}</p>
+                    <a href="/device/manage/{{ prct['serial'] }}" class="btn btn-primary">기기관리</a>
+                </div>
+            </div>
+        {% endif %}
     {% endfor %}
+
     <div class="card regi-card" style="width: 14rem;">
         <div class="card-body">
             <h5 class="card-title">기기 추가하기</h5>
@@ -37,14 +40,21 @@
 <h4>내 장소</h4>
 <div class="row">
     {% for space in spaces %}
-    <div class="card" style="width: 14rem;">
-        <div class="card-body">
-            <h5 class="card-title">{{space['name']}}</h5>
-            <p class="card-text">{{space['description']}}</p>
-            <a href="/space/view/{{ space['serial'] }}" class="btn btn-primary">보기</a>
-        </div>
-    </div>
+        {% if space['owner_uuid'] == user_info['uuid'] %}
+            <div class="card" style="width: 14rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ space['name'] }}</h5>
+                    <p class="card-text">
+                        {{ space['description'] }}<br>
+                        소유: {{ user_info['user_name'] }}({{ user_info['user_id'] }})
+                    </p>
+                    <p class="card-text"></p>
+                    <a href="/space/view/{{ space['uuid'] }}" class="btn btn-primary">보기</a>
+                </div>
+            </div>
+        {% endif %}
     {% endfor %}
+
     <div class="card regi-card" style="width: 14rem;">
         <div class="card-body">
             <h5 class="card-title">공간 만들기</h5>

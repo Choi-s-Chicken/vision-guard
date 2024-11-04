@@ -36,7 +36,7 @@ def setting():
             flash('새 비밀번호는 8자~256자 사이 영문 대소문자, 숫자, 특수문자를 모두 포함해야 합니다.', 'error')
             return redirect(url_for('main.user.setting'))
         
-        if not auth.check_account(org_data['user_id'], userpw):
+        if not auth.verify_user(org_data['user_id'], userpw):
             flash('비밀번호가 일치하지 않습니다.', 'error')
             return redirect(url_for('main.user.setting'))
         
@@ -72,15 +72,14 @@ def login():
         userid = request.form.get('userid')
         userpw = request.form.get('userpw')
         
-        account_check_rst = auth.check_account(userid, userpw)
+        account_check_rst = auth.verify_user(userid, userpw)
         if account_check_rst == False:
             flash('아이디 또는 비밀번호가 일치하지 않습니다.', 'error')
             return redirect(url_for('main.user.login'))
         
         session['user_info'] = account_check_rst
         
-        return redirect(url_for('main.index'))
-            
+        return redirect(url_for('main.dashboard.index'))
     
     return render_template('user/login.html')
 

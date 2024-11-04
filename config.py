@@ -21,9 +21,16 @@ USER_ID_RE = r'^[A-Za-z0-9]{2,16}$'
 USER_PW_RE = r'^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*()_+~`|}{[\]:;?><,./\-]).{8,256}$'
 USER_NM_RE = r'^[가-힣]{1,8}$'
 
+# Device db path
+DEVICE_DB_PATH = f'{DB_PATH}/devices.json'
+
 # Space db path
+SPACE_PATH = f'{DB_PATH}/spaces'
 SPACE_DB_PATH = f'{DB_PATH}/spaces.json'
 SPACE_NM_RE = r'^[가-힣a-zA-Z0-9]{2,16}$$'
+SPACE_DESC_RE = r'^[가-힣a-zA-Z0-9\s]{0,32}$'
+SPACE_WORK_RE = r'^[0-3]$'
+SPACE_WORK_NAME = ['allow_human', 'notallow_human', 'unknown_human']
 
 # Products db path
 PRODUCTS_DB_PATH = f'{DB_PATH}/products.json'

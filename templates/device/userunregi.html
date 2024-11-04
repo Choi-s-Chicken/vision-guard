@@ -1,11 +1,16 @@
 {% extends 'base.html' %}
  
 {% block content %}
-<h2>기기 등록 해제<h2>
-
-<form method="POST" action="/device/userunregi" onsubmit="return confirm('이 기기를 계정과 해제하시겠습니까?');">
+<h2>계정 기기 등록 해제<h2><br>
+<form method="POST" action="/device/userunregi" onsubmit="return confirm('이 기기를 계정과 해제하시겠습니까?\n기기가 등록된 공간에서도 모두 제거됩니다.');">
     <div class="form-group">
-        <input type="text" class="form-control" id="prct-serial" name="prct-serial" placeholder="시리얼번호를 입력하세요.">
+        <label for="prct-serial">계정에 등록된 제품을 선택하세요.</label>
+        <select class="form-control" id="prct-serial" name="prct-serial" required>
+            <option value="">제품 선택</option>
+            {% for regi_prct in regi_prcts %}
+                <option value="{{ regi_prct['serial'] }}">{{ regi_prct['name'] }}</option>
+            {% endfor %}
+        </select>
     </div>
     <button type="submit" class="btn btn-primary">해지하기</button>
 </form>
