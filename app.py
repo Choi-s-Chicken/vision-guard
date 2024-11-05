@@ -28,6 +28,7 @@ EXPECTED_RESPONSE = {
 }
 
 def find_vgdevice():
+    vg_devices = []
     ip_list = list(ip_network(NETWORK_RANGE))
     for ip in tqdm(ip_list, desc="비전가드 제품을 찾고 있습니다 . . ."):
         url = f"http://{ip}:{PORT}/vgdevicegetinfo"
@@ -36,12 +37,16 @@ def find_vgdevice():
             if response.status_code == 200:
                 data = response.json()
                 if data.get("is_vgdevice") == True:
-                    print(f"제품을 찾았습니다. http://{ip}")
-                    print(f"모델 이름: {data.get('model', '정보 없음')}")
-                    return ip
+                    vg_devices.append({"ip": ip, "model": data.get("model", "정보 없음")})
         except (requests.exceptions.RequestException, json.JSONDecodeError):
             continue
+    print(end="\n")
     
+    if len(vg_devices) > 0:
+        print("비전가드 제품을 찾았습니다.")
+        for i, device in enumerate(vg_devices):
+            print(f"{i+1}. {device['model']}. 접속주소: http://{device['ip']}")
+        return vg_devices
     print("제품을 찾을 수 없습니다. 제품이 동일한 네트워크에 연결되어있나요?")
     return None
 
