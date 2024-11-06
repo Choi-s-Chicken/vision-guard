@@ -51,8 +51,11 @@
 <hr>
 
 <h4>제어 메뉴</h4>
-<a href="/alarm/turnon"><button type="button" class="btn btn-outline-danger">경보</button></a>
-<a href="/alarm/turnoff"><button type="button" class="btn btn-outline-warning">경보해제</button></a>
+{% if alarm == False %
+    <a href="/alarm/turnon"><button type="button" class="btn btn-outline-danger">경보</button></a>
+{% else %}
+    <a href="/alarm/turnoff"><button type="button" class="btn btn-outline-warning">경보해제</button></a>
+{% endif %}
 <button id="reservice-btn" type="button" class="btn btn-outline-primary">서비스재시작</button>
 <button id="reboot-btn" type="button" class="btn btn-outline-primary">재부팅</button><br>
 <hr>

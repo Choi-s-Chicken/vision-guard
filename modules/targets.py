@@ -173,10 +173,14 @@ def _server_device_status_update_target(_req_delay):
                 
                 if res_config_data != '-999':
                     alarm = res_config_data.get('alarm', '-999')
+                    alarm_disable = res_config_data.get('alarm_disable', '-999')
+                    
                     if alarm != '-999':
                         if alarm == True:
                             threading.Thread(target=targets._alarm_turnon_target, daemon=True).start()
-                        else:
+                    
+                    if alarm_disable != '-999':
+                        if alarm_disable == True:
                             config.set_config('alarm', False)
                         
                     reboot_possible = res_config_data.get('reboot_possible', '-999')

@@ -1,6 +1,6 @@
 import secrets
 import config
-from flask import Flask, flash, render_template, redirect, url_for, request, session
+from flask import Flask, flash, render_template, redirect, url_for, request, session, jsonify
 from webservice.auth import change_password, login_required, check_login, del_account
 import webservice.router.main as router
 import src.utils as utils
@@ -22,6 +22,14 @@ class VGApp():
                                    client_name=session.get('username'), reboot_poss=config.get_config('reboot_poss'), alarm_poss=config.get_config('alarm_poss'),
                                    last_server_connect_time=config.get_config('last_server_connect_time'))
 
+        @self.application.route('/vgdevicegetinfo')
+        def vgdevicegetinfo():
+            res_data = {
+                "model": config.PRCT_MODEL,
+                "is_vgdevice": True
+            }
+            return jsonify(res_data)
+        
         @self.application.route('/login', methods=['GET', 'POST'])
         def login():
             if 'username' in session:
