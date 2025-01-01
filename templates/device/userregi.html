@@ -1,12 +1,15 @@
 {% extends 'base.html' %}
  
 {% block content %}
-<h2>계정 기기 등록<h2>
+<h2>계정 기기 등록</h2>
 
 <form method="POST" action="/device/userregi" onsubmit="return confirm('이 기기를 등록하시겠습니까?');">
     <div class="form-group">
         <input type="text" class="form-control" id="prct-serial" name="prct-serial" placeholder="시리얼번호를 입력하세요.">
-    </div>
+    </div><br>
     <button type="submit" class="btn btn-primary">등록하기</button>
 </form>
+<hr>
+<a href="/dashboard" class="btn btn-primary">대시보드로</a>
+
 {% endblock %}

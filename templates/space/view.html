@@ -4,56 +4,122 @@
 <style>
     .card {
         margin-left: 10px;
-        margin-bottom: 10px
+        margin-bottom: 10px;
     }
     .regi-card {
         color: #c4c4c4;
         background-color: #f9f9f9;
     }
+    .true {
+        color: green;
+    }
+    .false {
+        color: red;
+    }
 </style>
 
-<h1>{{ space['name'] }}</h1>
-<p>{{ space['description'] }}</p>
-<hr>
-<p>
-    {% for user in users %}
-        {% if user['uuid'] == space['owner_uuid'] %}
-            관리자: {{ user['user_name'] }}({{ user['user_id'] }})<br>
-        {% endif %}
-    {% endfor %}
-    생성일자: {{ space['create_time'] }}
-</p>
-<hr>
-
-<h4>공간에 등록된 기기</h4>
 <div class="row">
-    {% for regi_prct in regi_prcts %}
-        {% if regi_prct['serial'] in space['work_device_uuids'] %}
-            <div class="card" style="width: 14rem;">
+    <div class="col-md-9">
+        <h1>{{ space['name'] }}</h1>
+        <p>{{ space['description'] }}</p>
+        <hr>
+        <p>
+            {% for user in users %}
+                {% if user['uuid'] == space['owner_uuid'] %}
+                    관리자: {{ user['user_name'] }}({{ user['user_id'] }})<br>
+                {% endif %}
+            {% endfor %}
+            생성일자: {{ space['create_time'] }}<br>
+            인가된 사람 발견 시: <span style="color: gray">작업 안함</span><br>
+            비인가된 사람 발견 시: <span style="color: red">경보 발생</span><br>
+            알 수 없는 사람 발견 시: <span style="color: green">단순 기록</span>
+        </p>
+        <hr>
+
+        <h4>공간에 등록된 기기</h4>
+        <div class="row">
+            {% for regi_prct in regi_prcts %}
+                {% if regi_prct['serial'] in space['work_device_uuids'] %}
+                    <div class="card" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ regi_prct['model'] }}</h5>
+                            <a href="/device/manage/{{ regi_prct['serial'] }}" class="btn btn-primary">기기관리</a>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+            <div class="card regi-card" style="width: 14rem;">
                 <div class="card-body">
-                    <h5 class="card-title">{{ regi_prct['model'] }}</h5>
-                    <a href="/device/manage/{{ regi_prct['serial'] }}" class="btn btn-primary">기기관리</a>
+                    <h5 class="card-title">공간에 기기 추가하기</h5>
+                    <a href="/space/regi_device" class="btn btn-primary">추가하기</a>
                 </div>
             </div>
-        {% endif %}
-    {% endfor %}
+        </div>
+        <hr>
 
-    <div class="card regi-card" style="width: 14rem;">
-        <div class="card-body">
-            <h5 class="card-title">공간에 기기 추가하기</h5>
-            <a href="/space/regi_device" class="btn btn-primary">추가하기</a>
+        <h4>공간에 등록된 사람</h4>
+        <div class="row">
+            <div class="card" style="width: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title">이건희<br>LeeGunhee</h5>
+                    <span class="false">비인가된 사용자</span>
+                    <a href="/space/remove_user/{{ space['uuid'] }}/이건희" class="btn btn-primary">등록해제</a>
+                </div>
+            </div>
+            <div class="card" style="width: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title">이가윤<br>LeeGayoon</h5>
+                    <span class="true">인가된 사용자</span>
+                    <a href="/space/remove_user/{{ space['uuid'] }}/이건희" class="btn btn-primary">등록해제</a>
+                </div>
+            </div>
+
+            <div class="card regi-card" style="width: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title">공간에 사람 추가하기</h5>
+                    <a href="/space/regi_human" class="btn btn-primary">추가하기</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <a href="/dashboard" class="btn btn-primary">대시보드로</a>
+            </div>
+            <div class="col text-end">
+                <button type="button" id="space-del-btn" class="btn btn-secondary">공간삭제</button>
+            </div>
         </div>
     </div>
-</div>
-<hr>
 
-<hr>
-<div class="row">
-    <div class="col">
-        <a href="/dashboard" class="btn btn-primary">대시보드로</a>
-    </div>
-    <div class="col text-end">
-        <button type="button" id="space-del-btn" class="btn btn-secondary">공간삭제</button>
+    <div class="col-md-3">
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <h2>실시간 화면 열람</h2>
+                <img id="live-image" src="/device/get-prct-image?req_user_uuid=9e2cfb19a3a96110bfe4913fcc4d2f9e49a472e444753183348968965cda8990&prct_serial=a6bd8024&t=1730899163084" alt="Live Cam" width="100%">
+                <script>
+                    const imageElement = document.getElementById("live-image");
+
+                    setInterval(() => {
+                        const timestamp = new Date().getTime();
+                        imageElement.src = `/device/get-prct-image?req_user_uuid=9e2cfb19a3a96110bfe4913fcc4d2f9e49a472e444753183348968965cda8990&prct_serial=a6bd8024&t=1730899163084&t=${timestamp}`;
+                    }, 2000);
+                </script>
+            </div>
+        </div>
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title">최근 로그</h5>
+                <div class="alert alert-danger" role="alert">2024-11-07 11:07:32<br>이건희 님이 공간에 감지됐습니다.</div>
+                <div class="alert alert-danger" role="alert">2024-11-06 22:41:31<br>알 수 없는 사람이 공간에 감지됐습니다.</div>
+                <div class="alert alert-danger" role="alert">2024-11-06 22:39:43<br>이건희 님이 공간에 감지됐습니다.</div>
+                <div class="alert alert-primary" role="alert">2024-11-06 22:37:54<br>이가윤 님이 공간에 감지됐습니다.</div>
+                <div class="alert alert-warning" role="alert">2024-11-06 22:17:01<br>이건희 님이 공간에 감지됐습니다.</div>
+                <div class="alert alert-warning" role="alert">2024-11-06 22:17:14<br>이건희 님이 공간에 감지됐습니다.</div>
+            </div>
+        </div>
     </div>
 </div>
 

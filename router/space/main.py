@@ -65,6 +65,10 @@ def index():
 def remove(space_uuid):
     user_uuid = session.get('user_info')['uuid']
     
+    if space_ctrl.verify_space_owner(space_uuid, user_uuid) == False:
+        flash('공간 소유자만 삭제할 수 있습니다.', 'error')
+        return redirect(url_for('main.dashboard.index'))
+    
     if not space_uuid:
         flash('공간을 선택하세요.', 'error')
         return redirect(url_for('main.dashboard.index'))
@@ -75,6 +79,30 @@ def remove(space_uuid):
     else:
         flash('공간을 삭제할 수 없습니다.', 'error')
         return redirect(url_for('main.dashboard.index'))
+
+@bp.route('/regi_human', methods=['GET', 'POST'])
+@login_required
+def regi_human():
+    if request.method == "POST":
+        human_name = request.form.get('human-name')
+        human_type = request.form.get('human-type')
+        
+        if not human_name:
+            flash('사람 이름을 입력하세요.', 'error')
+            return redirect(url_for('main.dashboard.index'))
+        
+        if not human_type:
+            flash('사람 유형을 선택하세요.', 'error')
+            return redirect(url_for('main.dashboard.index'))
+        
+        if space_ctrl.regi_human(human_name, human_type):
+            flash('사람이 등록되었습니다.', 'success')
+            return redirect(url_for('main.dashboard.index'))
+        else:
+            flash('사람을 등록할 수 없습니다.', 'error')
+            return redirect(url_for('main.dashboard.index'))
+    
+    return render_template('space/regi_human.html', spaces=space_ctrl.get_db(), users=user_ctrl.get_user_db())
 
 @bp.route('/regi_device', methods=['GET', 'POST'])
 @login_required

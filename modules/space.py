@@ -1,6 +1,8 @@
 import json
 import os
 import shutil
+
+from flask import flash, redirect, url_for
 import config
 import src.utils as utils
 import modules.auth as auth_ctrl
@@ -18,6 +20,15 @@ def verify_space_uuid(_space_uuid):
             return True
     return False
 
+def verify_space_owner(_space_uuid, _owner_uuid):
+    space_db = get_db()
+    for space in space_db:
+        if space['uuid'] == _space_uuid:
+            if space['owner_uuid'] == _owner_uuid:
+                return True
+            break
+    return False
+
 def create(_space_name, _space_desc, _find_allow_human_work, _find_notallow_human_work, _find_unknown_human_work, _owner_uuid):
     space_db = get_db()
     uuid = os.urandom(16).hex()
@@ -32,7 +43,8 @@ def create(_space_name, _space_desc, _find_allow_human_work, _find_notallow_huma
         'find_notallow_human_work': _find_notallow_human_work,
         'find_unknown_human_work': _find_unknown_human_work,
         'find_human_alert_mode': False,
-        "work_device_uuids": []
+        "work_device_uuids": [],
+        "regi_humans": []  
     })
     with open(config.SPACE_DB_PATH, 'w') as f:
         json.dump(space_db, f, indent=4)
@@ -42,18 +54,19 @@ def create(_space_name, _space_desc, _find_allow_human_work, _find_notallow_huma
     os.mkdir(os.path.join(space_db[-1]['path'], 'notallow_human'))
     os.mkdir(os.path.join(space_db[-1]['path'], 'capture'))
 
-def remove(_uuid, _owner_uuid):    
+def remove(_space_uuid, _owner_uuid):    
+    device_ctrl.remove_work_space_uuid(_space_uuid)
+    
     space_db = get_db()
     for i, space in enumerate(space_db):
-        if space['uuid'] == _uuid:
+        if space['uuid'] == _space_uuid:
             if space['owner_uuid'] != _owner_uuid:
                 return False
             del space_db[i]
             break
     with open(config.SPACE_DB_PATH, 'w') as f:
         json.dump(space_db, f, indent=4)
-    shutil.rmtree(os.path.join(config.SPACE_PATH, _uuid))
-    device_ctrl.remove_work_space_uuid(_uuid)
+    shutil.rmtree(os.path.join(config.SPACE_PATH, _space_uuid))
     
     return True
 
@@ -71,8 +84,10 @@ def regi_work_device(_space_serial, _device_uuid):
             
             space['work_device_uuids'].append(_device_uuid)
             break
+    
     with open(config.SPACE_DB_PATH, 'w') as f:
         json.dump(space_db, f, indent=4)
+        
     return True
 
 def remove_work_device(_space_uuid, _device_uuid):
@@ -89,15 +104,35 @@ def remove_work_device(_space_uuid, _device_uuid):
     with open(config.SPACE_DB_PATH, 'w') as f:
         json.dump(space_db, f, indent=4)
     
-    device_ctrl.remove_work_space_uuid(_space_uuid)
+    device_ctrl.remove_work_space_uuid(_space_uuid) 
     return True
 
 def remove_work_device_all(_device_uuid):
     space_db = get_db()
+    removed = False
     for space in space_db:
         for space_work_device_uuid in space['work_device_uuids']:
             if space_work_device_uuid == _device_uuid:
                 space['work_device_uuids'].remove(_device_uuid)
+                removed = True
+    
+    if removed == False:
+        return False
+    
+    with open(config.SPACE_DB_PATH, 'w') as f:
+        json.dump(space_db, f, indent=4)
+    
+    return True
+
+def regi_human(_space_uuid, _human_name, _human_type):
+    space_db = get_db()
+    for space in space_db:
+        if space['uuid'] == _space_uuid:
+            space['regi_humans'].append({
+                'name': _human_name,
+                'type': _human_type
+            })
+            break
     with open(config.SPACE_DB_PATH, 'w') as f:
         json.dump(space_db, f, indent=4)
     return True

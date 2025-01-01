@@ -32,16 +32,15 @@ def remove_device_owner(_owner_uuid):
     remove_device_owner(_owner_uuid)
 
 def remove_work_space_uuid(_work_space_uuid):
-    if space_ctrl.verify_space_uuid(_work_space_uuid) == False:
-        return False
-    
     data = get_device_db()
+    is_removed = False
     for index, device in enumerate(data):
         if device['work_space_uuid'] == _work_space_uuid:
             data[index]['work_space_uuid'] = None
+            is_removed = True
     with open(os.path.join(config.DEVICE_DB_PATH), 'w') as f:
         json.dump(data, f)
-    return True
+    return is_removed
 
 def remove_work_space(_device_serial):
     data = get_device_db()

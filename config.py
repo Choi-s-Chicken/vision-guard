@@ -48,3 +48,6 @@ def set_products_db(_data):
 FACE_DECT_MODEL_PATH = f'{BASE_PATH}/src/models/face-detection-adas-0001'
 FACE_REID_MODEL_PATH = f'{BASE_PATH}/src/models/face-reidentification-retail-0095'
 
+# Telegram Config
+TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
+TELEGRAM_SEND_ID = ['6226671212', '7549160400']

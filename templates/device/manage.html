@@ -37,13 +37,13 @@
 
 {% if prct['type'] == 'cam' %}
     <h2>실시간 화면 열람</h2>
-    <img id="live-image" src="{{ url_for('main.device.get_image') }}?req_user_uuid={{ user_info['uuid'] }}&prct_serial={{ prct['serial'] }}" alt="Live Cam" width="400">
+    <img id="live-image" src="{{ url_for('main.device.get_prct_image') }}?req_user_uuid={{ user_info['uuid'] }}&prct_serial={{ prct['serial'] }}" alt="Live Cam" width="400">
     <script>
         const imageElement = document.getElementById("live-image");
 
         setInterval(() => {
             const timestamp = new Date().getTime();
-            imageElement.src = `{{ url_for('main.device.get_image') }}?req_user_uuid={{ user_info['uuid'] }}&prct_serial={{ prct['serial'] }}&t=${timestamp}`;
+            imageElement.src = `{{ url_for('main.device.get_prct_image') }}?req_user_uuid={{ user_info['uuid'] }}&prct_serial={{ prct['serial'] }}&t=${timestamp}`;
         }, 2000);
     </script>
 {% endif %}
@@ -63,7 +63,11 @@
         경보기능: {% if prct['alarm_possible'] %}<span id='true'>활성화</span>{% else %}<span id='false'>비활성화</span>{% endif %} <input class="form-check-input" type="checkbox" role="switch" id="alarm-poss-sw" {% if prct['alarm_possible'] %}checked{% endif %}>
     </div>
     <div class="form-check form-switch">
-        <button id="alarm-turnon-button" type="button" class="btn btn-danger btn-sm">경보 발생</button>&nbsp;<button id="alarm-turnoff-button" type="button" class="btn btn-warning btn-sm">경보 비활성화</button>
+        {% if prct['alarm'] == False %}
+            <button id="alarm-turnon-button" type="button" class="btn btn-danger btn-sm">경보 발생</button>
+        {% else %}
+            <button id="alarm-turnoff-button" type="button" class="btn btn-warning btn-sm">경보 비활성화</button>
+        {% endif %}
     </div>
 {% endif %}
 
@@ -81,44 +85,53 @@
 </div>
 
 <script>
-    const rebootPossSwitch = document.getElementById("reboot-poss-sw");
-    const alarmPossSwitch = document.getElementById("alarm-poss-sw");
-    const alarmTurnonBtn = document.getElementById("alarm-turnon-button");
-    const alarmTurnoffBtn = document.getElementById("alarm-turnoff-button");
+    {% if prct['type'] == 'cam' %}
+        const rebootPossSwitch = document.getElementById("reboot-poss-sw");
+        const alarmPossSwitch = document.getElementById("alarm-poss-sw");
+        {% if prct['alarm'] == False %}
+            const alarmTurnonBtn = document.getElementById("alarm-turnon-button");
+        {% else %}
+            const alarmTurnoffBtn = document.getElementById("alarm-turnoff-button");
+        {% endif %}        
+    {% endif %}
     const workSpaceUnregiBtn = document.getElementById("work-space-unregi-btn");
 
-    rebootPossSwitch.addEventListener("change", async () => {
-        if (confirm("재부팅 기능을 변경하시겠습니까?") === true) {
-            window.location.href = "/device/manage/{{ prct['serial'] }}?reboot_poss=" + rebootPossSwitch.checked;
-        } else {
-            rebootPossSwitch.checked = !rebootPossSwitch.checked;
+    {% if prct['type'] == 'cam' %}
+        rebootPossSwitch.addEventListener("change", async () => {
+            if (confirm("재부팅 기능을 변경하시겠습니까?") === true) {
+                window.location.href = "/device/manage/{{ prct['serial'] }}?reboot_poss=" + rebootPossSwitch.checked;
+            } else {
+                rebootPossSwitch.checked = !rebootPossSwitch.checked;
+            }
+        });
+
+        alarmPossSwitch.addEventListener("change", async () => {
+            if (confirm("경보 기능을 변경하시겠습니까?") === true) {
+                window.location.href = "/device/manage/{{ prct['serial'] }}?alarm_poss=" + alarmPossSwitch.checked;
+            } else {
+                alarmPossSwitch.checked = !alarmPossSwitch.checked;
+            }
+        });
+
+        function control_alarm(_alarm) {
+            if (_alarm)
+                window.location.href = "/device/manage/{{ prct['serial'] }}?alarm=true&alarm_disable=false";
+            else
+                window.location.href = "/device/manage/{{ prct['serial'] }}?alarm=false&alarm_disable=true";
         }
-    });
 
-    alarmPossSwitch.addEventListener("change", async () => {
-        if (confirm("경보 기능을 변경하시겠습니까?") === true) {
-            window.location.href = "/device/manage/{{ prct['serial'] }}?alarm_poss=" + alarmPossSwitch.checked;
-        } else {
-            alarmPossSwitch.checked = !alarmPossSwitch.checked;
-        }
-    });
-
-    function control_alarm(_alarm) {
-        if (_alarm)
-            window.location.href = "/device/manage/{{ prct['serial'] }}?alarm=true&alarm_disable=false";
-        else
-            window.location.href = "/device/manage/{{ prct['serial'] }}?alarm=false&alarm_disable=true";
-    }
-
-    alarmTurnonBtn.addEventListener("click", async () => {
-        if (confirm("경보를 울리시겠습니까? 수동으로 비활성화 해야합니다.") === true)
-            control_alarm(true);
-    });
-
-    alarmTurnoffBtn.addEventListener("click", async () => {
-        if (confirm("경보를 비활성화하시겠습니까?") === true)
-            control_alarm(false);
-    });
+        {% if prct['alarm'] == False %}
+            alarmTurnonBtn.addEventListener("click", async () => {
+                if (confirm("경보를 울리시겠습니까? 수동으로 비활성화 해야합니다.") === true)
+                    control_alarm(true);
+            });
+        {% else %}
+            alarmTurnoffBtn.addEventListener("click", async () => {
+                if (confirm("경보를 비활성화하시겠습니까?") === true)
+                    control_alarm(false);
+            });
+        {% endif %}
+    {% endif %}
 
     workSpaceUnregiBtn.addEventListener("click", async () => {
         if (confirm("작업 공간에서 제품을 해제하시겠습니까?") === false)

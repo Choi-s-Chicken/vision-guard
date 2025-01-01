@@ -82,17 +82,23 @@ class FaceRecognition:
         input_image = self.preprocess_image(image_path)
         detections = self.detection_model.infer_new_request({0: input_image})[self.detection_model.outputs[0]]
         
+        face_detected = False
+        
         # Draw bounding boxes around detected faces
         for detection in detections[0][0]:
             confidence = detection[2]
             if confidence > detection_threshold:
+                face_detected = True
                 xmin = int(detection[3] * image.shape[1])
                 ymin = int(detection[4] * image.shape[0])
                 xmax = int(detection[5] * image.shape[1])
                 ymax = int(detection[6] * image.shape[0])
-                cv2.rectangle(image, (xmin, ymin), (xmax, ymax), (0, 255, 0), 10)
+                cv2.rectangle(image, (xmin, ymin), (xmax, ymax), (0, 0, 255), 10)
+                cv2.putText(image, "Detected", (xmin, ymin - 20), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 0, 255), 10)
 
         cv2.putText(image, f"{capture_time}", (20, 2400), cv2.FONT_HERSHEY_SIMPLEX, 3, (255, 255, 255), 10)
         
         # Save the annotated image
         cv2.imwrite(output_path, image)
+        
+        return face_detected

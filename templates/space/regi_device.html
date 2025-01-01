@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
  
 {% block content %}
-<h2>공간에 기기 등록</h2>
+<h2>공간에 기기 등록</h2><br>
 
 <form method="POST" action="{{ url_for('main.space.regi_device') }}" onsubmit="return confirm('이 기기를 해당 공간에 등록하시겠습니까?');">
     <div class="form-group">
@@ -12,7 +12,7 @@
                 <option value="{{ space['uuid'] }}">{{ space['name'] }}</option>
             {% endfor %}
         </select>
-    </div>
+    </div><br>
     <div class="form-group">
         <label for="device-uuid">기기를 선택하세요:</label>
         <select class="form-control" id="device-uuid" name="device-serial" required>
@@ -21,7 +21,7 @@
                 <option value="{{ device['serial'] }}">{{ device['name'] }}</option>
             {% endfor %}
         </select>
-    </div>
+    </div><br>
     <button type="submit" class="btn btn-primary">등록하기</button>
 </form>
 {% endblock %}

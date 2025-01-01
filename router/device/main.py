@@ -8,7 +8,6 @@ import modules.device as device_ctrl
 import modules.space as space_ctrl
 import src.utils as utils
 
-
 bp = Blueprint('device', __name__, url_prefix='/device')
 ai = FaceRecognition(config.FACE_DECT_MODEL_PATH, config.FACE_REID_MODEL_PATH)
 
@@ -87,8 +86,8 @@ def manage(prct_serial):
     
     return render_template('device/manage.html', user_info=session.get('user_info'), prct=prct)
 
-@bp.route('/get-image', methods=['GET'])
-def get_image():
+@bp.route('/get-prct-image', methods=['GET'])
+def get_prct_image():
     req_user_uuid = request.args.get('req_user_uuid', '-999')
     prct_serial = request.args.get('prct_serial', '-999')
     
@@ -131,7 +130,6 @@ def get_status():
         if prct['serial'] == prct_serial:
             return jsonify({'status': 'success', 'message': 'Success', 'server_device_status': prct}), 200
     
-
 @bp.route('/data-process', methods=['POST'])
 def data_process():
     res_data = request.json
@@ -149,7 +147,6 @@ def data_process():
         return jsonify({'status': 'error', 'message': 'Require parameter missing'}), 400
     
     if device_ctrl.verify_device(device_serial, device_connect_key) is False:
-        print(device_serial, device_connect_key)
         return jsonify({'status': 'error', 'message': 'Invaild device'}), 400
     
     device_ctrl.set_device_status(device_serial, device_status)
@@ -159,12 +156,14 @@ def data_process():
     if not os.path.exists(base_path):
         os.makedirs(base_path)
     image_path = os.path.join(base_path, f"{utils.get_now_ftime()}now_capture.jpg")
-    output_path = os.path.join(base_path, f"{utils.get_now_ftime()}output_capture.jpg")
+    output_path = os.path.join(base_path, f"output_capture.jpg")
     with open(image_path, 'wb') as f:
         f.write(base64.b64decode(res_data['capture_data']))
     
     # 이미지 처리
-    ai.annotate_faces(image_path, output_path, res_data['capture_time'], 0.3)
+    if ai.annotate_faces(image_path, output_path, res_data['capture_time'], 0.3):
+        # utils.send_telegram_message(f"{utils.get_now_ftime()} - 메이커스페이스에서 비인가된 사람이 감지되었습니다. (비인가: 이건희)")
+        pass
     
     return jsonify({'status': 'success', 'message': 'Success'}), 200
 

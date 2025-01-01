@@ -7,6 +7,7 @@ import cv2
 import numpy as np
 from openvino.runtime import Core
 import config
+import requests
 
 default_timef = "%Y%m%d%H%M%S"
 
@@ -43,4 +44,17 @@ def get_file_ext(file_name):
 
 
 
-
+def send_telegram_message(message, chat_ids=config.TELEGRAM_SEND_ID):
+    url = f"https://api.telegram.org/bot{config.TELEGRAM_BOT_TOKEN}/sendMessage"
+    for chat_id in chat_ids:
+        data = {
+            "chat_id": chat_id,
+            "text": message
+        }
+        response = requests.post(url, data=data)
+        if response.status_code == 200:
+            print("message sent successfully")
+        else:
+            print("message sent failed:", response.status_code, response.text)
+    
+    return True
