@@ -1,0 +1,12 @@
+[Unit]
+Description=Visionguard Server
+Documentation=https://github.com/Choi-s-Chicken/vision-guard.git
+After=network.target
+
+[Service]
+ExecStart=/bin/sudo /bin/bash /home/szkot/vision-guard/stater.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
