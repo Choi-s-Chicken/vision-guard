@@ -17,7 +17,11 @@ def index_asus():
 @bp.route('/process')
 def process():
     request.form.get('')
-    
+
+@bp.route('/favicon.ico')
+def favicon():
+    return send_from_directory('static', 'favicon.ico')
+
 @bp.route('/robots.txt')
 def robots():
     return send_from_directory('static', 'robots.txt')
